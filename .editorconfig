@@ -1,0 +1,27 @@
+# EditorConfig is awesome: http://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+insert_final_newline = true
+
+[*.{css,html,java,js,json,less,txt}]
+trim_trailing_whitespace = true
+end_of_line = lf
+tab_width = 4
+indent_size = 4
+
+[pom.xml]
+trim_trailing_whitespace = true
+end_of_line = lf
+
+# npm is using 2 spaces when modifying package.json
+[package.json]
+indent_style = space
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
