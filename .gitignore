@@ -60,3 +60,6 @@ typings/
 # Ignore Webstorm config folder
 .idea/
 
+# Ignore ui5 autocompletion package
+.ui5/
+

@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Starter kit for future SAPUI5 applications",
   "scripts": {
-    "ui5": "ui5-schemas ui5-codecompletion install"
+    "ui5": "ui5-codecompletion install ui5-schemas",
+    "ui5-alternative": "ui5-codecompletion install ui5-schemas -v 1.44.24"
   },
   "author": "Mark Deppe",
   "license": "MIT",
