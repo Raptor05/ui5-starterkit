@@ -1,0 +1,155 @@
+{
+    "_version": "1.1.0",
+    "sap.app": {
+        "_version": "1.1.0",
+        "id": "demo",
+        "type": "application",
+        "i18n": "i18n/i18n.properties",
+        "title": "SAPUI5 Starter Kit Demo",
+        "description": "A simple demo for showing naming conventions etc...",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
+        "dataSources": {
+            "mainService": {
+                "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/",
+                "type": "OData",
+                "settings": {
+                    "odataVersion": "2.0",
+                    "localUri": "local/metadata.xml"
+                }
+            }
+        }
+    },
+    "sap.ui": {
+        "_version": "1.1.0",
+        "technology": "UI5",
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": false
+        },
+        "supportedThemes": [
+            "sap_bluecrystal",
+            "sap_belize"
+        ]
+    },
+    "sap.ui5": {
+        "_version": "1.1.0",
+        "rootView": "mhp.ui5StarterKit.demo.view.App",
+        "dependencies": {
+            "minUI5Version": "1.44.24",
+            "libs": {
+                "sap.ui.core": {
+                    "minVersion": "1.44.24",
+                    "lazy": false
+                },
+                "sap.m": {
+                    "minVersion": "1.44.24",
+                    "lazy": false
+                },
+                "sap.ui.layout": {
+                    "minVersion": "1.44.24",
+                    "lazy": false
+                }
+            }
+        },
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                    "bundleName": "mhp.ui5StarterKit.demo.i18n.i18n"
+                }
+            },
+            "": {
+                "dataSource": "mainService",
+                "settings": {
+                    "json": true,
+                    "useBatch": false,
+                    "disableHeadRequestForToken": true,
+                    "defaultBindingMode": "TwoWay",
+                    "defaultCountMode": "Inline"
+                }
+            }
+        },
+        "routing": {
+            "config": {
+                "routerClass": "sap.m.routing.Router",
+                "viewPath": "mhp.ui5StarterKit.demo.view",
+                "viewType": "XML",
+                "bypassed": {
+                    "target": "notFound"
+                }
+            },
+            "routes": [
+                {
+                    "pattern": "",
+                    "name": "home",
+                    "target": [
+                        "master",
+                        "start"
+                    ]
+                },
+                {
+                    "pattern": "detail/{id}",
+                    "name": "detail",
+                    "target": [
+                        "master",
+                        "detail"
+                    ]
+                }
+            ],
+            "targets": {
+                "splitApp": {
+                    "viewName": "SplitApp",
+                    "viewId": "viewSplitApp",
+                    "controlId": "viewAppContainer",
+                    "controlAggregation": "pages",
+                    "viewLevel": 0
+                },
+                "master": {
+                    "viewName": "Master",
+                    "viewId": "viewMaster",
+                    "controlId": "viewMainApp",
+                    "parent": "splitApp",
+                    "controlAggregation": "masterPages",
+                    "viewLevel": 10
+                },
+                "start": {
+                    "viewName": "Start",
+                    "viewId": "viewStart",
+                    "controlId": "viewMainApp",
+                    "parent": "splitApp",
+                    "controlAggregation": "detailPages",
+                    "viewLevel": 11
+                },
+                "detail": {
+                    "viewName": "Detail",
+                    "viewId": "viewDetail",
+                    "controlId": "viewMainApp",
+                    "parent": "splitApp",
+                    "controlAggregation": "detailPages",
+                    "viewLevel": 11
+                },
+                "notFound": {
+                    "viewName": "NotFound",
+                    "viewId": "viewNotFound",
+                    "controlId": "viewAppContainer",
+                    "controlAggregation": "pages",
+                    "transition": "show"
+                }
+            }
+        },
+        "resources": {
+            "css": [
+                {
+                    "uri": "css/customstyle.css"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,11 @@
+<!-- Created by mdeppe on 28.11.2017. -->
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+          controllerName="mhp.ui5StarterKit.demo.controller.SplitApp"
+          xmlns="sap.m">
+    <Page id="viewSplitApp"
+          title="{i18n>ApplicationName}">
+        <content>
+            <SplitApp id="viewMainApp"/>
+        </content>
+    </Page>
+</mvc:View>
