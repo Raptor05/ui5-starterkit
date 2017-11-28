@@ -64,3 +64,5 @@ typings/
 .ui5/
 .tmp/
 
+# Ignore Gruntfile for local Upload to ABAP System
+Gruntfile_ABAP_LOCAL.js
