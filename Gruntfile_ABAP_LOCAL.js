@@ -14,7 +14,7 @@ module.exports = function (grunt) {
     var abapApplicationName = 'APP_NAME'; //TODO Set to application name
     var abapApplicationDesc = 'APP_DESCR'; //TODO Set to application description
     var abapPackage = 'APP_PACKAGE'; //TODO Choose correct package
-    var abapTransportRequest = '';
+    var abapTransportRequest = 'SAP_TCORR'; //TODO Set the current transport you want to upload to in case of none $TMP packages
 
     // Global Variables
     var targetDir = "target";
@@ -70,9 +70,9 @@ module.exports = function (grunt) {
         });
     };
 
-    grunt.registerTask("uploadToABAP", "Uploads the application to the ABAP System", function (transportRequest) {
+    grunt.registerTask("uploadToABAP", "Uploads the application to the ABAP System", function () {
         grunt.log.writeln("Uploading to ABAP");
-
+        var transportRequest = '';
         if (!transportRequest) {
             if (this.options().uploadTMP == true) {
                 transportRequest = '';
