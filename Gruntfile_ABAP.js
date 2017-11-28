@@ -4,7 +4,6 @@ var rfc = require("node-rfc");
 var fs = require("fs");
 
 module.exports = function (grunt) {
-
     // Project specific variables
     var abapDevelopmentUser = process.env.ABAP_DEVELOPMENT_USER;
     var abapDevelopmentPassword = process.env.ABAP_DEVELOPMENT_PASSWORD;
@@ -37,8 +36,7 @@ module.exports = function (grunt) {
         createTransportRequest: {
             options: {
                 conn: abapConn,
-                author: abapDevelopmentUser,
-                description: "Commit: " + gitCommit
+                author: abapDevelopmentUser
             }
         },
         uploadToABAP: {
@@ -46,7 +44,7 @@ module.exports = function (grunt) {
                 conn: abapConn,
                 uploadTMP: false,
                 zipFile: targetDir + "/<%= pkg.name %>" + zipFileSuffix,
-                zipFileURL: nexusSnapshotRepoURL + "/" + nexusGroupId.replace(/\./g, "/") + "/<%= pkg.name %>/<%= pkg.version %>-SNAPSHOT/<%= pkg.name %>-<%= pkg.version %>-SNAPSHOT.zip",
+                zipFileURL: "/" + nexusGroupId.replace(/\./g, "/") + "/<%= pkg.name %>/<%= pkg.version %>-SNAPSHOT/<%= pkg.name %>-<%= pkg.version %>-SNAPSHOT.zip",
                 codePage: "UTF8"
             }
         },
@@ -129,7 +127,7 @@ module.exports = function (grunt) {
                             grunt.log.writeln("Created file:", ctsDataFile);
                             done();
                         }
-                    )
+                    );
                 },
                 function () {
                     done(false);
@@ -140,7 +138,7 @@ module.exports = function (grunt) {
         grunt.log.writeln("Uploading to ABAP");
 
         if (!transportRequest) {
-            if (this.options().uploadTMP = true) {
+            if (this.options().uploadTMP == true) {
                 transportRequest = '';
                 grunt.log.writeln("Local $TMP package");
             } else {
@@ -153,8 +151,7 @@ module.exports = function (grunt) {
         var zipBase64 = "";
         if (!(typeof this.options().zipFile === "undefined") && fs.existsSync(this.options().zipFile)) {
             zipBase64 = new Buffer(fs.readFileSync(this.options().zipFile)).toString('base64');
-        }
-        else {
+        } else {
             url = this.options().zipFileURL;
         }
         var importParameters = {
@@ -202,7 +199,7 @@ module.exports = function (grunt) {
             REQUESTID: transportRequest,
             COMPLETE: "X",
             BATCH_MODE: "X"
-        }
+        };
         var done = this.async();
         rfcConnect("BAPI_CTREQUEST_RELEASE", importParameters, this)
             .then(
