@@ -208,6 +208,10 @@
             {
                 "after": true
             }
+        ],
+        "id-match": [
+            "warn",
+            "^[_]?([o,i,s,b,a]|fn)([A-Z][a-z]+)*$"
         ]
     }
 }
