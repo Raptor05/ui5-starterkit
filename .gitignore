@@ -62,4 +62,5 @@ typings/
 
 # Ignore ui5 autocompletion package
 .ui5/
+.tmp/
 
