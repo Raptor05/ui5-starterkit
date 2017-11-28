@@ -63,3 +63,5 @@ typings/
 # Ignore ui5 autocompletion package
 .ui5/
 
+# Ignore Gruntfile for local Upload to ABAP System
+Gruntfile_ABAP_LOCAL.js

@@ -184,12 +184,10 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks("grunt-encoding");
     grunt.loadNpmTasks("grunt-zip");
     grunt.loadNpmTasks("grunt-openui5");
-    grunt.loadNpmTasks("grunt-nexus-deployer");
     grunt.loadNpmTasks("grunt-eslint");
 
     grunt.registerTask("default", ["clean", "copy:copyToDbg", "openui5_preload:preloadDbg", "copy:copyToTmp",
         "uglify:uglifyTmp", "cssmin", "openui5_preload:preloadTmp", "copy:copyDbgToTmp",
         "uglify:uglifyPreload"]);
     grunt.registerTask("createZip", ["zip"]);
-    grunt.registerTask("deployToNexus", ["nexusDeployer"]);
 };
