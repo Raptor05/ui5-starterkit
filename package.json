@@ -21,6 +21,22 @@
     "npm-run-all": "4.1.2",
     "nsp": "3.1.0",
     "ui5-codecompletion": "1.0.7",
-    "ui5-schemas": "0.3.0"
+    "ui5-schemas": "0.3.0",
+    "grunt": "0.4.5",
+    "grunt-cli": "1.2.0",
+    "grunt-encoding": "0.3.0",
+    "grunt-eslint": "19.0.0",
+    "grunt-contrib-clean": "1.0.0",
+    "grunt-contrib-copy": "1.0.0",
+    "grunt-contrib-cssmin": "1.0.1",
+    "grunt-contrib-uglify": "1.0.1",
+    "grunt-folder-list": "1.1.0",
+    "grunt-mkdir": "1.0.0",
+    "grunt-openui5": "0.9.0",
+    "grunt-zip": "0.17.1",
+    "node-rfc": "0.1.11",
+    "grunt-jsdoc": "^2.1.0",
+    "grunt-nwabap-ui5uploader": "^0.1.18",
+    "ink-docstrap": "^1.3.0"
   }
 }
