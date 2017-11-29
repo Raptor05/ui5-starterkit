@@ -84,7 +84,6 @@ module.exports = function (grunt) {
         });
     };
 
-
     grunt.registerTask("createTransportRequest", "Creates an ABAP Transport Request", function () {
         grunt.log.writeln("Creating Transport Request");
         var importParameters = {
