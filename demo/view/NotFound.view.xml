@@ -1,0 +1,19 @@
+<!-- Created by mdeppe on 29.11.2017. -->
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+          controllerName="mhp.ui5StarterKit.demo.controller.NotFound"
+          xmlns="sap.m">
+    <Page title="{i18n>NotFoundTitle}"
+          navButtonPress="onNavBack"
+          showNavButton="true">
+        <content>
+            <MessagePage text="{i18n>NotFoundText}"
+                         description="{i18n>NotFoundDescription}"
+                         showHeader="false"/>
+        </content>
+        <footer>
+            <Toolbar>
+                <ToolbarSpacer/>
+            </Toolbar>
+        </footer>
+    </Page>
+</mvc:View>

@@ -2,14 +2,50 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc"
           controllerName="mhp.ui5StarterKit.demo.controller.Master"
           xmlns="sap.m">
-    <Page title="Master"
-          navButtonPress="onNavBack"
-          showNavButton="true">
+    <Page title="{i18n>Products}"
+          showNavButton="false">
+        <subHeader>
+            <Toolbar>
+                <SearchField id="srcProductSearch"
+                             liveChange="onProductSearch"
+                             width="100%"/>
+                <Button id="btnProductFilter"
+                        press="onProductFilterPress"
+                        icon="sap-icon://add-filter"
+                        tooltip="{i18n>ProductFilterTooltip}"/>
+            </Toolbar>
+        </subHeader>
         <content>
+            <List id="lstProductsMasterList"
+                  items="{
+                            path: '/ProductSet',
+                            sorter: {
+                                path: 'ProductID',
+                                descending: false
+                            },
+                            parameters: {
+                                expand: 'ToSupplier'
+                            }
+                        }"
+                  noDataText="{i18n>NoDataFound}"
+                  growing="true"
+                  growingScrollToLoad="true">
+                <items>
+                    <StandardListItem press="onProductSelected"
+                                      title="{ProductID}"
+                                      description="{Name}"
+                                      type="Navigation"/>
+                </items>
+            </List>
         </content>
         <footer>
-            <Bar>
-            </Bar>
+            <Toolbar>
+                <ToolbarSpacer/>
+                <Button id="btnAddProduct"
+                        press="onAddProduct"
+                        icon="sap-icon://add"
+                        tooltip="{i18n>AddProduct}"/>
+            </Toolbar>
         </footer>
     </Page>
 </mvc:View>
