@@ -1,0 +1,214 @@
+{
+    "d": {
+        "results": [
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Accessories')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Accessories')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "Accessories"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Camcorders')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Camcorders')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "Camcorders"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Computer%20System%20Accessories')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Computer%20System%20Accessories')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "Computer System Accessories"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Flat%20Screen%20Monitors')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Flat%20Screen%20Monitors')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "Flat Screen Monitors"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Flat%20Screen%20TVs')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Flat%20Screen%20TVs')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "Flat Screen TVs"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Graphic%20Cards')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Graphic%20Cards')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "Graphic Cards"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Headsets')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Headsets')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "Headsets"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Ink%20Jet%20Printers')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Ink%20Jet%20Printers')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "Ink Jet Printers"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Keyboards')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Keyboards')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "Keyboards"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Laser%20Printers')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Laser%20Printers')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "Laser Printers"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('MP3%20Players')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('MP3%20Players')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "MP3 Players"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Mice')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Mice')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "Mice"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Mousepads')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Mousepads')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "Mousepads"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Multifunction%20Printers')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Multifunction%20Printers')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "Multifunction Printers"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Notebooks')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Notebooks')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "Notebooks"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('PCs')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('PCs')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "PCs"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('PDAs%20%26%20Organizers')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('PDAs%20%26%20Organizers')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "PDAs & Organizers"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Portable%20Players')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Portable%20Players')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "Portable Players"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Projectors')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Projectors')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "Projectors"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Scanners')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Scanners')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "Scanners"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Servers')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Servers')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "Servers"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Smartphones')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Smartphones')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "Smartphones"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Software')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Software')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "Software"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Speakers')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Speakers')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "Speakers"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Tablets')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Tablets')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "Tablets"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Telecommunications')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CategorySet('Telecommunications')",
+                    "type": "GWSAMPLE_BASIC.VH_Category"
+                },
+                "Category": "Telecommunications"
+            }
+        ]
+    }
+}

@@ -1,0 +1,1708 @@
+{
+    "d": {
+        "results": [
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0480C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0480C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Walldorf",
+                    "PostalCode": "69190",
+                    "Street": "Dietmar-Hopp-Allee",
+                    "Building": "16",
+                    "Country": "DE",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0480C4",
+                "BusinessPartnerID": "0100000000",
+                "Title": "",
+                "FirstName": "Karl",
+                "MiddleName": "",
+                "LastName": "Müller",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "0622734567",
+                "FaxNumber": "0622734004",
+                "EmailAddress": "do.not.reply@sap.com",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0480C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04A0C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04A0C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Berlin",
+                    "PostalCode": "13467",
+                    "Street": "Calvinstraße",
+                    "Building": "36",
+                    "Country": "DE",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD04A0C4",
+                "BusinessPartnerID": "0100000001",
+                "Title": "",
+                "FirstName": "Dagmar",
+                "MiddleName": "",
+                "LastName": "Schulze",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "F",
+                "PhoneNumber": "3088530",
+                "FaxNumber": "3088004",
+                "EmailAddress": "dagmar.schulze@beckerberlin.de",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04A0C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04C0C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04C0C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Wilmington, Delaware",
+                    "PostalCode": "19899",
+                    "Street": "1 2345 King Street",
+                    "Building": "1",
+                    "Country": "US",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD04C0C4",
+                "BusinessPartnerID": "0100000002",
+                "Title": "",
+                "FirstName": "Maria",
+                "MiddleName": "",
+                "LastName": "Brown",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "F",
+                "PhoneNumber": "3023352668",
+                "FaxNumber": "3023352004",
+                "EmailAddress": "maria.brown@delbont.com",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04C0C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04E0C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04E0C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Hannover",
+                    "PostalCode": "30625",
+                    "Street": "An der Breiten Wiese",
+                    "Building": "422",
+                    "Country": "DE",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD04E0C4",
+                "BusinessPartnerID": "0100000003",
+                "Title": "",
+                "FirstName": "Saskia",
+                "MiddleName": "Clara",
+                "LastName": "Sommer",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "F",
+                "PhoneNumber": "511403266",
+                "FaxNumber": "511403004",
+                "EmailAddress": "saskia.sommer@talpa-hannover.de",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04E0C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0500C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0500C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Hollywood, California",
+                    "PostalCode": "91602",
+                    "Street": "Morning Drive",
+                    "Building": "178",
+                    "Country": "US",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0500C4",
+                "BusinessPartnerID": "0100000004",
+                "Title": "",
+                "FirstName": "Bob",
+                "MiddleName": "",
+                "LastName": "Buyer",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "2244668800",
+                "FaxNumber": "2244668004",
+                "EmailAddress": "bob.buyer@panorama-studios.biz",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0500C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0520C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0520C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Münster",
+                    "PostalCode": "48155",
+                    "Street": "Albersloher Weg",
+                    "Building": "24",
+                    "Country": "DE",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0520C4",
+                "BusinessPartnerID": "0100000005",
+                "Title": "",
+                "FirstName": "Bart",
+                "MiddleName": "Friedrich",
+                "LastName": "Koenig",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "2511415",
+                "FaxNumber": "2511004",
+                "EmailAddress": "bart.koenig@tecum-ag.de",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0520C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0540C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0540C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Tokyo",
+                    "PostalCode": "100-0004",
+                    "Street": "1-7-2 Otemachi",
+                    "Building": "1",
+                    "Country": "JP",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0540C4",
+                "BusinessPartnerID": "0100000006",
+                "Title": "",
+                "FirstName": "Yoko",
+                "MiddleName": "",
+                "LastName": "Nakamura",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "F",
+                "PhoneNumber": "9078563412",
+                "FaxNumber": "9078563004",
+                "EmailAddress": "yoko.nakamura@asia-ht.com",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0540C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0560C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0560C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Paris",
+                    "PostalCode": "75015",
+                    "Street": "Rue de la Republique 863",
+                    "Building": "1",
+                    "Country": "FR",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0560C4",
+                "BusinessPartnerID": "0100000007",
+                "Title": "",
+                "FirstName": "Sophie",
+                "MiddleName": "",
+                "LastName": "Ribery",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "F",
+                "PhoneNumber": "149744423",
+                "FaxNumber": "149744004",
+                "EmailAddress": "sophie.ribery@laurent-paris.com",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0560C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0580C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0580C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Mexiko City",
+                    "PostalCode": "17000",
+                    "Street": "Bosque de Duraznos",
+                    "Building": "24",
+                    "Country": "MX",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0580C4",
+                "BusinessPartnerID": "0100000008",
+                "Title": "",
+                "FirstName": "Victor",
+                "MiddleName": "",
+                "LastName": "Sanchez",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "7257716",
+                "FaxNumber": "7257004",
+                "EmailAddress": "victor.sanchez@avantel.com",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0580C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05A0C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05A0C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Buenos Aires",
+                    "PostalCode": "1511",
+                    "Street": "Av. Libertador",
+                    "Building": "12221",
+                    "Country": "AR",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD05A0C4",
+                "BusinessPartnerID": "0100000009",
+                "Title": "",
+                "FirstName": "Jorge",
+                "MiddleName": "",
+                "LastName": "Velez",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "1133557799",
+                "FaxNumber": "1133557004",
+                "EmailAddress": "jorge.velez@telecomunicacionesstar.com",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05A0C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05C0C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05C0C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Atlanta, Georgia",
+                    "PostalCode": "30338",
+                    "Street": "Dunwoody Xing",
+                    "Building": "3000",
+                    "Country": "US",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD05C0C4",
+                "BusinessPartnerID": "0100000010",
+                "Title": "",
+                "FirstName": "Franklin",
+                "MiddleName": "",
+                "LastName": "Jones",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "6789012345",
+                "FaxNumber": "6789012004",
+                "EmailAddress": "franklin.jones@pear-computing.com",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05C0C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05E0C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05E0C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Salzburg",
+                    "PostalCode": "5020",
+                    "Street": "Aiglhofstraße",
+                    "Building": "20",
+                    "Country": "AT",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD05E0C4",
+                "BusinessPartnerID": "0100000011",
+                "Title": "",
+                "FirstName": "Joseph",
+                "MiddleName": "",
+                "LastName": "Gschwandtner",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "6623612804",
+                "FaxNumber": "6623612004",
+                "EmailAddress": "joseph_gschwandtner@alp-systems.at",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05E0C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0600C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0600C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Manchester",
+                    "PostalCode": "M11 3ER",
+                    "Street": "Edwin Road",
+                    "Building": "9",
+                    "Country": "GB",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0600C4",
+                "BusinessPartnerID": "0100000012",
+                "Title": "",
+                "FirstName": "George",
+                "MiddleName": "David",
+                "LastName": "Grant",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "2589436180",
+                "FaxNumber": "2589436004",
+                "EmailAddress": "george_d_grant@newlinedesign.co.uk",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0600C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0620C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0620C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Bremen",
+                    "PostalCode": "28213",
+                    "Street": "Theodor-Heuss-Allee",
+                    "Building": "43",
+                    "Country": "DE",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0620C4",
+                "BusinessPartnerID": "0100000013",
+                "Title": "",
+                "FirstName": "Sarah",
+                "MiddleName": "",
+                "LastName": "Schwind",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "F",
+                "PhoneNumber": "4507867136",
+                "FaxNumber": "4507867004",
+                "EmailAddress": "sarah.schwind@hepa-tec.de",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0620C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0640C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0640C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Bismarck, North Dakota",
+                    "PostalCode": "58501",
+                    "Street": "Franklin Ave",
+                    "Building": "153",
+                    "Country": "US",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0640C4",
+                "BusinessPartnerID": "0100000014",
+                "Title": "",
+                "FirstName": "Theodor",
+                "MiddleName": "",
+                "LastName": "Monathy",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "5850428367",
+                "FaxNumber": "5850428004",
+                "EmailAddress": "theodor.monathy@anavideon.com",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0640C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0660C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0660C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Quebec",
+                    "PostalCode": "G1K3X7",
+                    "Street": "Rue du Sault au Matelot",
+                    "Building": "65",
+                    "Country": "CA",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0660C4",
+                "BusinessPartnerID": "0100000015",
+                "Title": "",
+                "FirstName": "Robert",
+                "MiddleName": "",
+                "LastName": "Brown",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "7609448173",
+                "FaxNumber": "7609448004",
+                "EmailAddress": "robert_brown@rb-entertainment.ca",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0660C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0680C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0680C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Puebla",
+                    "PostalCode": "40615",
+                    "Street": "Av. Hermanos Serdan",
+                    "Building": "366",
+                    "Country": "MX",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0680C4",
+                "BusinessPartnerID": "0100000016",
+                "Title": "",
+                "FirstName": "Jorge",
+                "MiddleName": "",
+                "LastName": "Montalban",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "6879342945",
+                "FaxNumber": "6879342004",
+                "EmailAddress": "jorgemontalban@motc.mx",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0680C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06A0C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06A0C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Köln",
+                    "PostalCode": "50827",
+                    "Street": "Robert-Koch-Straße",
+                    "Building": "14",
+                    "Country": "DE",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD06A0C4",
+                "BusinessPartnerID": "0100000017",
+                "Title": "",
+                "FirstName": "Johanna",
+                "MiddleName": "",
+                "LastName": "Esther",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "F",
+                "PhoneNumber": "2208791738",
+                "FaxNumber": "2208791004",
+                "EmailAddress": "johanna.esther@meliva.de",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06A0C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06C0C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06C0C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Mendoza",
+                    "PostalCode": "M5500",
+                    "Street": "Avenida De Julio",
+                    "Building": "53",
+                    "Country": "AR",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD06C0C4",
+                "BusinessPartnerID": "0100000018",
+                "Title": "",
+                "FirstName": "Miguel",
+                "MiddleName": "",
+                "LastName": "Luengo",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "4440238917",
+                "FaxNumber": "4440238004",
+                "EmailAddress": "miguel.luengo@compostela.ar",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06C0C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06E0C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06E0C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Lyon",
+                    "PostalCode": "69007",
+                    "Street": "Quai de Pierre Scize",
+                    "Building": "81",
+                    "Country": "FR",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD06E0C4",
+                "BusinessPartnerID": "0100000019",
+                "Title": "",
+                "FirstName": "Isabel",
+                "MiddleName": "",
+                "LastName": "Nemours",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "F",
+                "PhoneNumber": "6328490087",
+                "FaxNumber": "6328490004",
+                "EmailAddress": "isabel.nemours@pateu.fr",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06E0C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0700C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0700C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Moscow",
+                    "PostalCode": "125719",
+                    "Street": "Elektrozavodskaya ulitsa",
+                    "Building": "21",
+                    "Country": "RU",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0700C4",
+                "BusinessPartnerID": "0100000020",
+                "Title": "",
+                "FirstName": "Igor",
+                "MiddleName": "",
+                "LastName": "Tarassow",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "4050378468",
+                "FaxNumber": "4050378004",
+                "EmailAddress": "igor.tarassow@retc.ru",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0700C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0720C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0720C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Jacksonville, Florida",
+                    "PostalCode": "32229",
+                    "Street": "Marshall Street",
+                    "Building": "77",
+                    "Country": "US",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0720C4",
+                "BusinessPartnerID": "0100000021",
+                "Title": "",
+                "FirstName": "Alexis",
+                "MiddleName": "",
+                "LastName": "Harper",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "F",
+                "PhoneNumber": "6065470312",
+                "FaxNumber": "6065470004",
+                "EmailAddress": "alexis.harper@flor-hc.com",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0720C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0740C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0740C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Madrid",
+                    "PostalCode": "28100",
+                    "Street": "Calle de la Marquesa Viuda de Aldama",
+                    "Building": "35",
+                    "Country": "ES",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0740C4",
+                "BusinessPartnerID": "0100000022",
+                "Title": "",
+                "FirstName": "Cristal",
+                "MiddleName": "",
+                "LastName": "Alfaro",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "F",
+                "PhoneNumber": "7980023486",
+                "FaxNumber": "7980023004",
+                "EmailAddress": "c.alfaro@quimica-madrilenos.es",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0740C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0760C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0760C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "München",
+                    "PostalCode": "80935",
+                    "Street": "Albert-Schweitzer-Straße",
+                    "Building": "16",
+                    "Country": "DE",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0760C4",
+                "BusinessPartnerID": "0100000023",
+                "Title": "",
+                "FirstName": "Sven",
+                "MiddleName": "",
+                "LastName": "Janssen",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "3629731486",
+                "FaxNumber": "3629731004",
+                "EmailAddress": "sven.j@getraenke-janssen.de",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0760C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0780C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0780C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Sapporo-shi",
+                    "PostalCode": "0600007",
+                    "Street": "Chome-1 Kita 7 Jonishi",
+                    "Building": "7",
+                    "Country": "JP",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0780C4",
+                "BusinessPartnerID": "0100000024",
+                "Title": "",
+                "FirstName": "Yoshiko",
+                "MiddleName": "",
+                "LastName": "Kakuji",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "F",
+                "PhoneNumber": "3206580974",
+                "FaxNumber": "3206580004",
+                "EmailAddress": "yoshiko.kakuji@jateco.jp",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0780C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07A0C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07A0C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Rome",
+                    "PostalCode": "00185",
+                    "Street": "Via San Martino della Battaglia",
+                    "Building": "63",
+                    "Country": "IT",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD07A0C4",
+                "BusinessPartnerID": "0100000025",
+                "Title": "",
+                "FirstName": "Alessio",
+                "MiddleName": "",
+                "LastName": "Galasso",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "4580963184",
+                "FaxNumber": "4580963004",
+                "EmailAddress": "alessio.galasso@tcdr.it",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07A0C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07C0C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07C0C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Paris",
+                    "PostalCode": "75013",
+                    "Street": "Rue Lourmel",
+                    "Building": "42",
+                    "Country": "FR",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD07C0C4",
+                "BusinessPartnerID": "0100000026",
+                "Title": "",
+                "FirstName": "Romain",
+                "MiddleName": "",
+                "LastName": "Le Mason",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "1012697341",
+                "FaxNumber": "1012697004",
+                "EmailAddress": "romain.le_mason@verdo.fr",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07C0C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07E0C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07E0C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Santa Fe",
+                    "PostalCode": "1510",
+                    "Street": "de Enero",
+                    "Building": "85",
+                    "Country": "AR",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD07E0C4",
+                "BusinessPartnerID": "0100000027",
+                "Title": "",
+                "FirstName": "Martha",
+                "MiddleName": "",
+                "LastName": "Calcagno",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "F",
+                "PhoneNumber": "7345697824",
+                "FaxNumber": "7345697004",
+                "EmailAddress": "martha.calcagno@dpg.ar",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07E0C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0800C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0800C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Rio de Janeiro",
+                    "PostalCode": "20230",
+                    "Street": "Rua do Passeio",
+                    "Building": "7",
+                    "Country": "BR",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0800C4",
+                "BusinessPartnerID": "0100000028",
+                "Title": "",
+                "FirstName": "Beatriz",
+                "MiddleName": "",
+                "LastName": "da Silva",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "F",
+                "PhoneNumber": "469614115",
+                "FaxNumber": "469614004",
+                "EmailAddress": "beatriz.da_silva@brazil-tec.br",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0800C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0820C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0820C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Montreal",
+                    "PostalCode": "H2T1R1",
+                    "Street": "Avenue du Mont-Royal Est",
+                    "Building": "370",
+                    "Country": "CA",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0820C4",
+                "BusinessPartnerID": "0100000029",
+                "Title": "",
+                "FirstName": "Anthony",
+                "MiddleName": "",
+                "LastName": "Leboeuf",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "6839542781",
+                "FaxNumber": "6839542004",
+                "EmailAddress": "anthony.lebouef@crtu.ca",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0820C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0840C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0840C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Zürich",
+                    "PostalCode": "2564",
+                    "Street": "Paul-Clairmont-Strasse",
+                    "Building": "23",
+                    "Country": "CH",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0840C4",
+                "BusinessPartnerID": "0100000030",
+                "Title": "",
+                "FirstName": "Lisa",
+                "MiddleName": "",
+                "LastName": "Felske",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "F",
+                "PhoneNumber": "6714954542",
+                "FaxNumber": "6714954004",
+                "EmailAddress": "lisa.felske@jologa.ch",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0840C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0860C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0860C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Dallas, Texas",
+                    "PostalCode": "75364",
+                    "Street": "McKinney Ave",
+                    "Building": "2407",
+                    "Country": "US",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0860C4",
+                "BusinessPartnerID": "0100000031",
+                "Title": "",
+                "FirstName": "Jonathan",
+                "MiddleName": "Dwight",
+                "LastName": "Mason",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "2483693027",
+                "FaxNumber": "2483693004",
+                "EmailAddress": "jonathan.d.mason@baleda.com",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0860C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0880C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0880C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Paris",
+                    "PostalCode": "75018",
+                    "Street": "Rue de Rivoli",
+                    "Building": "143",
+                    "Country": "FR",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0880C4",
+                "BusinessPartnerID": "0100000032",
+                "Title": "",
+                "FirstName": "Amélie",
+                "MiddleName": "",
+                "LastName": "Troyat",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "F",
+                "PhoneNumber": "2094573421",
+                "FaxNumber": "2094573004",
+                "EmailAddress": "amelie.troyat@angere.fr",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0880C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08A0C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08A0C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Chicago, Illinois",
+                    "PostalCode": "60773",
+                    "Street": "North Michigan Avenue",
+                    "Building": "50",
+                    "Country": "US",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD08A0C4",
+                "BusinessPartnerID": "0100000033",
+                "Title": "",
+                "FirstName": "Pete",
+                "MiddleName": "",
+                "LastName": "Waltham",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "4136278910",
+                "FaxNumber": "4136278004",
+                "EmailAddress": "pete_waltham@pc-gym-tec.com",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08A0C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08C0C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08C0C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Tokyo",
+                    "PostalCode": "105-0011",
+                    "Street": "4-2-8-Shibakoen",
+                    "Building": "8",
+                    "Country": "JP",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD08C0C4",
+                "BusinessPartnerID": "0100000034",
+                "Title": "",
+                "FirstName": "Ryu",
+                "MiddleName": "",
+                "LastName": "Toshiro",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "3540671320",
+                "FaxNumber": "3540671004",
+                "EmailAddress": "ryu.toshiro@jip.jp",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08C0C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08E0C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08E0C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Buenos Aires",
+                    "PostalCode": "1147",
+                    "Street": "Avenida San Juan",
+                    "Building": "350",
+                    "Country": "AR",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD08E0C4",
+                "BusinessPartnerID": "0100000035",
+                "Title": "",
+                "FirstName": "José",
+                "MiddleName": "",
+                "LastName": "Lopez",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "7315064077",
+                "FaxNumber": "7315064004",
+                "EmailAddress": "jose-lopez@en-ar.ar",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08E0C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0900C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0900C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Johannesburg",
+                    "PostalCode": "2006",
+                    "Street": "Bay View Ave",
+                    "Building": "45",
+                    "Country": "ZA",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0900C4",
+                "BusinessPartnerID": "0100000036",
+                "Title": "",
+                "FirstName": "Dahoma",
+                "MiddleName": "",
+                "LastName": "Lawla",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "4381762683",
+                "FaxNumber": "4381762004",
+                "EmailAddress": "dahoma.lawla@agadc.co.za",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0900C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0920C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0920C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "New York City",
+                    "PostalCode": "10184",
+                    "Street": "Fith Avenue",
+                    "Building": "1843",
+                    "Country": "US",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0920C4",
+                "BusinessPartnerID": "0100000037",
+                "Title": "",
+                "FirstName": "Jefferson",
+                "MiddleName": "",
+                "LastName": "Parker",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "9703586412",
+                "FaxNumber": "9703586004",
+                "EmailAddress": "jefferson.parker@pico-bit.com",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0920C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0940C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0940C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Bühl",
+                    "PostalCode": "77815",
+                    "Street": "Hauptstraße",
+                    "Building": "12",
+                    "Country": "DE",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0940C4",
+                "BusinessPartnerID": "0100000038",
+                "Title": "",
+                "FirstName": "Tamara",
+                "MiddleName": "",
+                "LastName": "Flaig",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "F",
+                "PhoneNumber": "6843585642",
+                "FaxNumber": "6843585004",
+                "EmailAddress": "tamara.flaig@brl-ag.de",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0940C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0960C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0960C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Mumbai",
+                    "PostalCode": "400021",
+                    "Street": "Nariman Point",
+                    "Building": "11",
+                    "Country": "IN",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0960C4",
+                "BusinessPartnerID": "0100000039",
+                "Title": "",
+                "FirstName": "Sunita",
+                "MiddleName": "",
+                "LastName": "Kapoor",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "F",
+                "PhoneNumber": "4203876954",
+                "FaxNumber": "4203876004",
+                "EmailAddress": "sunita-kapoor@it-trade.in",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0960C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0980C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0980C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Warsaw",
+                    "PostalCode": "00564",
+                    "Street": "Koszykowa",
+                    "Building": "28",
+                    "Country": "PL",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0980C4",
+                "BusinessPartnerID": "0100000040",
+                "Title": "",
+                "FirstName": "Pawel",
+                "MiddleName": "",
+                "LastName": "Lewandowski",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "8367920106",
+                "FaxNumber": "8367920004",
+                "EmailAddress": "pawel-lewandoski@catf.pl",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0980C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09A0C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09A0C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Cordoba",
+                    "PostalCode": "5003",
+                    "Street": "Av. Ambrosio Olmos",
+                    "Building": "297",
+                    "Country": "AR",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD09A0C4",
+                "BusinessPartnerID": "0100000041",
+                "Title": "",
+                "FirstName": "Laura",
+                "MiddleName": "",
+                "LastName": "Campillo",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "F",
+                "PhoneNumber": "1438907230",
+                "FaxNumber": "1438907004",
+                "EmailAddress": "laura.campillo@saitc.ar",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09A0C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09C0C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09C0C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Shanghai",
+                    "PostalCode": "200083",
+                    "Street": "Shui Dian Lu",
+                    "Building": "37",
+                    "Country": "CN",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD09C0C4",
+                "BusinessPartnerID": "0100000042",
+                "Title": "",
+                "FirstName": "Jian",
+                "MiddleName": "",
+                "LastName": "Si",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "7412697340",
+                "FaxNumber": "7412697004",
+                "EmailAddress": "jian.si@siwusha.cn",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09C0C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09E0C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09E0C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Copenhagen",
+                    "PostalCode": "1907",
+                    "Street": "Stockholmsgade",
+                    "Building": "79",
+                    "Country": "DK",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD09E0C4",
+                "BusinessPartnerID": "0100000043",
+                "Title": "",
+                "FirstName": "Frederik",
+                "MiddleName": "",
+                "LastName": "Christensen",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "3102050749",
+                "FaxNumber": "3102050004",
+                "EmailAddress": "frederik.christensen@dftc.dk",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09E0C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0A00C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0A00C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Karlsruhe",
+                    "PostalCode": "76188",
+                    "Street": "Rubensstraße",
+                    "Building": "140",
+                    "Country": "DE",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0A00C4",
+                "BusinessPartnerID": "0100000044",
+                "Title": "",
+                "FirstName": "Mirjam",
+                "MiddleName": "",
+                "LastName": "Schmidt",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "F",
+                "PhoneNumber": "3102050749",
+                "FaxNumber": "3102050004",
+                "EmailAddress": "mirjam.schmidt@sorali.de",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0A00C4')/ToBusinessPartner"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0A20C4')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0A20C4')",
+                    "type": "GWSAMPLE_BASIC.Contact"
+                },
+                "Address": {
+                    "__metadata": {
+                        "type": "GWSAMPLE_BASIC.CT_Address"
+                    },
+                    "City": "Karlsruhe",
+                    "PostalCode": "76188",
+                    "Street": "Rubensstraße",
+                    "Building": "140",
+                    "Country": "DE",
+                    "AddressType": "02"
+                },
+                "ContactGuid": "005056A2-16B8-1EE7-B591-7B0ACD0A20C4",
+                "BusinessPartnerID": "0100000045",
+                "Title": "",
+                "FirstName": "Demo",
+                "MiddleName": "",
+                "LastName": "User",
+                "Nickname": "",
+                "Initials": "",
+                "Sex": "M",
+                "PhoneNumber": "3102050749",
+                "FaxNumber": "3102050004",
+                "EmailAddress": "dummy_address@sap.com",
+                "Language": "EN",
+                "DateOfBirth": null,
+                "ToBusinessPartner": {
+                    "__deferred": {
+                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0A20C4')/ToBusinessPartner"
+                    }
+                }
+            }
+        ]
+    }
+}
