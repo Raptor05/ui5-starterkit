@@ -11,6 +11,8 @@
     },
     "env": {
         "browser": true,
+        "commonjs": true,
+        "jquery": true,
         "node": true
     },
     "globals": {
@@ -212,6 +214,8 @@
         "id-match": [
             "warn",
             "^[_]?([o,i,s,b,a]|fn)([A-Z][a-z]+)*$"
-        ]
+        ],
+        "space-before-blocks": "warn",
+        "space-before-function-paren": "warn"
     }
 }

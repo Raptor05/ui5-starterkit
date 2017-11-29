@@ -7,7 +7,7 @@
     "ui5:alternative": "ui5-codecompletion install --from=https://openui5.hana.ondemand.com/downloads/openui5-runtime-1.44.24.zip && ui5-schemas -v 1.44.24",
     "start": "npm-run-all --parallel lint:watch",
     "lint": "esw WebContent demo --color",
-    "lint:watch": "npm run lint -- --watch",
+    "lint:watch": "npm run lint -- --watch --fix",
     "security-check": "nsp check"
   },
   "author": "Mark Deppe",

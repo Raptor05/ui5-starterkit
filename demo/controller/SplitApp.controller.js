@@ -33,6 +33,7 @@ sap.ui.define([
          * @memberOf mhp.ui5StarterKit.demo.SplitApp
          */
         onInit: function () {
+
             this.component = this.getOwnerComponent();
             this.bus = this.component.getEventBus();
         },

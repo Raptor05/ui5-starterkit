@@ -36,7 +36,7 @@
     },
     "sap.ui5": {
         "_version": "1.1.0",
-        "rootView": "mhp.ui5StarterKit.demo.view.App",
+        "rootView": "mhp.ui5StarterKit.demo.view.SplitApp",
         "dependencies": {
             "minUI5Version": "1.44.24",
             "libs": {
@@ -80,9 +80,14 @@
             "config": {
                 "routerClass": "sap.m.routing.Router",
                 "viewPath": "mhp.ui5StarterKit.demo.view",
+                "controlId": "viewMainApp",
+                "controlAggregation": "detailPages",
                 "viewType": "XML",
                 "bypassed": {
-                    "target": "notFound"
+                    "target": [
+                        "master",
+                        "notFound"
+                    ]
                 }
             },
             "routes": [
@@ -104,42 +109,25 @@
                 }
             ],
             "targets": {
-                "splitApp": {
-                    "viewName": "SplitApp",
-                    "viewId": "viewSplitApp",
-                    "controlId": "viewAppContainer",
-                    "controlAggregation": "pages",
-                    "viewLevel": 0
-                },
                 "master": {
                     "viewName": "Master",
                     "viewId": "viewMaster",
-                    "controlId": "viewMainApp",
-                    "parent": "splitApp",
                     "controlAggregation": "masterPages",
                     "viewLevel": 10
                 },
                 "start": {
                     "viewName": "Start",
                     "viewId": "viewStart",
-                    "controlId": "viewMainApp",
-                    "parent": "splitApp",
-                    "controlAggregation": "detailPages",
                     "viewLevel": 11
                 },
                 "detail": {
                     "viewName": "Detail",
                     "viewId": "viewDetail",
-                    "controlId": "viewMainApp",
-                    "parent": "splitApp",
-                    "controlAggregation": "detailPages",
                     "viewLevel": 11
                 },
                 "notFound": {
                     "viewName": "NotFound",
                     "viewId": "viewNotFound",
-                    "controlId": "viewAppContainer",
-                    "controlAggregation": "pages",
                     "transition": "show"
                 }
             }
