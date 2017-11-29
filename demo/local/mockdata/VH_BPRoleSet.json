@@ -1,0 +1,24 @@
+{
+    "d": {
+        "results": [
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_BPRoleSet('01')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_BPRoleSet('01')",
+                    "type": "GWSAMPLE_BASIC.VH_BPRole"
+                },
+                "BpRole": "01",
+                "Shorttext": "Customer"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_BPRoleSet('02')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_BPRoleSet('02')",
+                    "type": "GWSAMPLE_BASIC.VH_BPRole"
+                },
+                "BpRole": "02",
+                "Shorttext": "Supplier"
+            }
+        ]
+    }
+}

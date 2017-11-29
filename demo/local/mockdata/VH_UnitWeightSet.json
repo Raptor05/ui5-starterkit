@@ -1,0 +1,132 @@
+{
+    "d": {
+        "results": [
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('CWT')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('CWT')",
+                    "type": "GWSAMPLE_BASIC.VH_UnitWeight"
+                },
+                "Msehi": "CWT",
+                "Msehl": ""
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('G')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('G')",
+                    "type": "GWSAMPLE_BASIC.VH_UnitWeight"
+                },
+                "Msehi": "G",
+                "Msehl": "Gram"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('GB')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('GB')",
+                    "type": "GWSAMPLE_BASIC.VH_UnitWeight"
+                },
+                "Msehi": "GB",
+                "Msehl": "Giga Byte"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('IU')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('IU')",
+                    "type": "GWSAMPLE_BASIC.VH_UnitWeight"
+                },
+                "Msehi": "IU",
+                "Msehl": "International Units"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('KG')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('KG')",
+                    "type": "GWSAMPLE_BASIC.VH_UnitWeight"
+                },
+                "Msehi": "KG",
+                "Msehl": "Kilogram"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('KT')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('KT')",
+                    "type": "GWSAMPLE_BASIC.VH_UnitWeight"
+                },
+                "Msehi": "KT",
+                "Msehl": "KG (theo)"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('LB')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('LB')",
+                    "type": "GWSAMPLE_BASIC.VH_UnitWeight"
+                },
+                "Msehi": "LB",
+                "Msehl": "US pound"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('MB')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('MB')",
+                    "type": "GWSAMPLE_BASIC.VH_UnitWeight"
+                },
+                "Msehi": "MB",
+                "Msehl": "Mega Byte"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('MG')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('MG')",
+                    "type": "GWSAMPLE_BASIC.VH_UnitWeight"
+                },
+                "Msehi": "MG",
+                "Msehl": "Milligram"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('Oz')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('Oz')",
+                    "type": "GWSAMPLE_BASIC.VH_UnitWeight"
+                },
+                "Msehi": "Oz",
+                "Msehl": "Ounce"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('PKT')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('PKT')",
+                    "type": "GWSAMPLE_BASIC.VH_UnitWeight"
+                },
+                "Msehi": "PKT",
+                "Msehl": "bonus points"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('TO')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('TO')",
+                    "type": "GWSAMPLE_BASIC.VH_UnitWeight"
+                },
+                "Msehi": "TO",
+                "Msehl": "Tonnes"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('TON')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('TON')",
+                    "type": "GWSAMPLE_BASIC.VH_UnitWeight"
+                },
+                "Msehi": "TON",
+                "Msehl": "US ton"
+            },
+            {
+                "__metadata": {
+                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('%C2%B5G')",
+                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitWeightSet('%C2%B5G')",
+                    "type": "GWSAMPLE_BASIC.VH_UnitWeight"
+                },
+                "Msehi": "µG",
+                "Msehl": ""
+            }
+        ]
+    }
+}
