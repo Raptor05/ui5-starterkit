@@ -2,7 +2,7 @@
 
 developed for [MHP](https://www.mhp.com) by Sebastian Mantsch, Eike Vogel & [Mark Deppe](http://www.mark-deppe.de/)
 
-<center>![mhp](https://www.mhp.com/fileadmin/www.mhp.com/template/public/images/MHP_Logo_RGB.svg)</center>
+<center>![mhp](https://www.mhp.com/fileadmin/mhp.de/assets/og/mhp_opengraph.jpg)</center>
 
 This starter kit is intended to help developers create, check, version, and upload SAPUI5 projects to the SAP system. It has been developed especially for use in Webstorm, but can also be applied to other IDEs if necessary.
 
