@@ -5,6 +5,13 @@
     <Page title="Start"
           showNavButton="false">
         <content>
+            <FlexBox height="100%"
+                     alignItems="Center"
+                     justifyContent="Center">
+                <items>
+                    <Image src="image/header.png"/>
+                </items>
+            </FlexBox>
         </content>
         <footer>
             <Bar>

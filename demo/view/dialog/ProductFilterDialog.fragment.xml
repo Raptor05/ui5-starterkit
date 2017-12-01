@@ -1,0 +1,25 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+                         xmlns="sap.m">
+    <ViewSettingsDialog title="{i18n>ProductFilterDialog}"
+                        confirm="onProductFilterConfirmed"
+                        resetFilters="onProductFilterReset">
+        <filterItems>
+            <ViewSettingsFilterItem id="fltProductFilterCategory"
+                                    text="{i18n>ProductFilterCategory}"
+                                    key="Category"
+                                    multiSelect="false"
+                                    items="{
+                                            path: '/VH_CategorySet',
+                                            sorter: {
+                                                path: 'Category',
+                                                descending: false
+                                            }
+                                        }">
+                <items>
+                    <ViewSettingsItem text="{Category}"
+                                      key="Category___EQ___{Category}"/>
+                </items>
+            </ViewSettingsFilterItem>
+        </filterItems>
+    </ViewSettingsDialog>
+</core:FragmentDefinition>
