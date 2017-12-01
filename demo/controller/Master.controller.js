@@ -2,12 +2,12 @@
  * Created by mdeppe on 28.11.2017.
  */
 sap.ui.define([
-    "sap/ui/core/mvc/Controller",
+    "mhp/ui5StarterKit/demo/controller/BaseController",
     "sap/ui/model/Filter"
-], function (Controller, Filter) {  // eslint-disable-line id-match
+], function (BaseController, Filter) {  // eslint-disable-line id-match
     "use strict";
 
-    return Controller.extend("mhp.ui5StarterKit.demo.controller.Master", {
+    return BaseController.extend("mhp.ui5StarterKit.demo.controller.Master", {
         /**
          * Master.controller.js
          *
@@ -18,7 +18,7 @@ sap.ui.define([
          *
          * @class Master.controller.js
          *
-         * @extends sap.ui.core.mvc.Controller
+         * @extends mhp.ui5StarterKit.demo.controller.BaseController
          *
          * @constructor
          * @public
@@ -88,6 +88,47 @@ sap.ui.define([
          */
         onProductFilterPress: function (oEvent) {
 
+            var oView = this.getView();
+
+            if (!this._oProductFilterDialog) {
+                this._oProductFilterDialog = sap.ui.xmlfragment(this.getDialogPath() + ".ProductFilterDialog", this);
+                oView.addDependent(this._oProductFilterDialog);
+            }
+            this._oProductFilterDialog.open();
+
+        },
+
+        /**
+         * Updates the list binding depending on the selected filters
+         * @param {sap.ui.base.Event} oEvent - An Event object consisting of an id, a source and a map of parameters
+         * @memberOf mhp.ui5StarterKit.demo.Master
+         */
+        onProductFilterConfirmed: function (oEvent) {
+
+            var aDialogFilter = [];
+
+            delete this._dialogFilters;
+
+            var aFilterItems = oEvent.getParameter("filterItems");
+            jQuery.each(aFilterItems, function (i, oFilterItem) {
+                var aSplit = oFilterItem.getKey().split("___"),
+                    sKey = aSplit[0],
+                    sOperator = aSplit[1],
+                    sValue1 = aSplit[2],
+                    sValue2 = aSplit[3],
+                    oFilter = new Filter(sKey, sOperator, sValue1, sValue2);
+                aDialogFilter.push(oFilter);
+            });
+
+            if (aDialogFilter.length > 0) {
+                this._oDialogFilter = new Filter({
+                    filters: aDialogFilter,
+                    and: true
+                });
+            }
+
+            this._filterList();
+
         },
 
         /**
@@ -120,15 +161,15 @@ sap.ui.define([
 
             var oBinding = this.getView().byId("lstProductsMasterList").getBinding("items");
 
-            if (this._oSearchFilter && this._oFiltersFilter) {
+            if (this._oSearchFilter && this._oDialogFilter) {
                 oBinding.filter(new Filter({
-                    filters: [this._oSearchFilter, this._oFiltersFilter],
+                    filters: [this._oSearchFilter, this._oDialogFilter],
                     and: true
                 }));
             } else if (this._oSearchFilter) {
                 oBinding.filter(this._oSearchFilter);
-            } else if (this._oFiltersFilter) {
-                oBinding.filter(this._oFiltersFilter);
+            } else if (this._oDialogFilter) {
+                oBinding.filter(this._oDialogFilter);
             } else {
                 oBinding.filter([]);
             }
