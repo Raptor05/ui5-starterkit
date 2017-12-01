@@ -40,7 +40,7 @@ After this you should install also the two UI5 packages
 ```
 npm run ui5
 ```
-If this is not working, look into the [FAQ](#FAQ) section.
+If this is not working, look into the [FAQ](#chapter-4) section.
 
 ***Important:***
 If you want to use some version control tool like GIT or SVN, than you have to make sure, that the local folders and files are not commited. Add these files/folders to the SVN ignore list or use the provided .gitignore file.
@@ -52,5 +52,68 @@ The following files/folders are important to ignore:
 
 ## Usage <a id="chapter-3"></a>
 ### Using ESLint <a id="chapter-3-1"></a>
+There are three possible ways of using eslint.
+
+The first one is to call ESLint check explicitly with the terminal each time you want to check it.
+```
+npm run lint
+```
+This will show all linting errors and warings in the console:
+
+![eslint-console-error](doc/eslint_terminal_error.png)
+
+The second possibility is to let ESLint watch your code automatically after saving. Just type in the following:
+```
+npm start
+```
+Now leave the console open. Each time a JavaScript file is saved using Ctrl+S, ESLint automatically scans the project and fixes some of the typical formatting issues such as missing spaces (Yes, I know Webstorm actually saves the files automatically, so no explicit saving is necessary. Unfortunately it is still necessary for ESLint).
+
+![eslint-console-clean](doc/eslint_terminal_clean.png)
+
+The third possibility is to let the respective IDE perform the ESLint checks. In Webstorm, this is done using the options menu. There ESLint only needs to be activated, then the eslint configuration file in the project folder is usually found and used automatically.
+
+![eslint-webstorm](doc/eslint_webstorm.png)
+
+Personally, I prefer to combine options two and three. So I keep the check running in the console at all times and also activate the Webstorm check. However, I recommend that you reduce the standard inspections by Webstorm a little bit, as they are always marked too much in SAPUI5 projects anyway. Otherwise, it could quickly become rather confusing.
+ 
 ### Using grunt to build and upload project to SAP System <a id="chapter-3-2"></a>
+
+Coming soon...
+ 
+
+
 ## FAQ <a id="chapter-4"></a>
+
+##### What should I do if the UI5 packages configuration doesn't work?
+
+Unfortunately, the configuration of the UI5 packages does not always work properly. In this case, it can help to install the packages manually globally.
+
+Global installation of ui5-codecompletion
+```
+npm install -g ui5-codecompletion
+```
+
+Downloading of the UI5 SDK into local project folder
+```
+ui5-codecompletion install
+```
+
+If this is also not working, try to add the [latest OpenUI5 version](https://openui5.hana.ondemand.com/versionoverview.html)  manually.
+```
+ui5-codecompletion install --from=https://openui5.hana.ondemand.com/downloads/openui5-runtime-1.44.24.zip
+````
+
+Global installation of ui5-schemas
+```
+npm install -g ui5-schemas
+```
+
+Configuration of ui5-schemas
+```
+ui5-schemas
+```
+
+If this is also not working, try to add the [latest SAPUI5 version](https://sapui5.hana.ondemand.com/versionoverview.html) manually.
+```
+ui5-schemas -v 1.44.24  
+```
