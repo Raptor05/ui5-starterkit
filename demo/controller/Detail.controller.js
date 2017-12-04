@@ -61,11 +61,18 @@ sap.ui.define([
 
         /**
          * Is called every time the route was matched
+         * @param {sap.ui.base.Event} oEvent - An Event object consisting of an id, a source and a map of parameters
          * @memberOf mhp.ui5StarterKit.demo.Detail
          * @private
          */
-        _onRouteMatched: function () {
+        _onRouteMatched: function (oEvent) {
+            var sProductId = oEvent.getParameter("arguments").productid,
+                oView = this.getView();
+            oView.bindElement({
+                path: "/ProductSet('" + sProductId + "')"
+            });
 
+            oView.byId("viewDetail").insertContent(sap.ui.xmlfragment(this.getFragmentPath() + ".ProductDisplay"));
         }
 
     });
