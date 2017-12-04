@@ -6,10 +6,23 @@
           title="{i18n>ProductDetailTitle}"
           navButtonPress="onNavBack"
           showNavButton="true">
-        <content>
-        </content>
         <footer>
             <Bar>
+                <contentRight>
+                    <Button id="btnProductEdit"
+                            text="{i18n>Edit}"
+                            press="onProductEditPress"/>
+                    <Button id="btnProductSave"
+                            text="{i18n>Save}"
+                            type="Accept"
+                            visible="false"
+                            press="onProductSavePress"/>
+                    <Button id="btnProductCancel"
+                            text="{i18n>Cancel}"
+                            type="Reject"
+                            visible="false"
+                            press="onProductCancelPress"/>
+                </contentRight>
             </Bar>
         </footer>
     </Page>

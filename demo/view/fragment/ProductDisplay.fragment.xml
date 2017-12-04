@@ -1,0 +1,55 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+                         xmlns:form="sap.ui.layout.form"
+                         xmlns="sap.m">
+    <VBox class="sapUiSmallMargin">
+        <form:SimpleForm id="sfProductDisplay"
+                         editable="false"
+                         layout="ResponsiveGridLayout"
+                         labelSpanXL="4"
+                         labelSpanL="3"
+                         labelSpanM="4"
+                         labelSpanS="12"
+                         adjustLabelSpan="false"
+                         emptySpanXL="0"
+                         emptySpanL="4"
+                         emptySpanM="0"
+                         emptySpanS="0"
+                         columnsXL="2"
+                         columnsL="1"
+                         columnsM="1"
+                         singleContainerFullSize="false">
+            <form:content>
+                <core:Title text="{i18n>ProductInfos}"/>
+                <Label text="{i18n>ProductId}"/>
+                <Text text="{ProductID}"/>
+                <Label text="{i18n>TypeCode}"/>
+                <Text text="{TypeCode}"/>
+                <Label text="{i18n>Category}"/>
+                <Text text="{Category}"/>
+                <Label text="{i18n>Name}"/>
+                <Text text="{Name}"/>
+                <Label text="{i18n>Description}"/>
+                <Text text="{Description}"/>
+                <core:Title text="{i18n>AdditionalInfos}"/>
+                <Label text="{i18n>SupplierId}"/>
+                <Text text="{SupplierID}"/>
+                <Label text="{i18n>SupplierName}"/>
+                <Text text="{SupplierName}"/>
+                <Label text="{i18n>TaxTarifCode}"/>
+                <Text text="{TaxTarifCode}"/>
+                <Label text="{i18n>Weight}"/>
+                <Text text="{WeightMeasure}"/>
+                <Text text="{WeightUnit}"/>
+                <Label text="{i18n>Price}"/>
+                <Text text="{Price}"/>
+                <Text text="{CurrencyCode}"/>
+                <Label text="{i18n>Dimension}"/>
+                <Text text="{Width}"/>
+                <Text text="{Height}"/>
+                <Text text="{Depth}"/>
+                <Text text="{DimUnit}"/>
+            </form:content>
+        </form:SimpleForm>
+    </VBox>
+</core:FragmentDefinition>
+

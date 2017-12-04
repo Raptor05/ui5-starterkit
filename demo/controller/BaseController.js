@@ -32,6 +32,7 @@ sap.ui.define([
             var sRootPath = "mhp.ui5StarterKit.demo";
             this._sViewPath = sRootPath + ".view";
             this._sDialogPath = sRootPath + ".view.dialog";
+            this._sFragmentPath = sRootPath + ".view.fragment";
         },
 
         /* =========================================================== */
@@ -54,6 +55,15 @@ sap.ui.define([
          */
         getDialogPath: function () {
             return this._sDialogPath;
+        },
+
+        /**
+         * Getter for fragment files path
+         * @returns {string} Path of fragment files
+         * @memberOf mhp.ui5StarterKit.demo.BaseController
+         */
+        getFragmentPath: function () {
+            return this._sFragmentPath;
         },
 
         /* =========================================================== */
