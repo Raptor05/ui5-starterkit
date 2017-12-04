@@ -9,10 +9,10 @@
                 <SearchField id="srcProductSearch"
                              liveChange="onProductSearch"
                              width="100%"/>
-                <Button id="btnProductFilter"
-                        press="onProductFilterPress"
-                        icon="sap-icon://add-filter"
-                        tooltip="{i18n>ProductFilterTooltip}"/>
+                <ToggleButton id="btnProductFilter"
+                              press="onProductFilterPress"
+                              icon="sap-icon://add-filter"
+                              tooltip="{i18n>ProductFilterTooltip}"/>
             </Toolbar>
         </subHeader>
         <content>

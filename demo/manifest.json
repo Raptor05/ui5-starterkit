@@ -100,7 +100,7 @@
                     ]
                 },
                 {
-                    "pattern": "detail/{id}",
+                    "pattern": "detail/{productid}",
                     "name": "detail",
                     "target": [
                         "master",

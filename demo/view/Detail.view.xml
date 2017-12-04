@@ -1,0 +1,16 @@
+<!-- Created by mdeppe on 04.12.2017. -->
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+          controllerName="mhp.ui5StarterKit.demo.controller.Detail"
+          xmlns="sap.m">
+    <Page id="viewDetail"
+          title="{i18n>ProductDetailTitle}"
+          navButtonPress="onNavBack"
+          showNavButton="true">
+        <content>
+        </content>
+        <footer>
+            <Bar>
+            </Bar>
+        </footer>
+    </Page>
+</mvc:View>
