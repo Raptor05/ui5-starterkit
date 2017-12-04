@@ -13,7 +13,8 @@
                                             sorter: {
                                                 path: 'Category',
                                                 descending: false
-                                            }
+                                            },
+                                            templateShareable: false
                                         }">
                 <items>
                     <ViewSettingsItem text="{Category}"

@@ -54,11 +54,21 @@ sap.ui.define([
          */
         getDialogPath: function () {
             return this._sDialogPath;
-        }
+        },
 
         /* =========================================================== */
         /* Utility functions of controller  						   */
         /* =========================================================== */
+
+        /**
+         * Get router for current view
+         * @returns {sap.m.routing.Router} Router object
+         * @memberOf mhp.ui5StarterKit.demo.BaseController
+         */
+        getRouter: function () {
+            // return the Router for the current view
+            return sap.ui.core.UIComponent.getRouterFor(this);
+        }
 
         /* =========================================================== */
         /* Event handlers (starts with "on")						   */

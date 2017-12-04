@@ -105,9 +105,10 @@ sap.ui.define([
          */
         onProductFilterConfirmed: function (oEvent) {
 
-            var aDialogFilter = [];
+            var aDialogFilter = [],
+                oButton = this.getView().byId("btnProductFilter");
 
-            delete this._dialogFilters;
+            delete this._oDialogFilter;
 
             var aFilterItems = oEvent.getParameter("filterItems");
             jQuery.each(aFilterItems, function (i, oFilterItem) {
@@ -125,6 +126,11 @@ sap.ui.define([
                     filters: aDialogFilter,
                     and: true
                 });
+                oButton.setIcon("sap-icon://clear-filter");
+                oButton.setPressed(true);
+            } else {
+                oButton.setIcon("sap-icon://add-filter");
+                oButton.setPressed(false);
             }
 
             this._filterList();
@@ -137,7 +143,15 @@ sap.ui.define([
          * @memberOf mhp.ui5StarterKit.demo.Master
          */
         onProductSelected: function (oEvent) {
+            var sProductId = oEvent.getSource().getBindingContext() && oEvent.getSource().getBindingContext().getProperty("ProductID");
 
+            if (!sProductId) {
+                return;
+            }
+
+            this.getRouter().navTo("detail", {
+                productid: sProductId
+            });
         },
         /**
          * Handles the navigation to the create view
