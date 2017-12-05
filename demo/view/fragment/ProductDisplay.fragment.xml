@@ -26,9 +26,9 @@
                 <Text text="{TypeCode}"/>
                 <Label text="{i18n>Category}"/>
                 <Text text="{Category}"/>
-                <Label text="{i18n>Name}"/>
+                <Label text="{i18n>ProductName}"/>
                 <Text text="{Name}"/>
-                <Label text="{i18n>Description}"/>
+                <Label text="{i18n>ProductDescription}"/>
                 <Text text="{Description}"/>
                 <core:Title text="{i18n>AdditionalInfos}"/>
                 <Label text="{i18n>SupplierId}"/>
@@ -38,16 +38,17 @@
                 <Label text="{i18n>TaxTarifCode}"/>
                 <Text text="{TaxTarifCode}"/>
                 <Label text="{i18n>Weight}"/>
-                <Text text="{WeightMeasure}"/>
-                <Text text="{WeightUnit}"/>
+                <Text text="{WeightMeasure} {WeightUnit}"/>
                 <Label text="{i18n>Price}"/>
-                <Text text="{Price}"/>
-                <Text text="{CurrencyCode}"/>
-                <Label text="{i18n>Dimension}"/>
-                <Text text="{Width}"/>
-                <Text text="{Height}"/>
-                <Text text="{Depth}"/>
-                <Text text="{DimUnit}"/>
+                <Text text="{
+                                parts: [
+                                    {path: 'Price'},
+                                    {path: 'CurrencyCode'}
+                                ],
+                                type: 'sap.ui.model.type.Currency'
+                            }"/>
+                <Label text="{i18n>Dimension} {i18n>WidthShort}x{i18n>HeightShort}x{i18n>DepthShort}"/>
+                <Text text="{Width}x{Height}x{Depth} {DimUnit}"/>
             </form:content>
         </form:SimpleForm>
     </VBox>

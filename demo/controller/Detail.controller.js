@@ -55,6 +55,40 @@ sap.ui.define([
         /* Event handlers (starts with "on")						   */
         /* =========================================================== */
 
+        /**
+         * Navigates back to home site
+         * @param {sap.ui.base.Event} oEvent - An Event object consisting of an id, a source and a map of parameters
+         * @memberOf mhp.ui5StarterKit.demo.Detail
+         */
+        onNavBack: function (oEvent) {
+            this.getRouter().navTo("home");
+        },
+
+        /**
+         * Is called when user presses the "Edit" button
+         * @param {sap.ui.base.Event} oEvent - An Event object consisting of an id, a source and a map of parameters
+         * @memberOf mhp.ui5StarterKit.demo.Detail
+         */
+        onProductEditPress: function (oEvent) {
+            this._toggleButtonsAndView(true);
+        },
+
+        /**
+         * Is called when the user presses the "Cancel" button
+         * @param {sap.ui.base.Event} oEvent - An Event object consisting of an id, a source and a map of parameters
+         * @memberOf mhp.ui5StarterKit.demo.Detail
+         */
+        onProductCancelPress: function (oEvent) {
+            var oView = this.getView(),
+                oContext = oView.getBindingContext(),
+                oModel = oView.getModel();
+
+            oModel.resetChanges([
+                oContext.getPath()
+            ]);
+            this._toggleButtonsAndView(false);
+        },
+
         /* =========================================================== */
         /* Private functions (starts with "_")						   */
         /* =========================================================== */
@@ -72,7 +106,59 @@ sap.ui.define([
                 path: "/ProductSet('" + sProductId + "')"
             });
 
-            oView.byId("viewDetail").insertContent(sap.ui.xmlfragment(this.getFragmentPath() + ".ProductDisplay"));
+            this._showFormFragment("ProductDisplay");
+        },
+
+        /**
+         * Changes the visible state of the footer buttons and changes the form to edit/display mode
+         * @param {boolean} bEdit - Indicates if the mode shall be "edit" or "display"
+         * @memberOf mhp.ui5StarterKit.demo.Detail
+         * @private
+         */
+        _toggleButtonsAndView: function (bEdit) {
+            var oView = this.getView();
+
+            // Show the appropriate action buttons
+            oView.byId("btnProductEdit").setVisible(!bEdit);
+            oView.byId("btnProductSave").setVisible(bEdit);
+            oView.byId("btnProductCancel").setVisible(bEdit);
+
+            // Set the right form type
+            this._showFormFragment(bEdit ? "ProductEdit" : "ProductDisplay");
+        },
+
+        /**
+         * Changes the editable state of the form fragments
+         * @param {String}sMode - Contains the mode for edit/display
+         * @memberOf mhp.ui5StarterKit.demo.Detail
+         * @private
+         */
+        _showFormFragment: function (sMode) {
+            var oPage = this.getView().byId("viewDetail");
+
+            oPage.removeAllContent();
+            oPage.insertContent(this._getFormFragment(sMode));
+        },
+
+        _formFragments: {},
+
+        /**
+         * Returns the right fragment for each mode
+         * @param {String} sFragmentName - The name of the fragment which shall be shown
+         * @returns {sap.ui.core.Control} The fragment
+         * @memberOf mhp.ui5StarterKit.demo.Detail
+         * @private
+         */
+        _getFormFragment: function (sFragmentName) {
+            var oFormFragment = this._formFragments[sFragmentName];
+
+            if (oFormFragment) {
+                return oFormFragment;
+            } else {
+                oFormFragment = sap.ui.xmlfragment(this.getView().getId(), this.getFragmentPath() + "." + sFragmentName);
+                this._formFragments[sFragmentName] = oFormFragment;
+                return this._formFragments[sFragmentName];
+            }
         }
 
     });
