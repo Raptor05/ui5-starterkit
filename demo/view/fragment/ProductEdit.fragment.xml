@@ -3,7 +3,7 @@
                          xmlns="sap.m">
     <VBox class="sapUiSmallMargin">
         <form:SimpleForm id="sfProductEdit"
-                         editable="false"
+                         editable="true"
                          layout="ResponsiveGridLayout"
                          labelSpanXL="4"
                          labelSpanL="3"
@@ -32,11 +32,17 @@
                     </items>
                 </Select>
                 <Label text="{i18n>Category}"/>
-                <Text text="{Category}"/>
+                <Select selectedKey="{Category}"
+                        items="{/VH_CategorySet}">
+                    <items>
+                        <core:Item key="{Category}"
+                                   text="{Category}"/>
+                    </items>
+                </Select>
                 <Label text="{i18n>ProductName}"/>
-                <Text text="{Name}"/>
+                <Input value="{Name}"/>
                 <Label text="{i18n>ProductDescription}"/>
-                <Text text="{Description}"/>
+                <TextArea value="{Description}"/>
                 <core:Title text="{i18n>AdditionalInfos}"/>
                 <Label text="{i18n>SupplierId}"/>
                 <Text text="{SupplierID}"/>
