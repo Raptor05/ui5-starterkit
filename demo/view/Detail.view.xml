@@ -14,12 +14,11 @@
                             press="onProductEditPress"/>
                     <Button id="btnProductSave"
                             text="{i18n>Save}"
-                            type="Accept"
+                            type="Emphasized"
                             visible="false"
                             press="onProductSavePress"/>
                     <Button id="btnProductCancel"
                             text="{i18n>Cancel}"
-                            type="Reject"
                             visible="false"
                             press="onProductCancelPress"/>
                 </contentRight>
