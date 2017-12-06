@@ -3,9 +3,9 @@
         "results": [
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AD')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AD')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AD')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AD')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "AD",
                 "Landx": "Andorra",
@@ -13,9 +13,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AE')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AE')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AE')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AE')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "AE",
                 "Landx": "Utd.Arab.Emir.",
@@ -23,9 +23,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AF')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AF')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AF')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AF')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "AF",
                 "Landx": "Afghanistan",
@@ -33,9 +33,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AG')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AG')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AG')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AG')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "AG",
                 "Landx": "Antigua/Barbads",
@@ -43,9 +43,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AI')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AI')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AI')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AI')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "AI",
                 "Landx": "Anguilla",
@@ -53,9 +53,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AL')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AL')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AL')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AL')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "AL",
                 "Landx": "Albania",
@@ -63,9 +63,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AM')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AM')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AM')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AM')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "AM",
                 "Landx": "Armenia",
@@ -73,9 +73,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AN')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AN')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AN')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AN')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "AN",
                 "Landx": "Dutch Antilles",
@@ -83,9 +83,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AO')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AO')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AO')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AO')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "AO",
                 "Landx": "Angola",
@@ -93,9 +93,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AQ')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AQ')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AQ')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AQ')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "AQ",
                 "Landx": "Antarctica",
@@ -103,9 +103,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AR')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AR')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AR')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AR')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "AR",
                 "Landx": "Argentina",
@@ -113,9 +113,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AS')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AS')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AS')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AS')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "AS",
                 "Landx": "Samoa,American",
@@ -123,9 +123,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AT')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AT')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AT')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AT')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "AT",
                 "Landx": "Austria",
@@ -133,9 +133,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AU')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AU')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AU')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AU')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "AU",
                 "Landx": "Australia",
@@ -143,9 +143,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AW')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AW')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AW')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AW')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "AW",
                 "Landx": "Aruba",
@@ -153,9 +153,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AZ')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('AZ')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AZ')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('AZ')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "AZ",
                 "Landx": "Aserbaidjan",
@@ -163,9 +163,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BA')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BA')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BA')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BA')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "BA",
                 "Landx": "Bosnia-Herz.",
@@ -173,9 +173,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BB')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BB')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BB')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BB')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "BB",
                 "Landx": "Barbados",
@@ -183,9 +183,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BD')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BD')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BD')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BD')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "BD",
                 "Landx": "Bangladesh",
@@ -193,9 +193,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BE')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BE')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BE')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BE')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "BE",
                 "Landx": "Belgium",
@@ -203,9 +203,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BF')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BF')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BF')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BF')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "BF",
                 "Landx": "Burkina-Faso",
@@ -213,9 +213,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BG')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BG')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BG')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BG')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "BG",
                 "Landx": "Bulgaria",
@@ -223,9 +223,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BH')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BH')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BH')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BH')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "BH",
                 "Landx": "Bharain",
@@ -233,9 +233,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BI')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BI')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BI')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BI')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "BI",
                 "Landx": "Burundi",
@@ -243,9 +243,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BJ')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BJ')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BJ')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BJ')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "BJ",
                 "Landx": "Benin",
@@ -253,9 +253,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BM')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BM')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BM')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BM')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "BM",
                 "Landx": "Bermuda",
@@ -263,9 +263,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BN')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BN')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BN')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BN')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "BN",
                 "Landx": "Brunei Dar-es-S",
@@ -273,9 +273,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BO')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BO')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BO')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BO')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "BO",
                 "Landx": "Bolivia",
@@ -283,9 +283,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BR')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BR')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BR')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BR')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "BR",
                 "Landx": "Brazil",
@@ -293,9 +293,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BS')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BS')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BS')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BS')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "BS",
                 "Landx": "Bahamas",
@@ -303,9 +303,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BT')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BT')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BT')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BT')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "BT",
                 "Landx": "Bhutan",
@@ -313,9 +313,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BV')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BV')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BV')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BV')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "BV",
                 "Landx": "Bouvet Island",
@@ -323,9 +323,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BW')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BW')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BW')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BW')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "BW",
                 "Landx": "Botswana",
@@ -333,9 +333,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BY')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BY')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BY')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BY')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "BY",
                 "Landx": "Belarus",
@@ -343,9 +343,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BZ')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('BZ')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BZ')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('BZ')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "BZ",
                 "Landx": "Belize",
@@ -353,9 +353,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CA')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CA')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CA')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CA')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "CA",
                 "Landx": "Canada",
@@ -363,9 +363,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CC')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CC')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CC')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CC')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "CC",
                 "Landx": "Coconut Islands",
@@ -373,9 +373,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CF')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CF')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CF')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CF')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "CF",
                 "Landx": "Central Afr.Rep",
@@ -383,9 +383,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CG')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CG')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CG')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CG')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "CG",
                 "Landx": "Congo",
@@ -393,9 +393,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CH')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CH')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CH')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CH')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "CH",
                 "Landx": "Switzerland",
@@ -403,9 +403,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CI')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CI')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CI')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CI')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "CI",
                 "Landx": "Ivory Coast",
@@ -413,9 +413,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CK')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CK')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CK')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CK')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "CK",
                 "Landx": "Cook Islands",
@@ -423,9 +423,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CL')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CL')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CL')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CL')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "CL",
                 "Landx": "Chile",
@@ -433,9 +433,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CM')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CM')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CM')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CM')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "CM",
                 "Landx": "Cameroon",
@@ -443,9 +443,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CN')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CN')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CN')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CN')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "CN",
                 "Landx": "China",
@@ -453,9 +453,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CO')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CO')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CO')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CO')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "CO",
                 "Landx": "Colombia",
@@ -463,9 +463,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CR')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CR')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CR')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CR')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "CR",
                 "Landx": "Costa Rica",
@@ -473,9 +473,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CU')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CU')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CU')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CU')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "CU",
                 "Landx": "Cuba",
@@ -483,9 +483,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CV')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CV')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CV')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CV')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "CV",
                 "Landx": "Cape Verde Is.",
@@ -493,9 +493,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CX')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CX')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CX')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CX')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "CX",
                 "Landx": "Christmas Islnd",
@@ -503,9 +503,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CY')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CY')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CY')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CY')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "CY",
                 "Landx": "Cyprus",
@@ -513,9 +513,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CZ')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('CZ')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CZ')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('CZ')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "CZ",
                 "Landx": "Tschechien",
@@ -523,9 +523,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('DE')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('DE')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('DE')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('DE')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "DE",
                 "Landx": "Germany",
@@ -533,9 +533,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('DJ')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('DJ')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('DJ')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('DJ')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "DJ",
                 "Landx": "Djibouti",
@@ -543,9 +543,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('DK')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('DK')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('DK')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('DK')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "DK",
                 "Landx": "Denmark",
@@ -553,9 +553,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('DM')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('DM')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('DM')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('DM')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "DM",
                 "Landx": "Dominica",
@@ -563,9 +563,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('DO')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('DO')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('DO')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('DO')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "DO",
                 "Landx": "Dominican Rep.",
@@ -573,9 +573,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('DZ')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('DZ')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('DZ')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('DZ')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "DZ",
                 "Landx": "Algeria",
@@ -583,9 +583,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('EC')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('EC')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('EC')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('EC')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "EC",
                 "Landx": "Ecuador",
@@ -593,9 +593,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('EE')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('EE')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('EE')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('EE')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "EE",
                 "Landx": "Estonia",
@@ -603,9 +603,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('EG')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('EG')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('EG')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('EG')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "EG",
                 "Landx": "Egypt",
@@ -613,9 +613,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('ER')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('ER')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('ER')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('ER')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "ER",
                 "Landx": "Eritrea",
@@ -623,9 +623,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('ES')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('ES')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('ES')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('ES')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "ES",
                 "Landx": "Spain",
@@ -633,9 +633,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('ET')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('ET')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('ET')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('ET')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "ET",
                 "Landx": "Ethiopia",
@@ -643,9 +643,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('FI')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('FI')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('FI')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('FI')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "FI",
                 "Landx": "Finland",
@@ -653,9 +653,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('FJ')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('FJ')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('FJ')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('FJ')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "FJ",
                 "Landx": "Fiji",
@@ -663,9 +663,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('FK')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('FK')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('FK')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('FK')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "FK",
                 "Landx": "Falkland Islnds",
@@ -673,9 +673,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('FM')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('FM')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('FM')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('FM')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "FM",
                 "Landx": "Micronesia",
@@ -683,9 +683,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('FO')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('FO')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('FO')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('FO')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "FO",
                 "Landx": "Faroe Islands",
@@ -693,9 +693,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('FR')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('FR')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('FR')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('FR')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "FR",
                 "Landx": "France",
@@ -703,9 +703,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GA')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GA')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GA')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GA')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "GA",
                 "Landx": "Gabon",
@@ -713,9 +713,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GB')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GB')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GB')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GB')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "GB",
                 "Landx": "Great Britain",
@@ -723,9 +723,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GD')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GD')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GD')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GD')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "GD",
                 "Landx": "Grenada",
@@ -733,9 +733,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GE')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GE')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GE')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GE')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "GE",
                 "Landx": "Georgia",
@@ -743,9 +743,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GF')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GF')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GF')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GF')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "GF",
                 "Landx": "French Guinea",
@@ -753,9 +753,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GH')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GH')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GH')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GH')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "GH",
                 "Landx": "Ghana",
@@ -763,9 +763,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GI')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GI')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GI')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GI')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "GI",
                 "Landx": "Gibraltar",
@@ -773,9 +773,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GL')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GL')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GL')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GL')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "GL",
                 "Landx": "Greenland",
@@ -783,9 +783,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GM')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GM')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GM')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GM')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "GM",
                 "Landx": "Gambia",
@@ -793,9 +793,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GN')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GN')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GN')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GN')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "GN",
                 "Landx": "Guinea",
@@ -803,9 +803,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GP')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GP')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GP')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GP')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "GP",
                 "Landx": "Guadeloupe",
@@ -813,9 +813,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GQ')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GQ')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GQ')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GQ')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "GQ",
                 "Landx": "Equatorial Gui.",
@@ -823,9 +823,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GR')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GR')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GR')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GR')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "GR",
                 "Landx": "Greece",
@@ -833,9 +833,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GT')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GT')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GT')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GT')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "GT",
                 "Landx": "Guatemala",
@@ -843,9 +843,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GU')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GU')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GU')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GU')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "GU",
                 "Landx": "Guam",
@@ -853,9 +853,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GW')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GW')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GW')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GW')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "GW",
                 "Landx": "Guinea-Bissau",
@@ -863,9 +863,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GY')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('GY')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GY')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('GY')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "GY",
                 "Landx": "Guyana",
@@ -873,9 +873,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('HK')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('HK')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('HK')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('HK')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "HK",
                 "Landx": "Hong Kong",
@@ -883,9 +883,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('HM')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('HM')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('HM')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('HM')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "HM",
                 "Landx": "Heard/McDon.Isl",
@@ -893,9 +893,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('HN')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('HN')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('HN')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('HN')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "HN",
                 "Landx": "Honduras",
@@ -903,9 +903,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('HR')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('HR')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('HR')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('HR')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "HR",
                 "Landx": "Croatia",
@@ -913,9 +913,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('HT')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('HT')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('HT')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('HT')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "HT",
                 "Landx": "Haiti",
@@ -923,9 +923,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('HU')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('HU')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('HU')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('HU')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "HU",
                 "Landx": "Hungary",
@@ -933,9 +933,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('ID')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('ID')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('ID')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('ID')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "ID",
                 "Landx": "Indonesia",
@@ -943,9 +943,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('IE')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('IE')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('IE')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('IE')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "IE",
                 "Landx": "Ireland",
@@ -953,9 +953,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('IL')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('IL')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('IL')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('IL')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "IL",
                 "Landx": "Israel",
@@ -963,9 +963,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('IN')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('IN')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('IN')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('IN')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "IN",
                 "Landx": "India",
@@ -973,9 +973,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('IO')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('IO')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('IO')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('IO')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "IO",
                 "Landx": "Brit.Ind.Oc.Ter",
@@ -983,9 +983,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('IQ')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('IQ')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('IQ')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('IQ')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "IQ",
                 "Landx": "Iraq",
@@ -993,9 +993,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('IR')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('IR')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('IR')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('IR')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "IR",
                 "Landx": "Iran",
@@ -1003,9 +1003,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('IS')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('IS')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('IS')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('IS')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "IS",
                 "Landx": "Iceland",
@@ -1013,9 +1013,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('IT')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('IT')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('IT')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('IT')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "IT",
                 "Landx": "Italy",
@@ -1023,9 +1023,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('JM')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('JM')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('JM')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('JM')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "JM",
                 "Landx": "Jamaica",
@@ -1033,9 +1033,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('JO')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('JO')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('JO')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('JO')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "JO",
                 "Landx": "Jordan",
@@ -1043,9 +1043,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('JP')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('JP')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('JP')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('JP')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "JP",
                 "Landx": "Japan",
@@ -1053,9 +1053,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('KE')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('KE')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('KE')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('KE')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "KE",
                 "Landx": "Kenya",
@@ -1063,9 +1063,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('KG')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('KG')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('KG')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('KG')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "KG",
                 "Landx": "Kirghizstan",
@@ -1073,9 +1073,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('KH')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('KH')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('KH')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('KH')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "KH",
                 "Landx": "Cambodia",
@@ -1083,9 +1083,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('KI')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('KI')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('KI')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('KI')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "KI",
                 "Landx": "Kiribati",
@@ -1093,9 +1093,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('KM')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('KM')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('KM')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('KM')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "KM",
                 "Landx": "Comoro Is.",
@@ -1103,9 +1103,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('KN')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('KN')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('KN')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('KN')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "KN",
                 "Landx": "St.Chr.,Nevis",
@@ -1113,9 +1113,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('KP')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('KP')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('KP')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('KP')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "KP",
                 "Landx": "North Korea",
@@ -1123,9 +1123,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('KR')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('KR')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('KR')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('KR')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "KR",
                 "Landx": "South Korea",
@@ -1133,9 +1133,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('KW')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('KW')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('KW')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('KW')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "KW",
                 "Landx": "Kuwait",
@@ -1143,9 +1143,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('KY')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('KY')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('KY')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('KY')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "KY",
                 "Landx": "Cayman Islands",
@@ -1153,9 +1153,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('KZ')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('KZ')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('KZ')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('KZ')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "KZ",
                 "Landx": "Kazakhstan",
@@ -1163,9 +1163,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('LA')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('LA')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('LA')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('LA')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "LA",
                 "Landx": "Laos",
@@ -1173,9 +1173,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('LB')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('LB')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('LB')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('LB')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "LB",
                 "Landx": "Lebanon",
@@ -1183,9 +1183,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('LC')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('LC')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('LC')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('LC')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "LC",
                 "Landx": "St. Lucia",
@@ -1193,9 +1193,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('LI')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('LI')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('LI')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('LI')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "LI",
                 "Landx": "Liechtenstein",
@@ -1203,9 +1203,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('LK')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('LK')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('LK')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('LK')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "LK",
                 "Landx": "Sri Lanka",
@@ -1213,9 +1213,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('LR')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('LR')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('LR')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('LR')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "LR",
                 "Landx": "Liberia",
@@ -1223,9 +1223,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('LS')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('LS')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('LS')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('LS')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "LS",
                 "Landx": "Lesotho",
@@ -1233,9 +1233,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('LT')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('LT')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('LT')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('LT')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "LT",
                 "Landx": "Lithuania",
@@ -1243,9 +1243,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('LU')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('LU')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('LU')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('LU')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "LU",
                 "Landx": "Luxembourg",
@@ -1253,9 +1253,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('LV')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('LV')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('LV')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('LV')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "LV",
                 "Landx": "Latvia",
@@ -1263,9 +1263,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('LY')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('LY')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('LY')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('LY')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "LY",
                 "Landx": "Libya",
@@ -1273,9 +1273,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MA')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MA')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MA')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MA')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "MA",
                 "Landx": "Morocco",
@@ -1283,9 +1283,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MC')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MC')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MC')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MC')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "MC",
                 "Landx": "Monaco",
@@ -1293,9 +1293,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MD')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MD')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MD')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MD')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "MD",
                 "Landx": "Moldavia",
@@ -1303,9 +1303,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MG')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MG')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MG')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MG')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "MG",
                 "Landx": "Madagascar",
@@ -1313,9 +1313,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MH')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MH')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MH')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MH')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "MH",
                 "Landx": "Marshall island",
@@ -1323,9 +1323,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MK')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MK')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MK')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MK')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "MK",
                 "Landx": "Macedonia",
@@ -1333,9 +1333,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('ML')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('ML')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('ML')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('ML')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "ML",
                 "Landx": "Mali",
@@ -1343,9 +1343,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MM')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MM')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MM')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MM')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "MM",
                 "Landx": "Myanmar",
@@ -1353,9 +1353,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MN')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MN')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MN')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MN')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "MN",
                 "Landx": "Mongolia",
@@ -1363,9 +1363,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MO')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MO')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MO')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MO')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "MO",
                 "Landx": "Macau",
@@ -1373,9 +1373,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MP')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MP')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MP')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MP')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "MP",
                 "Landx": "North Mariana",
@@ -1383,9 +1383,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MQ')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MQ')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MQ')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MQ')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "MQ",
                 "Landx": "Martinique",
@@ -1393,9 +1393,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MR')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MR')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MR')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MR')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "MR",
                 "Landx": "Mauritania",
@@ -1403,9 +1403,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MS')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MS')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MS')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MS')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "MS",
                 "Landx": "Montserrat",
@@ -1413,9 +1413,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MT')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MT')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MT')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MT')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "MT",
                 "Landx": "Malta",
@@ -1423,9 +1423,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MU')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MU')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MU')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MU')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "MU",
                 "Landx": "Mauritius",
@@ -1433,9 +1433,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MV')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MV')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MV')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MV')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "MV",
                 "Landx": "Maldives",
@@ -1443,9 +1443,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MW')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MW')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MW')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MW')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "MW",
                 "Landx": "Malawi",
@@ -1453,9 +1453,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MX')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MX')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MX')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MX')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "MX",
                 "Landx": "Mexico",
@@ -1463,9 +1463,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MY')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MY')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MY')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MY')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "MY",
                 "Landx": "Malaysia",
@@ -1473,9 +1473,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MZ')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('MZ')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MZ')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('MZ')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "MZ",
                 "Landx": "Mozambique",
@@ -1483,9 +1483,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NA')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NA')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NA')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NA')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "NA",
                 "Landx": "Namibia",
@@ -1493,9 +1493,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NC')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NC')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NC')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NC')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "NC",
                 "Landx": "New Caledonia",
@@ -1503,9 +1503,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NE')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NE')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NE')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NE')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "NE",
                 "Landx": "Nigeria",
@@ -1513,9 +1513,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NF')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NF')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NF')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NF')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "NF",
                 "Landx": "Norfolk Island",
@@ -1523,9 +1523,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NG')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NG')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NG')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NG')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "NG",
                 "Landx": "Nigeria",
@@ -1533,9 +1533,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NI')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NI')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NI')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NI')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "NI",
                 "Landx": "Nicaragua",
@@ -1543,9 +1543,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NL')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NL')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NL')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NL')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "NL",
                 "Landx": "Netherlands",
@@ -1553,9 +1553,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NO')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NO')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NO')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NO')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "NO",
                 "Landx": "Norway",
@@ -1563,9 +1563,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NP')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NP')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NP')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NP')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "NP",
                 "Landx": "Nepal",
@@ -1573,9 +1573,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NR')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NR')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NR')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NR')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "NR",
                 "Landx": "Nauru",
@@ -1583,9 +1583,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NU')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NU')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NU')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NU')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "NU",
                 "Landx": "Niue",
@@ -1593,9 +1593,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NZ')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('NZ')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NZ')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('NZ')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "NZ",
                 "Landx": "New Zealand",
@@ -1603,9 +1603,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('OM')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('OM')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('OM')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('OM')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "OM",
                 "Landx": "Oman",
@@ -1613,9 +1613,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PA')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PA')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PA')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PA')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "PA",
                 "Landx": "Panama",
@@ -1623,9 +1623,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PE')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PE')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PE')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PE')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "PE",
                 "Landx": "Peru",
@@ -1633,9 +1633,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PF')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PF')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PF')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PF')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "PF",
                 "Landx": "Fren.Polynesia",
@@ -1643,9 +1643,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PG')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PG')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PG')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PG')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "PG",
                 "Landx": "Papua Nw Guinea",
@@ -1653,9 +1653,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PH')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PH')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PH')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PH')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "PH",
                 "Landx": "Philippines",
@@ -1663,9 +1663,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PK')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PK')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PK')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PK')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "PK",
                 "Landx": "Pakistan",
@@ -1673,9 +1673,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PL')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PL')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PL')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PL')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "PL",
                 "Landx": "Poland",
@@ -1683,9 +1683,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PM')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PM')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PM')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PM')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "PM",
                 "Landx": "St.Pier,Miquel.",
@@ -1693,9 +1693,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PN')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PN')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PN')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PN')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "PN",
                 "Landx": "Pitcairn Islnds",
@@ -1703,9 +1703,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PR')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PR')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PR')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PR')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "PR",
                 "Landx": "Puerto Rico",
@@ -1713,9 +1713,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PT')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PT')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PT')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PT')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "PT",
                 "Landx": "Portugal",
@@ -1723,9 +1723,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PW')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PW')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PW')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PW')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "PW",
                 "Landx": "Palau",
@@ -1733,9 +1733,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PY')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('PY')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PY')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('PY')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "PY",
                 "Landx": "Paraguay",
@@ -1743,9 +1743,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('QA')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('QA')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('QA')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('QA')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "QA",
                 "Landx": "Qatar",
@@ -1753,9 +1753,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('RE')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('RE')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('RE')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('RE')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "RE",
                 "Landx": "Reunion",
@@ -1763,9 +1763,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('RO')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('RO')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('RO')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('RO')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "RO",
                 "Landx": "Romania",
@@ -1773,9 +1773,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('RU')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('RU')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('RU')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('RU')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "RU",
                 "Landx": "Russian Fed.",
@@ -1783,9 +1783,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('RW')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('RW')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('RW')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('RW')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "RW",
                 "Landx": "Ruanda",
@@ -1793,9 +1793,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SA')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SA')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SA')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SA')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "SA",
                 "Landx": "Saudi Arabia",
@@ -1803,9 +1803,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SB')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SB')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SB')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SB')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "SB",
                 "Landx": "Solomon Islands",
@@ -1813,9 +1813,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SC')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SC')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SC')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SC')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "SC",
                 "Landx": "Seychelles",
@@ -1823,9 +1823,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SD')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SD')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SD')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SD')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "SD",
                 "Landx": "Sudan",
@@ -1833,9 +1833,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SE')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SE')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SE')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SE')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "SE",
                 "Landx": "Sweden",
@@ -1843,9 +1843,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SG')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SG')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SG')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SG')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "SG",
                 "Landx": "Singapore",
@@ -1853,9 +1853,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SH')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SH')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SH')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SH')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "SH",
                 "Landx": "St. Helena",
@@ -1863,9 +1863,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SI')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SI')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SI')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SI')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "SI",
                 "Landx": "Slovenia",
@@ -1873,9 +1873,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SJ')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SJ')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SJ')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SJ')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "SJ",
                 "Landx": "Svalbard",
@@ -1883,9 +1883,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SK')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SK')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SK')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SK')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "SK",
                 "Landx": "Slowakei",
@@ -1893,9 +1893,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SL')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SL')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SL')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SL')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "SL",
                 "Landx": "Sierra Leone",
@@ -1903,9 +1903,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SM')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SM')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SM')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SM')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "SM",
                 "Landx": "San Marino",
@@ -1913,9 +1913,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SN')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SN')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SN')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SN')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "SN",
                 "Landx": "Senegal",
@@ -1923,9 +1923,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SO')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SO')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SO')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SO')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "SO",
                 "Landx": "Somalia",
@@ -1933,9 +1933,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SR')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SR')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SR')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SR')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "SR",
                 "Landx": "Suriname",
@@ -1943,9 +1943,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('ST')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('ST')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('ST')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('ST')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "ST",
                 "Landx": "S.Tome,Principe",
@@ -1953,9 +1953,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SV')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SV')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SV')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SV')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "SV",
                 "Landx": "El Salvador",
@@ -1963,9 +1963,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SY')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SY')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SY')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SY')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "SY",
                 "Landx": "Syria",
@@ -1973,9 +1973,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SZ')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('SZ')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SZ')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('SZ')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "SZ",
                 "Landx": "Swaziland",
@@ -1983,9 +1983,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TC')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TC')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TC')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TC')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "TC",
                 "Landx": "Turks&Caicos Is",
@@ -1993,9 +1993,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TD')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TD')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TD')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TD')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "TD",
                 "Landx": "Chad",
@@ -2003,9 +2003,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TG')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TG')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TG')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TG')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "TG",
                 "Landx": "Togo",
@@ -2013,9 +2013,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TH')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TH')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TH')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TH')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "TH",
                 "Landx": "Thailand",
@@ -2023,9 +2023,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TJ')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TJ')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TJ')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TJ')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "TJ",
                 "Landx": "Tadjikistan",
@@ -2033,9 +2033,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TK')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TK')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TK')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TK')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "TK",
                 "Landx": "Tokelau Islands",
@@ -2043,9 +2043,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TM')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TM')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TM')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TM')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "TM",
                 "Landx": "Turkmenistan",
@@ -2053,9 +2053,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TN')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TN')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TN')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TN')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "TN",
                 "Landx": "Tunisia",
@@ -2063,9 +2063,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TO')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TO')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TO')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TO')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "TO",
                 "Landx": "Tonga",
@@ -2073,9 +2073,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TP')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TP')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TP')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TP')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "TP",
                 "Landx": "East Timor",
@@ -2083,9 +2083,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TR')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TR')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TR')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TR')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "TR",
                 "Landx": "Turkey",
@@ -2093,9 +2093,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TT')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TT')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TT')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TT')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "TT",
                 "Landx": "Trinidad,Tobago",
@@ -2103,9 +2103,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TV')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TV')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TV')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TV')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "TV",
                 "Landx": "Tuvalu",
@@ -2113,9 +2113,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TW')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TW')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TW')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TW')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "TW",
                 "Landx": "Taiwan",
@@ -2123,9 +2123,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TZ')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('TZ')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TZ')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('TZ')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "TZ",
                 "Landx": "Tanzania",
@@ -2133,9 +2133,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('UA')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('UA')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('UA')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('UA')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "UA",
                 "Landx": "Ukraine",
@@ -2143,9 +2143,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('UG')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('UG')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('UG')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('UG')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "UG",
                 "Landx": "Uganda",
@@ -2153,9 +2153,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('UM')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('UM')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('UM')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('UM')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "UM",
                 "Landx": "Minor Outl.Ins.",
@@ -2163,9 +2163,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('US')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('US')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('US')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('US')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "US",
                 "Landx": "United States",
@@ -2173,9 +2173,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('UY')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('UY')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('UY')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('UY')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "UY",
                 "Landx": "Uruguay",
@@ -2183,9 +2183,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('UZ')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('UZ')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('UZ')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('UZ')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "UZ",
                 "Landx": "Uzbekistan",
@@ -2193,9 +2193,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('VA')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('VA')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('VA')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('VA')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "VA",
                 "Landx": "Vatikanstadt",
@@ -2203,9 +2203,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('VC')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('VC')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('VC')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('VC')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "VC",
                 "Landx": "St. Vincent",
@@ -2213,9 +2213,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('VE')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('VE')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('VE')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('VE')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "VE",
                 "Landx": "Venzuela",
@@ -2223,9 +2223,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('VG')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('VG')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('VG')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('VG')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "VG",
                 "Landx": "Brit.Virgin Is.",
@@ -2233,9 +2233,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('VI')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('VI')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('VI')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('VI')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "VI",
                 "Landx": "US Virgin Is.",
@@ -2243,9 +2243,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('VN')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('VN')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('VN')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('VN')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "VN",
                 "Landx": "Vietnam",
@@ -2253,9 +2253,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('VU')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('VU')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('VU')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('VU')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "VU",
                 "Landx": "Vanuatu",
@@ -2263,9 +2263,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('WF')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('WF')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('WF')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('WF')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "WF",
                 "Landx": "Wallis,Futuna",
@@ -2273,9 +2273,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('WS')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('WS')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('WS')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('WS')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "WS",
                 "Landx": "Western Samoa",
@@ -2283,9 +2283,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('YE')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('YE')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('YE')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('YE')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "YE",
                 "Landx": "North Yemen",
@@ -2293,9 +2293,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('YT')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('YT')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('YT')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('YT')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "YT",
                 "Landx": "Mayotte",
@@ -2303,9 +2303,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('YU')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('YU')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('YU')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('YU')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "YU",
                 "Landx": "Yugoslavia",
@@ -2313,9 +2313,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('ZA')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('ZA')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('ZA')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('ZA')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "ZA",
                 "Landx": "South Africa",
@@ -2323,9 +2323,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('ZM')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('ZM')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('ZM')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('ZM')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "ZM",
                 "Landx": "Zambia",
@@ -2333,9 +2333,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('ZR')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('ZR')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('ZR')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('ZR')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "ZR",
                 "Landx": "Zaire",
@@ -2343,9 +2343,9 @@
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('ZW')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_CountrySet('ZW')",
-                    "type": "GWSAMPLE_BASIC.VH_Country"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('ZW')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_CountrySet('ZW')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Country"
                 },
                 "Land1": "ZW",
                 "Landx": "Zimbabwe",

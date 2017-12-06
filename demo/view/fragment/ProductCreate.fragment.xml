@@ -1,0 +1,68 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+                         xmlns:form="sap.ui.layout.form"
+                         xmlns="sap.m">
+    <VBox class="sapUiSmallMargin">
+        <form:SimpleForm id="sfProductCreate"
+                         editable="true"
+                         layout="ResponsiveGridLayout"
+                         labelSpanXL="4"
+                         labelSpanL="3"
+                         labelSpanM="4"
+                         labelSpanS="12"
+                         adjustLabelSpan="false"
+                         emptySpanXL="0"
+                         emptySpanL="4"
+                         emptySpanM="0"
+                         emptySpanS="0"
+                         columnsXL="2"
+                         columnsL="1"
+                         columnsM="1"
+                         singleContainerFullSize="false">
+            <form:content>
+                <core:Title text="{i18n>ProductInfos}"/>
+                <Label text="{i18n>ProductId}"/>
+                <Input value="{ProductID}"/>
+                <Label text="{i18n>TypeCode}"/>
+                <Select selectedKey="{TypeCode}"
+                        items="{/VH_ProductTypeCodeSet}">
+                    <items>
+                        <core:Item key="{TypeCode}"
+                                   text="{Shorttext}"/>
+                    </items>
+                </Select>
+                <Label text="{i18n>Category}"/>
+                <Select selectedKey="{Category}"
+                        items="{/VH_CategorySet}">
+                    <items>
+                        <core:Item key="{Category}"
+                                   text="{Category}"/>
+                    </items>
+                </Select>
+                <Label text="{i18n>ProductName}"/>
+                <Input value="{Name}"/>
+                <Label text="{i18n>ProductDescription}"/>
+                <TextArea value="{Description}"/>
+                <core:Title text="{i18n>AdditionalInfos}"/>
+                <Label text="{i18n>SupplierId}"/>
+                <Text text="{SupplierID}"/>
+                <Label text="{i18n>SupplierName}"/>
+                <Text text="{SupplierName}"/>
+                <Label text="{i18n>TaxTarifCode}"/>
+                <Text text="{TaxTarifCode}"/>
+                <Label text="{i18n>Weight}"/>
+                <Text text="{WeightMeasure} {WeightUnit}"/>
+                <Label text="{i18n>Price}"/>
+                <Text text="{
+                                parts: [
+                                    {path: 'Price'},
+                                    {path: 'CurrencyCode'}
+                                ],
+                                type: 'sap.ui.model.type.Currency'
+                            }"/>
+                <Label text="{i18n>Dimension} {i18n>WidthShort}x{i18n>HeightShort}x{i18n>DepthShort}"/>
+                <Text text="{Width}x{Height}x{Depth} {DimUnit}"/>
+            </form:content>
+        </form:SimpleForm>
+    </VBox>
+</core:FragmentDefinition>
+

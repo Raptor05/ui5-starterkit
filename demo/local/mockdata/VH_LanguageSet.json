@@ -3,369 +3,369 @@
         "results": [
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('SR')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('SR')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('SR')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('SR')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "SR",
                 "Sptxt": "Serbian"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('ZH')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('ZH')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('ZH')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('ZH')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "ZH",
                 "Sptxt": "Chinese"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('TH')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('TH')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('TH')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('TH')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "TH",
                 "Sptxt": "Thai"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('KO')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('KO')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('KO')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('KO')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "KO",
                 "Sptxt": "Korean"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('RO')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('RO')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('RO')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('RO')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "RO",
                 "Sptxt": "Romanian"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('SL')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('SL')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('SL')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('SL')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "SL",
                 "Sptxt": "Slovenian"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('HR')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('HR')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('HR')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('HR')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "HR",
                 "Sptxt": "Croatian"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('MS')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('MS')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('MS')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('MS')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "MS",
                 "Sptxt": "Malaysian"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('UK')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('UK')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('UK')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('UK')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "UK",
                 "Sptxt": "Ukrainian"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('ET')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('ET')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('ET')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('ET')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "ET",
                 "Sptxt": "Estonian"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('AR')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('AR')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('AR')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('AR')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "AR",
                 "Sptxt": "Arabic"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('HE')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('HE')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('HE')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('HE')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "HE",
                 "Sptxt": "Hebrew"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('CS')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('CS')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('CS')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('CS')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "CS",
                 "Sptxt": "Czech"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('DE')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('DE')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('DE')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('DE')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "DE",
                 "Sptxt": "German"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('EN')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('EN')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('EN')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('EN')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "EN",
                 "Sptxt": "English"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('FR')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('FR')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('FR')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('FR')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "FR",
                 "Sptxt": "French"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('EL')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('EL')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('EL')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('EL')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "EL",
                 "Sptxt": "Greek"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('HU')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('HU')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('HU')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('HU')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "HU",
                 "Sptxt": "Hungarian"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('IT')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('IT')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('IT')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('IT')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "IT",
                 "Sptxt": "Italian"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('JA')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('JA')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('JA')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('JA')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "JA",
                 "Sptxt": "Japanese"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('DA')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('DA')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('DA')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('DA')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "DA",
                 "Sptxt": "Danish"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('PL')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('PL')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('PL')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('PL')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "PL",
                 "Sptxt": "Polish"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('ZF')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('ZF')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('ZF')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('ZF')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "ZF",
                 "Sptxt": "Chinese trad."
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('NL')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('NL')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('NL')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('NL')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "NL",
                 "Sptxt": "Dutch"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('NO')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('NO')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('NO')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('NO')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "NO",
                 "Sptxt": "Norwegian"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('PT')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('PT')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('PT')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('PT')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "PT",
                 "Sptxt": "Portuguese"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('SK')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('SK')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('SK')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('SK')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "SK",
                 "Sptxt": "Slovakian"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('RU')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('RU')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('RU')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('RU')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "RU",
                 "Sptxt": "Russian"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('ES')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('ES')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('ES')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('ES')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "ES",
                 "Sptxt": "Spanish"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('TR')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('TR')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('TR')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('TR')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "TR",
                 "Sptxt": "Turkish"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('FI')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('FI')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('FI')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('FI')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "FI",
                 "Sptxt": "Finnish"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('SV')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('SV')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('SV')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('SV')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "SV",
                 "Sptxt": "Swedish"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('BG')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('BG')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('BG')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('BG')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "BG",
                 "Sptxt": "Bulgarian"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('LT')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('LT')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('LT')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('LT')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "LT",
                 "Sptxt": "Lithuanian"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('LV')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('LV')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('LV')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('LV')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "LV",
                 "Sptxt": "Latvian"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('Z1')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('Z1')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('Z1')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('Z1')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "Z1",
                 "Sptxt": "Customer reserve"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('AF')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('AF')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('AF')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('AF')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "AF",
                 "Sptxt": "Afrikaans"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('IS')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('IS')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('IS')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('IS')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "IS",
                 "Sptxt": "Icelandic"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('CA')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('CA')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('CA')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('CA')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "CA",
                 "Sptxt": "Catalan"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('SH')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('SH')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('SH')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('SH')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "SH",
                 "Sptxt": "Serbian (Latin)"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('ID')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_LanguageSet('ID')",
-                    "type": "GWSAMPLE_BASIC.VH_Language"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('ID')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_LanguageSet('ID')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Language"
                 },
                 "Spras": "ID",
                 "Sptxt": "Indonesian"

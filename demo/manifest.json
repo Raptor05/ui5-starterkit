@@ -106,6 +106,14 @@
                         "master",
                         "detail"
                     ]
+                },
+                {
+                    "pattern": "create",
+                    "name": "create",
+                    "target": [
+                        "master",
+                        "detail"
+                    ]
                 }
             ],
             "targets": {

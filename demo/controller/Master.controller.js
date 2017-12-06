@@ -160,6 +160,7 @@ sap.ui.define([
          */
         onAddProduct: function (oEvent) {
 
+            this.getRouter().navTo("create");
         },
 
         /* =========================================================== */

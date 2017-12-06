@@ -3,27 +3,27 @@
         "results": [
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_SexSet('F')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_SexSet('F')",
-                    "type": "GWSAMPLE_BASIC.VH_Sex"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_SexSet('F')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_SexSet('F')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Sex"
                 },
                 "Sex": "F",
                 "Shorttext": "Female"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_SexSet('M')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_SexSet('M')",
-                    "type": "GWSAMPLE_BASIC.VH_Sex"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_SexSet('M')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_SexSet('M')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Sex"
                 },
                 "Sex": "M",
                 "Shorttext": "Male"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_SexSet('O')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_SexSet('O')",
-                    "type": "GWSAMPLE_BASIC.VH_Sex"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_SexSet('O')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_SexSet('O')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_Sex"
                 },
                 "Sex": "O",
                 "Shorttext": "Other"

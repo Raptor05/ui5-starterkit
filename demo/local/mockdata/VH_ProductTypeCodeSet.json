@@ -3,18 +3,18 @@
         "results": [
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_ProductTypeCodeSet('AD')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_ProductTypeCodeSet('AD')",
-                    "type": "GWSAMPLE_BASIC.VH_ProductTypeCode"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_ProductTypeCodeSet('AD')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_ProductTypeCodeSet('AD')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_ProductTypeCode"
                 },
                 "TypeCode": "AD",
                 "Shorttext": "Advertisement"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_ProductTypeCodeSet('PR')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_ProductTypeCodeSet('PR')",
-                    "type": "GWSAMPLE_BASIC.VH_ProductTypeCode"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_ProductTypeCodeSet('PR')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_ProductTypeCodeSet('PR')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_ProductTypeCode"
                 },
                 "TypeCode": "PR",
                 "Shorttext": "Product"

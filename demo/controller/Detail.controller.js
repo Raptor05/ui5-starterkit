@@ -39,6 +39,8 @@ sap.ui.define([
             var oRouter = this.getRouter();
             oRouter.getRoute("detail").attachMatched(
                 this._onRouteMatched, this);
+            oRouter.getRoute("create").attachMatched(
+                this._onRouteMatched, this);
         },
 
 //      onBeforeRendering: function() {},
@@ -100,13 +102,19 @@ sap.ui.define([
          * @private
          */
         _onRouteMatched: function (oEvent) {
-            var sProductId = oEvent.getParameter("arguments").productid,
-                oView = this.getView();
-            oView.bindElement({
-                path: "/ProductSet('" + sProductId + "')"
-            });
+            var sRoute = oEvent.getParameter("name");
+            if (sRoute === "create") {
+                this._showFormFragment("ProductCreate");
+            } else {
+                var sProductId = oEvent.getParameter("arguments").productid,
+                    oView = this.getView();
+                oView.bindElement({
+                    path: "/ProductSet('" + sProductId + "')"
+                });
 
-            this._showFormFragment("ProductDisplay");
+                this._showFormFragment("ProductDisplay");
+            }
+
         },
 
         /**

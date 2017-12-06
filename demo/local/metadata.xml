@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<edmx:Edmx xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+<edmx:Edmx xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" xmlns:sap="http://www.sap.com/Protocols/SAPData"
            xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
-           xmlns:sap="http://www.sap.com/Protocols/SAPData"
            Version="1.0">
     <edmx:DataServices m:DataServiceVersion="2.0">
-        <Schema Namespace="SAPUI5_STARTERKIT_DEMO" xml:lang="en" sap:schema-version="1"
+        <Schema Namespace="SAPUI5_STARTERKIT_DEMO" xml:lang="de" sap:schema-version="1"
                 xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
             <EntityType Name="BusinessPartner" sap:content-version="1">
                 <Key>
                     <PropertyRef Name="BusinessPartnerID"/>
                 </Key>
-                <Property Name="Address" Type="GWSAMPLE_BASIC.CT_Address" Nullable="false"/>
+                <Property Name="Address" Type="SAPUI5_STARTERKIT_DEMO.CT_Address" Nullable="false"/>
                 <Property Name="BusinessPartnerID" Type="Edm.String" Nullable="false" MaxLength="10"
                           sap:label="Geschäftspartner-ID" sap:creatable="false" sap:updatable="false"/>
                 <Property Name="CompanyName" Type="Edm.String" Nullable="false" MaxLength="80" sap:label="Firma"/>
@@ -30,13 +29,16 @@
                           sap:creatable="false" sap:updatable="false"/>
                 <Property Name="ChangedAt" Type="Edm.DateTime" Precision="7" ConcurrencyMode="Fixed"
                           sap:label="Zeitstempel" sap:creatable="false" sap:updatable="false"/>
-                <NavigationProperty Name="ToSalesOrders" Relationship="GWSAMPLE_BASIC.Assoc_BusinessPartner_SalesOrders"
+                <NavigationProperty Name="ToSalesOrders"
+                                    Relationship="SAPUI5_STARTERKIT_DEMO.Assoc_BusinessPartner_SalesOrders"
                                     FromRole="FromRole_Assoc_BusinessPartner_SalesOrders"
                                     ToRole="ToRole_Assoc_BusinessPartner_SalesOrders"/>
-                <NavigationProperty Name="ToContacts" Relationship="GWSAMPLE_BASIC.Assoc_BusinessPartner_Contacts"
+                <NavigationProperty Name="ToContacts"
+                                    Relationship="SAPUI5_STARTERKIT_DEMO.Assoc_BusinessPartner_Contacts"
                                     FromRole="FromRole_Assoc_BusinessPartner_Contacts"
                                     ToRole="ToRole_Assoc_BusinessPartner_Contacts"/>
-                <NavigationProperty Name="ToProducts" Relationship="GWSAMPLE_BASIC.Assoc_BusinessPartner_Products"
+                <NavigationProperty Name="ToProducts"
+                                    Relationship="SAPUI5_STARTERKIT_DEMO.Assoc_BusinessPartner_Products"
                                     FromRole="FromRole_Assoc_BusinessPartner_Products"
                                     ToRole="ToRole_Assoc_BusinessPartner_Products"/>
             </EntityType>
@@ -84,10 +86,11 @@
                 <Property Name="ChangedAt" Type="Edm.DateTime" Precision="7" ConcurrencyMode="Fixed"
                           sap:label="Zeitstempel" sap:creatable="false" sap:updatable="false"/>
                 <NavigationProperty Name="ToSalesOrderLineItems"
-                                    Relationship="GWSAMPLE_BASIC.Assoc_Product_SalesOrderLineItems"
+                                    Relationship="SAPUI5_STARTERKIT_DEMO.Assoc_Product_SalesOrderLineItems"
                                     FromRole="FromRole_Assoc_Product_SalesOrderLineItems"
                                     ToRole="ToRole_Assoc_Product_SalesOrderLineItems"/>
-                <NavigationProperty Name="ToSupplier" Relationship="GWSAMPLE_BASIC.Assoc_BusinessPartner_Products"
+                <NavigationProperty Name="ToSupplier"
+                                    Relationship="SAPUI5_STARTERKIT_DEMO.Assoc_BusinessPartner_Products"
                                     FromRole="ToRole_Assoc_BusinessPartner_Products"
                                     ToRole="FromRole_Assoc_BusinessPartner_Products"/>
             </EntityType>
@@ -130,11 +133,11 @@
                 <Property Name="ChangedAt" Type="Edm.DateTime" Precision="7" sap:label="Zeitstempel"
                           sap:creatable="false" sap:updatable="false"/>
                 <NavigationProperty Name="ToBusinessPartner"
-                                    Relationship="GWSAMPLE_BASIC.Assoc_BusinessPartner_SalesOrders"
+                                    Relationship="SAPUI5_STARTERKIT_DEMO.Assoc_BusinessPartner_SalesOrders"
                                     FromRole="ToRole_Assoc_BusinessPartner_SalesOrders"
                                     ToRole="FromRole_Assoc_BusinessPartner_SalesOrders"/>
                 <NavigationProperty Name="ToLineItems"
-                                    Relationship="GWSAMPLE_BASIC.Assoc_SalesOrder_SalesOrderLineItems"
+                                    Relationship="SAPUI5_STARTERKIT_DEMO.Assoc_SalesOrder_SalesOrderLineItems"
                                     FromRole="FromRole_Assoc_SalesOrder_SalesOrderLineItems"
                                     ToRole="ToRole_Assoc_SalesOrder_SalesOrderLineItems"/>
             </EntityType>
@@ -167,10 +170,12 @@
                 <Property Name="QuantityUnit" Type="Edm.String" MaxLength="3" sap:label="Maßeinheit"
                           sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"
                           sap:semantics="unit-of-measure"/>
-                <NavigationProperty Name="ToHeader" Relationship="GWSAMPLE_BASIC.Assoc_SalesOrder_SalesOrderLineItems"
+                <NavigationProperty Name="ToHeader"
+                                    Relationship="SAPUI5_STARTERKIT_DEMO.Assoc_SalesOrder_SalesOrderLineItems"
                                     FromRole="ToRole_Assoc_SalesOrder_SalesOrderLineItems"
                                     ToRole="FromRole_Assoc_SalesOrder_SalesOrderLineItems"/>
-                <NavigationProperty Name="ToProduct" Relationship="GWSAMPLE_BASIC.Assoc_Product_SalesOrderLineItems"
+                <NavigationProperty Name="ToProduct"
+                                    Relationship="SAPUI5_STARTERKIT_DEMO.Assoc_Product_SalesOrderLineItems"
                                     FromRole="ToRole_Assoc_Product_SalesOrderLineItems"
                                     ToRole="FromRole_Assoc_Product_SalesOrderLineItems"/>
             </EntityType>
@@ -178,7 +183,7 @@
                 <Key>
                     <PropertyRef Name="ContactGuid"/>
                 </Key>
-                <Property Name="Address" Type="GWSAMPLE_BASIC.CT_Address" Nullable="false"/>
+                <Property Name="Address" Type="SAPUI5_STARTERKIT_DEMO.CT_Address" Nullable="false"/>
                 <Property Name="ContactGuid" Type="Edm.Guid" Nullable="false" sap:creatable="false"
                           sap:updatable="false"/>
                 <Property Name="BusinessPartnerID" Type="Edm.String" Nullable="false" MaxLength="10"
@@ -202,7 +207,7 @@
                 <Property Name="Language" Type="Edm.String" MaxLength="2"/>
                 <Property Name="DateOfBirth" Type="Edm.DateTime" Precision="7" sap:semantics="bday"/>
                 <NavigationProperty Name="ToBusinessPartner"
-                                    Relationship="GWSAMPLE_BASIC.Assoc_BusinessPartner_Contacts"
+                                    Relationship="SAPUI5_STARTERKIT_DEMO.Assoc_BusinessPartner_Contacts"
                                     FromRole="ToRole_Assoc_BusinessPartner_Contacts"
                                     ToRole="FromRole_Assoc_BusinessPartner_Contacts"/>
             </EntityType>
@@ -323,19 +328,21 @@
                           sap:sortable="false" sap:filterable="false"/>
             </ComplexType>
             <Association Name="Assoc_VH_Country_Contacts" sap:content-version="1">
-                <End Type="GWSAMPLE_BASIC.VH_Country" Multiplicity="1" Role="FromRole_Assoc_VH_Country_Contacts"/>
-                <End Type="GWSAMPLE_BASIC.Contact" Multiplicity="*" Role="ToRole_Assoc_VH_Country_Contacts"/>
+                <End Type="SAPUI5_STARTERKIT_DEMO.VH_Country" Multiplicity="1"
+                     Role="FromRole_Assoc_VH_Country_Contacts"/>
+                <End Type="SAPUI5_STARTERKIT_DEMO.Contact" Multiplicity="*" Role="ToRole_Assoc_VH_Country_Contacts"/>
             </Association>
             <Association Name="Assoc_VH_Country_BusinessPartners" sap:content-version="1">
-                <End Type="GWSAMPLE_BASIC.VH_Country" Multiplicity="1"
+                <End Type="SAPUI5_STARTERKIT_DEMO.VH_Country" Multiplicity="1"
                      Role="FromRole_Assoc_VH_Country_BusinessPartners"/>
-                <End Type="GWSAMPLE_BASIC.BusinessPartner" Multiplicity="*"
+                <End Type="SAPUI5_STARTERKIT_DEMO.BusinessPartner" Multiplicity="*"
                      Role="ToRole_Assoc_VH_Country_BusinessPartners"/>
             </Association>
             <Association Name="Assoc_VH_UnitQuantity_Products" sap:content-version="1">
-                <End Type="GWSAMPLE_BASIC.VH_UnitQuantity" Multiplicity="1"
+                <End Type="SAPUI5_STARTERKIT_DEMO.VH_UnitQuantity" Multiplicity="1"
                      Role="FromRole_Assoc_VH_UnitQuantity_Products"/>
-                <End Type="GWSAMPLE_BASIC.Product" Multiplicity="*" Role="ToRole_Assoc_VH_UnitQuantity_Products"/>
+                <End Type="SAPUI5_STARTERKIT_DEMO.Product" Multiplicity="*"
+                     Role="ToRole_Assoc_VH_UnitQuantity_Products"/>
                 <ReferentialConstraint>
                     <Principal Role="FromRole_Assoc_VH_UnitQuantity_Products">
                         <PropertyRef Name="Msehi"/>
@@ -346,9 +353,9 @@
                 </ReferentialConstraint>
             </Association>
             <Association Name="Assoc_VH_UnitQuantity_SalesOrderLineItem" sap:content-version="1">
-                <End Type="GWSAMPLE_BASIC.VH_UnitQuantity" Multiplicity="1"
+                <End Type="SAPUI5_STARTERKIT_DEMO.VH_UnitQuantity" Multiplicity="1"
                      Role="FromRole_Assoc_VH_UnitQuantity_SalesOrderLineItem"/>
-                <End Type="GWSAMPLE_BASIC.SalesOrderLineItem" Multiplicity="*"
+                <End Type="SAPUI5_STARTERKIT_DEMO.SalesOrderLineItem" Multiplicity="*"
                      Role="ToRole_Assoc_VH_UnitQuantity_SalesOrderLineItem"/>
                 <ReferentialConstraint>
                     <Principal Role="FromRole_Assoc_VH_UnitQuantity_SalesOrderLineItem">
@@ -360,9 +367,10 @@
                 </ReferentialConstraint>
             </Association>
             <Association Name="Assoc_BusinessPartner_Contacts" sap:content-version="1">
-                <End Type="GWSAMPLE_BASIC.BusinessPartner" Multiplicity="1"
+                <End Type="SAPUI5_STARTERKIT_DEMO.BusinessPartner" Multiplicity="1"
                      Role="FromRole_Assoc_BusinessPartner_Contacts"/>
-                <End Type="GWSAMPLE_BASIC.Contact" Multiplicity="*" Role="ToRole_Assoc_BusinessPartner_Contacts"/>
+                <End Type="SAPUI5_STARTERKIT_DEMO.Contact" Multiplicity="*"
+                     Role="ToRole_Assoc_BusinessPartner_Contacts"/>
                 <ReferentialConstraint>
                     <Principal Role="FromRole_Assoc_BusinessPartner_Contacts">
                         <PropertyRef Name="BusinessPartnerID"/>
@@ -373,9 +381,10 @@
                 </ReferentialConstraint>
             </Association>
             <Association Name="Assoc_BusinessPartner_Products" sap:content-version="1">
-                <End Type="GWSAMPLE_BASIC.BusinessPartner" Multiplicity="1"
+                <End Type="SAPUI5_STARTERKIT_DEMO.BusinessPartner" Multiplicity="1"
                      Role="FromRole_Assoc_BusinessPartner_Products"/>
-                <End Type="GWSAMPLE_BASIC.Product" Multiplicity="*" Role="ToRole_Assoc_BusinessPartner_Products"/>
+                <End Type="SAPUI5_STARTERKIT_DEMO.Product" Multiplicity="*"
+                     Role="ToRole_Assoc_BusinessPartner_Products"/>
                 <ReferentialConstraint>
                     <Principal Role="FromRole_Assoc_BusinessPartner_Products">
                         <PropertyRef Name="BusinessPartnerID"/>
@@ -386,9 +395,10 @@
                 </ReferentialConstraint>
             </Association>
             <Association Name="Assoc_BusinessPartner_SalesOrders" sap:content-version="1">
-                <End Type="GWSAMPLE_BASIC.BusinessPartner" Multiplicity="1"
+                <End Type="SAPUI5_STARTERKIT_DEMO.BusinessPartner" Multiplicity="1"
                      Role="FromRole_Assoc_BusinessPartner_SalesOrders"/>
-                <End Type="GWSAMPLE_BASIC.SalesOrder" Multiplicity="*" Role="ToRole_Assoc_BusinessPartner_SalesOrders"/>
+                <End Type="SAPUI5_STARTERKIT_DEMO.SalesOrder" Multiplicity="*"
+                     Role="ToRole_Assoc_BusinessPartner_SalesOrders"/>
                 <ReferentialConstraint>
                     <Principal Role="FromRole_Assoc_BusinessPartner_SalesOrders">
                         <PropertyRef Name="BusinessPartnerID"/>
@@ -399,8 +409,9 @@
                 </ReferentialConstraint>
             </Association>
             <Association Name="Assoc_VH_UnitWeight_Products" sap:content-version="1">
-                <End Type="GWSAMPLE_BASIC.VH_UnitWeight" Multiplicity="1" Role="FromRole_Assoc_VH_UnitWeight_Products"/>
-                <End Type="GWSAMPLE_BASIC.Product" Multiplicity="*" Role="ToRole_Assoc_VH_UnitWeight_Products"/>
+                <End Type="SAPUI5_STARTERKIT_DEMO.VH_UnitWeight" Multiplicity="1"
+                     Role="FromRole_Assoc_VH_UnitWeight_Products"/>
+                <End Type="SAPUI5_STARTERKIT_DEMO.Product" Multiplicity="*" Role="ToRole_Assoc_VH_UnitWeight_Products"/>
                 <ReferentialConstraint>
                     <Principal Role="FromRole_Assoc_VH_UnitWeight_Products">
                         <PropertyRef Name="Msehi"/>
@@ -411,9 +422,9 @@
                 </ReferentialConstraint>
             </Association>
             <Association Name="Assoc_SalesOrder_SalesOrderLineItems" sap:content-version="1">
-                <End Type="GWSAMPLE_BASIC.SalesOrder" Multiplicity="1"
+                <End Type="SAPUI5_STARTERKIT_DEMO.SalesOrder" Multiplicity="1"
                      Role="FromRole_Assoc_SalesOrder_SalesOrderLineItems"/>
-                <End Type="GWSAMPLE_BASIC.SalesOrderLineItem" Multiplicity="*"
+                <End Type="SAPUI5_STARTERKIT_DEMO.SalesOrderLineItem" Multiplicity="*"
                      Role="ToRole_Assoc_SalesOrder_SalesOrderLineItems"/>
                 <ReferentialConstraint>
                     <Principal Role="FromRole_Assoc_SalesOrder_SalesOrderLineItems">
@@ -425,9 +436,9 @@
                 </ReferentialConstraint>
             </Association>
             <Association Name="Assoc_VH_Currency_BusinessPartners" sap:content-version="1">
-                <End Type="GWSAMPLE_BASIC.VH_Currency" Multiplicity="1"
+                <End Type="SAPUI5_STARTERKIT_DEMO.VH_Currency" Multiplicity="1"
                      Role="FromRole_Assoc_VH_Currency_BusinessPartners"/>
-                <End Type="GWSAMPLE_BASIC.BusinessPartner" Multiplicity="*"
+                <End Type="SAPUI5_STARTERKIT_DEMO.BusinessPartner" Multiplicity="*"
                      Role="ToRole_Assoc_VH_Currency_BusinessPartners"/>
                 <ReferentialConstraint>
                     <Principal Role="FromRole_Assoc_VH_Currency_BusinessPartners">
@@ -439,8 +450,9 @@
                 </ReferentialConstraint>
             </Association>
             <Association Name="Assoc_VH_Currency_Products" sap:content-version="1">
-                <End Type="GWSAMPLE_BASIC.VH_Currency" Multiplicity="1" Role="FromRole_Assoc_VH_Currency_Products"/>
-                <End Type="GWSAMPLE_BASIC.Product" Multiplicity="*" Role="ToRole_Assoc_VH_Currency_Products"/>
+                <End Type="SAPUI5_STARTERKIT_DEMO.VH_Currency" Multiplicity="1"
+                     Role="FromRole_Assoc_VH_Currency_Products"/>
+                <End Type="SAPUI5_STARTERKIT_DEMO.Product" Multiplicity="*" Role="ToRole_Assoc_VH_Currency_Products"/>
                 <ReferentialConstraint>
                     <Principal Role="FromRole_Assoc_VH_Currency_Products">
                         <PropertyRef Name="Waers"/>
@@ -451,8 +463,10 @@
                 </ReferentialConstraint>
             </Association>
             <Association Name="Assoc_VH_Currency_SalesOrders" sap:content-version="1">
-                <End Type="GWSAMPLE_BASIC.VH_Currency" Multiplicity="1" Role="FromRole_Assoc_VH_Currency_SalesOrders"/>
-                <End Type="GWSAMPLE_BASIC.SalesOrder" Multiplicity="*" Role="ToRole_Assoc_VH_Currency_SalesOrders"/>
+                <End Type="SAPUI5_STARTERKIT_DEMO.VH_Currency" Multiplicity="1"
+                     Role="FromRole_Assoc_VH_Currency_SalesOrders"/>
+                <End Type="SAPUI5_STARTERKIT_DEMO.SalesOrder" Multiplicity="*"
+                     Role="ToRole_Assoc_VH_Currency_SalesOrders"/>
                 <ReferentialConstraint>
                     <Principal Role="FromRole_Assoc_VH_Currency_SalesOrders">
                         <PropertyRef Name="Waers"/>
@@ -463,9 +477,9 @@
                 </ReferentialConstraint>
             </Association>
             <Association Name="Assoc_VH_Currency_SalesOrderLineItems" sap:content-version="1">
-                <End Type="GWSAMPLE_BASIC.VH_Currency" Multiplicity="1"
+                <End Type="SAPUI5_STARTERKIT_DEMO.VH_Currency" Multiplicity="1"
                      Role="FromRole_Assoc_VH_Currency_SalesOrderLineItems"/>
-                <End Type="GWSAMPLE_BASIC.SalesOrderLineItem" Multiplicity="*"
+                <End Type="SAPUI5_STARTERKIT_DEMO.SalesOrderLineItem" Multiplicity="*"
                      Role="ToRole_Assoc_VH_Currency_SalesOrderLineItems"/>
                 <ReferentialConstraint>
                     <Principal Role="FromRole_Assoc_VH_Currency_SalesOrderLineItems">
@@ -477,8 +491,9 @@
                 </ReferentialConstraint>
             </Association>
             <Association Name="Assoc_Product_SalesOrderLineItems" sap:content-version="1">
-                <End Type="GWSAMPLE_BASIC.Product" Multiplicity="1" Role="FromRole_Assoc_Product_SalesOrderLineItems"/>
-                <End Type="GWSAMPLE_BASIC.SalesOrderLineItem" Multiplicity="*"
+                <End Type="SAPUI5_STARTERKIT_DEMO.Product" Multiplicity="1"
+                     Role="FromRole_Assoc_Product_SalesOrderLineItems"/>
+                <End Type="SAPUI5_STARTERKIT_DEMO.SalesOrderLineItem" Multiplicity="*"
                      Role="ToRole_Assoc_Product_SalesOrderLineItems"/>
                 <ReferentialConstraint>
                     <Principal Role="FromRole_Assoc_Product_SalesOrderLineItems">
@@ -490,8 +505,9 @@
                 </ReferentialConstraint>
             </Association>
             <Association Name="Assoc_VH_Language_Contacts" sap:content-version="1">
-                <End Type="GWSAMPLE_BASIC.VH_Language" Multiplicity="1" Role="FromRole_Assoc_VH_Language_Contacts"/>
-                <End Type="GWSAMPLE_BASIC.Contact" Multiplicity="*" Role="ToRole_Assoc_VH_Language_Contacts"/>
+                <End Type="SAPUI5_STARTERKIT_DEMO.VH_Language" Multiplicity="1"
+                     Role="FromRole_Assoc_VH_Language_Contacts"/>
+                <End Type="SAPUI5_STARTERKIT_DEMO.Contact" Multiplicity="*" Role="ToRole_Assoc_VH_Language_Contacts"/>
                 <ReferentialConstraint>
                     <Principal Role="FromRole_Assoc_VH_Language_Contacts">
                         <PropertyRef Name="Spras"/>
@@ -502,8 +518,9 @@
                 </ReferentialConstraint>
             </Association>
             <Association Name="Assoc_VH_Category_Products" sap:content-version="1">
-                <End Type="GWSAMPLE_BASIC.VH_Category" Multiplicity="1" Role="FromRole_Assoc_VH_Category_Products"/>
-                <End Type="GWSAMPLE_BASIC.Product" Multiplicity="*" Role="ToRole_Assoc_VH_Category_Products"/>
+                <End Type="SAPUI5_STARTERKIT_DEMO.VH_Category" Multiplicity="1"
+                     Role="FromRole_Assoc_VH_Category_Products"/>
+                <End Type="SAPUI5_STARTERKIT_DEMO.Product" Multiplicity="*" Role="ToRole_Assoc_VH_Category_Products"/>
                 <ReferentialConstraint>
                     <Principal Role="FromRole_Assoc_VH_Category_Products">
                         <PropertyRef Name="Category"/>
@@ -514,8 +531,8 @@
                 </ReferentialConstraint>
             </Association>
             <Association Name="Assoc_VH_Sex_Contacts" sap:content-version="1">
-                <End Type="GWSAMPLE_BASIC.VH_Sex" Multiplicity="1" Role="FromRole_Assoc_VH_Sex_Contacts"/>
-                <End Type="GWSAMPLE_BASIC.Contact" Multiplicity="*" Role="ToRole_Assoc_VH_Sex_Contacts"/>
+                <End Type="SAPUI5_STARTERKIT_DEMO.VH_Sex" Multiplicity="1" Role="FromRole_Assoc_VH_Sex_Contacts"/>
+                <End Type="SAPUI5_STARTERKIT_DEMO.Contact" Multiplicity="*" Role="ToRole_Assoc_VH_Sex_Contacts"/>
                 <ReferentialConstraint>
                     <Principal Role="FromRole_Assoc_VH_Sex_Contacts">
                         <PropertyRef Name="Sex"/>
@@ -526,9 +543,10 @@
                 </ReferentialConstraint>
             </Association>
             <Association Name="Assoc_VH_ProductTypeCode_Products" sap:content-version="1">
-                <End Type="GWSAMPLE_BASIC.VH_ProductTypeCode" Multiplicity="1"
+                <End Type="SAPUI5_STARTERKIT_DEMO.VH_ProductTypeCode" Multiplicity="1"
                      Role="FromRole_Assoc_VH_ProductTypeCode_Products"/>
-                <End Type="GWSAMPLE_BASIC.Product" Multiplicity="*" Role="ToRole_Assoc_VH_ProductTypeCode_Products"/>
+                <End Type="SAPUI5_STARTERKIT_DEMO.Product" Multiplicity="*"
+                     Role="ToRole_Assoc_VH_ProductTypeCode_Products"/>
                 <ReferentialConstraint>
                     <Principal Role="FromRole_Assoc_VH_ProductTypeCode_Products">
                         <PropertyRef Name="TypeCode"/>
@@ -539,8 +557,9 @@
                 </ReferentialConstraint>
             </Association>
             <Association Name="Assoc_VH_BPRole_BusinessPartners" sap:content-version="1">
-                <End Type="GWSAMPLE_BASIC.VH_BPRole" Multiplicity="1" Role="FromRole_Assoc_VH_BPRole_BusinessPartners"/>
-                <End Type="GWSAMPLE_BASIC.BusinessPartner" Multiplicity="*"
+                <End Type="SAPUI5_STARTERKIT_DEMO.VH_BPRole" Multiplicity="1"
+                     Role="FromRole_Assoc_VH_BPRole_BusinessPartners"/>
+                <End Type="SAPUI5_STARTERKIT_DEMO.BusinessPartner" Multiplicity="*"
                      Role="ToRole_Assoc_VH_BPRole_BusinessPartners"/>
                 <ReferentialConstraint>
                     <Principal Role="FromRole_Assoc_VH_BPRole_BusinessPartners">
@@ -552,8 +571,9 @@
                 </ReferentialConstraint>
             </Association>
             <Association Name="Assoc_VH_UnitLength_Products" sap:content-version="1">
-                <End Type="GWSAMPLE_BASIC.VH_UnitLength" Multiplicity="1" Role="FromRole_Assoc_VH_UnitLength_Products"/>
-                <End Type="GWSAMPLE_BASIC.Product" Multiplicity="*" Role="ToRole_Assoc_VH_UnitLength_Products"/>
+                <End Type="SAPUI5_STARTERKIT_DEMO.VH_UnitLength" Multiplicity="1"
+                     Role="FromRole_Assoc_VH_UnitLength_Products"/>
+                <End Type="SAPUI5_STARTERKIT_DEMO.Product" Multiplicity="*" Role="ToRole_Assoc_VH_UnitLength_Products"/>
                 <ReferentialConstraint>
                     <Principal Role="FromRole_Assoc_VH_UnitLength_Products">
                         <PropertyRef Name="Msehi"/>
@@ -563,190 +583,207 @@
                     </Dependent>
                 </ReferentialConstraint>
             </Association>
-            <EntityContainer Name="GWSAMPLE_BASIC_Entities" m:IsDefaultEntityContainer="true"
+            <EntityContainer Name="SAPUI5_STARTERKIT_DEMO_Entities" m:IsDefaultEntityContainer="true"
                              sap:supported-formats="atom json xlsx">
-                <EntitySet Name="BusinessPartnerSet" EntityType="GWSAMPLE_BASIC.BusinessPartner"
+                <EntitySet Name="BusinessPartnerSet" EntityType="SAPUI5_STARTERKIT_DEMO.BusinessPartner"
                            sap:content-version="1"/>
-                <EntitySet Name="ProductSet" EntityType="GWSAMPLE_BASIC.Product" sap:content-version="1"/>
-                <EntitySet Name="SalesOrderSet" EntityType="GWSAMPLE_BASIC.SalesOrder" sap:updatable="false"
+                <EntitySet Name="ProductSet" EntityType="SAPUI5_STARTERKIT_DEMO.Product" sap:content-version="1"/>
+                <EntitySet Name="SalesOrderSet" EntityType="SAPUI5_STARTERKIT_DEMO.SalesOrder" sap:updatable="false"
                            sap:content-version="1"/>
-                <EntitySet Name="SalesOrderLineItemSet" EntityType="GWSAMPLE_BASIC.SalesOrderLineItem"
+                <EntitySet Name="SalesOrderLineItemSet" EntityType="SAPUI5_STARTERKIT_DEMO.SalesOrderLineItem"
                            sap:content-version="1"/>
-                <EntitySet Name="ContactSet" EntityType="GWSAMPLE_BASIC.Contact" sap:content-version="1"/>
-                <EntitySet Name="VH_SexSet" EntityType="GWSAMPLE_BASIC.VH_Sex" sap:creatable="false"
+                <EntitySet Name="ContactSet" EntityType="SAPUI5_STARTERKIT_DEMO.Contact" sap:content-version="1"/>
+                <EntitySet Name="VH_SexSet" EntityType="SAPUI5_STARTERKIT_DEMO.VH_Sex" sap:creatable="false"
                            sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
-                <EntitySet Name="VH_CountrySet" EntityType="GWSAMPLE_BASIC.VH_Country" sap:creatable="false"
+                <EntitySet Name="VH_CountrySet" EntityType="SAPUI5_STARTERKIT_DEMO.VH_Country" sap:creatable="false"
                            sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
-                <EntitySet Name="VH_AddressTypeSet" EntityType="GWSAMPLE_BASIC.VH_AddressType" sap:creatable="false"
+                <EntitySet Name="VH_AddressTypeSet" EntityType="SAPUI5_STARTERKIT_DEMO.VH_AddressType"
+                           sap:creatable="false"
                            sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
-                <EntitySet Name="VH_CategorySet" EntityType="GWSAMPLE_BASIC.VH_Category" sap:creatable="false"
+                <EntitySet Name="VH_CategorySet" EntityType="SAPUI5_STARTERKIT_DEMO.VH_Category" sap:creatable="false"
                            sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
-                <EntitySet Name="VH_CurrencySet" EntityType="GWSAMPLE_BASIC.VH_Currency" sap:creatable="false"
+                <EntitySet Name="VH_CurrencySet" EntityType="SAPUI5_STARTERKIT_DEMO.VH_Currency" sap:creatable="false"
                            sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
-                <EntitySet Name="VH_UnitQuantitySet" EntityType="GWSAMPLE_BASIC.VH_UnitQuantity" sap:creatable="false"
+                <EntitySet Name="VH_UnitQuantitySet" EntityType="SAPUI5_STARTERKIT_DEMO.VH_UnitQuantity"
+                           sap:creatable="false"
                            sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
-                <EntitySet Name="VH_UnitWeightSet" EntityType="GWSAMPLE_BASIC.VH_UnitWeight" sap:creatable="false"
+                <EntitySet Name="VH_UnitWeightSet" EntityType="SAPUI5_STARTERKIT_DEMO.VH_UnitWeight"
+                           sap:creatable="false"
                            sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
-                <EntitySet Name="VH_UnitLengthSet" EntityType="GWSAMPLE_BASIC.VH_UnitLength" sap:creatable="false"
+                <EntitySet Name="VH_UnitLengthSet" EntityType="SAPUI5_STARTERKIT_DEMO.VH_UnitLength"
+                           sap:creatable="false"
                            sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
-                <EntitySet Name="VH_ProductTypeCodeSet" EntityType="GWSAMPLE_BASIC.VH_ProductTypeCode"
+                <EntitySet Name="VH_ProductTypeCodeSet" EntityType="SAPUI5_STARTERKIT_DEMO.VH_ProductTypeCode"
                            sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false"
                            sap:content-version="1"/>
-                <EntitySet Name="VH_BPRoleSet" EntityType="GWSAMPLE_BASIC.VH_BPRole" sap:creatable="false"
+                <EntitySet Name="VH_BPRoleSet" EntityType="SAPUI5_STARTERKIT_DEMO.VH_BPRole" sap:creatable="false"
                            sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
-                <EntitySet Name="VH_LanguageSet" EntityType="GWSAMPLE_BASIC.VH_Language" sap:creatable="false"
+                <EntitySet Name="VH_LanguageSet" EntityType="SAPUI5_STARTERKIT_DEMO.VH_Language" sap:creatable="false"
                            sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
                 <AssociationSet Name="Assoc_VH_Language_Contacts_AssocSet"
-                                Association="GWSAMPLE_BASIC.Assoc_VH_Language_Contacts" sap:creatable="false"
+                                Association="SAPUI5_STARTERKIT_DEMO.Assoc_VH_Language_Contacts" sap:creatable="false"
                                 sap:updatable="false" sap:deletable="false" sap:content-version="1">
                     <End EntitySet="VH_LanguageSet" Role="FromRole_Assoc_VH_Language_Contacts"/>
                     <End EntitySet="ContactSet" Role="ToRole_Assoc_VH_Language_Contacts"/>
                 </AssociationSet>
                 <AssociationSet Name="Assoc_VH_Category_Products_AssocSet"
-                                Association="GWSAMPLE_BASIC.Assoc_VH_Category_Products" sap:creatable="false"
+                                Association="SAPUI5_STARTERKIT_DEMO.Assoc_VH_Category_Products" sap:creatable="false"
                                 sap:updatable="false" sap:deletable="false" sap:content-version="1">
                     <End EntitySet="VH_CategorySet" Role="FromRole_Assoc_VH_Category_Products"/>
                     <End EntitySet="ProductSet" Role="ToRole_Assoc_VH_Category_Products"/>
                 </AssociationSet>
                 <AssociationSet Name="Assoc_VH_ProductTypeCode_Products_AssocS"
-                                Association="GWSAMPLE_BASIC.Assoc_VH_ProductTypeCode_Products" sap:creatable="false"
+                                Association="SAPUI5_STARTERKIT_DEMO.Assoc_VH_ProductTypeCode_Products"
+                                sap:creatable="false"
                                 sap:updatable="false" sap:deletable="false" sap:content-version="1">
                     <End EntitySet="VH_ProductTypeCodeSet" Role="FromRole_Assoc_VH_ProductTypeCode_Products"/>
                     <End EntitySet="ProductSet" Role="ToRole_Assoc_VH_ProductTypeCode_Products"/>
                 </AssociationSet>
                 <AssociationSet Name="Assoc_VH_UnitQuantity_Products_AssocSet"
-                                Association="GWSAMPLE_BASIC.Assoc_VH_UnitQuantity_Products" sap:creatable="false"
+                                Association="SAPUI5_STARTERKIT_DEMO.Assoc_VH_UnitQuantity_Products"
+                                sap:creatable="false"
                                 sap:updatable="false" sap:deletable="false" sap:content-version="1">
                     <End EntitySet="VH_UnitQuantitySet" Role="FromRole_Assoc_VH_UnitQuantity_Products"/>
                     <End EntitySet="ProductSet" Role="ToRole_Assoc_VH_UnitQuantity_Products"/>
                 </AssociationSet>
                 <AssociationSet Name="Assoc_VH_Currency_Products_AssocSet"
-                                Association="GWSAMPLE_BASIC.Assoc_VH_Currency_Products" sap:creatable="false"
+                                Association="SAPUI5_STARTERKIT_DEMO.Assoc_VH_Currency_Products" sap:creatable="false"
                                 sap:updatable="false" sap:deletable="false" sap:content-version="1">
                     <End EntitySet="VH_CurrencySet" Role="FromRole_Assoc_VH_Currency_Products"/>
                     <End EntitySet="ProductSet" Role="ToRole_Assoc_VH_Currency_Products"/>
                 </AssociationSet>
                 <AssociationSet Name="Assoc_VH_Country_Contacts_AssocSet"
-                                Association="GWSAMPLE_BASIC.Assoc_VH_Country_Contacts" sap:creatable="false"
+                                Association="SAPUI5_STARTERKIT_DEMO.Assoc_VH_Country_Contacts" sap:creatable="false"
                                 sap:updatable="false" sap:deletable="false" sap:content-version="1">
                     <End EntitySet="VH_CountrySet" Role="FromRole_Assoc_VH_Country_Contacts"/>
                     <End EntitySet="ContactSet" Role="ToRole_Assoc_VH_Country_Contacts"/>
                 </AssociationSet>
                 <AssociationSet Name="Assoc_VH_BPRole_BusinessPartners_AssocSe"
-                                Association="GWSAMPLE_BASIC.Assoc_VH_BPRole_BusinessPartners" sap:creatable="false"
+                                Association="SAPUI5_STARTERKIT_DEMO.Assoc_VH_BPRole_BusinessPartners"
+                                sap:creatable="false"
                                 sap:updatable="false" sap:deletable="false" sap:content-version="1">
                     <End EntitySet="VH_BPRoleSet" Role="FromRole_Assoc_VH_BPRole_BusinessPartners"/>
                     <End EntitySet="BusinessPartnerSet" Role="ToRole_Assoc_VH_BPRole_BusinessPartners"/>
                 </AssociationSet>
-                <AssociationSet Name="Assoc_VH_Sex_Contacts_AssocSet" Association="GWSAMPLE_BASIC.Assoc_VH_Sex_Contacts"
+                <AssociationSet Name="Assoc_VH_Sex_Contacts_AssocSet"
+                                Association="SAPUI5_STARTERKIT_DEMO.Assoc_VH_Sex_Contacts"
                                 sap:creatable="false" sap:updatable="false" sap:deletable="false"
                                 sap:content-version="1">
                     <End EntitySet="VH_SexSet" Role="FromRole_Assoc_VH_Sex_Contacts"/>
                     <End EntitySet="ContactSet" Role="ToRole_Assoc_VH_Sex_Contacts"/>
                 </AssociationSet>
                 <AssociationSet Name="Assoc_Product_SalesOrderLineItems_AssocS"
-                                Association="GWSAMPLE_BASIC.Assoc_Product_SalesOrderLineItems" sap:creatable="false"
+                                Association="SAPUI5_STARTERKIT_DEMO.Assoc_Product_SalesOrderLineItems"
+                                sap:creatable="false"
                                 sap:updatable="false" sap:deletable="false" sap:content-version="1">
                     <End EntitySet="ProductSet" Role="FromRole_Assoc_Product_SalesOrderLineItems"/>
                     <End EntitySet="SalesOrderLineItemSet" Role="ToRole_Assoc_Product_SalesOrderLineItems"/>
                 </AssociationSet>
                 <AssociationSet Name="Assoc_VH_Currency_BusinessPartners_Assoc"
-                                Association="GWSAMPLE_BASIC.Assoc_VH_Currency_BusinessPartners" sap:creatable="false"
+                                Association="SAPUI5_STARTERKIT_DEMO.Assoc_VH_Currency_BusinessPartners"
+                                sap:creatable="false"
                                 sap:updatable="false" sap:deletable="false" sap:content-version="1">
                     <End EntitySet="VH_CurrencySet" Role="FromRole_Assoc_VH_Currency_BusinessPartners"/>
                     <End EntitySet="BusinessPartnerSet" Role="ToRole_Assoc_VH_Currency_BusinessPartners"/>
                 </AssociationSet>
                 <AssociationSet Name="Assoc_BusinessPartner_Products_AssocSet"
-                                Association="GWSAMPLE_BASIC.Assoc_BusinessPartner_Products" sap:creatable="false"
+                                Association="SAPUI5_STARTERKIT_DEMO.Assoc_BusinessPartner_Products"
+                                sap:creatable="false"
                                 sap:updatable="false" sap:deletable="false" sap:content-version="1">
                     <End EntitySet="BusinessPartnerSet" Role="FromRole_Assoc_BusinessPartner_Products"/>
                     <End EntitySet="ProductSet" Role="ToRole_Assoc_BusinessPartner_Products"/>
                 </AssociationSet>
                 <AssociationSet Name="Assoc_VH_UnitWeight_Products_AssocSet"
-                                Association="GWSAMPLE_BASIC.Assoc_VH_UnitWeight_Products" sap:creatable="false"
+                                Association="SAPUI5_STARTERKIT_DEMO.Assoc_VH_UnitWeight_Products" sap:creatable="false"
                                 sap:updatable="false" sap:deletable="false" sap:content-version="1">
                     <End EntitySet="VH_UnitWeightSet" Role="FromRole_Assoc_VH_UnitWeight_Products"/>
                     <End EntitySet="ProductSet" Role="ToRole_Assoc_VH_UnitWeight_Products"/>
                 </AssociationSet>
                 <AssociationSet Name="Assoc_VH_Country_BusinessPartners_AssocS"
-                                Association="GWSAMPLE_BASIC.Assoc_VH_Country_BusinessPartners" sap:creatable="false"
+                                Association="SAPUI5_STARTERKIT_DEMO.Assoc_VH_Country_BusinessPartners"
+                                sap:creatable="false"
                                 sap:updatable="false" sap:deletable="false" sap:content-version="1">
                     <End EntitySet="VH_CountrySet" Role="FromRole_Assoc_VH_Country_BusinessPartners"/>
                     <End EntitySet="BusinessPartnerSet" Role="ToRole_Assoc_VH_Country_BusinessPartners"/>
                 </AssociationSet>
                 <AssociationSet Name="Assoc_VH_UnitLength_Products_AssocSet"
-                                Association="GWSAMPLE_BASIC.Assoc_VH_UnitLength_Products" sap:creatable="false"
+                                Association="SAPUI5_STARTERKIT_DEMO.Assoc_VH_UnitLength_Products" sap:creatable="false"
                                 sap:updatable="false" sap:deletable="false" sap:content-version="1">
                     <End EntitySet="VH_UnitLengthSet" Role="FromRole_Assoc_VH_UnitLength_Products"/>
                     <End EntitySet="ProductSet" Role="ToRole_Assoc_VH_UnitLength_Products"/>
                 </AssociationSet>
                 <AssociationSet Name="Assoc_VH_Currency_SalesOrders_AssocSet"
-                                Association="GWSAMPLE_BASIC.Assoc_VH_Currency_SalesOrders" sap:creatable="false"
+                                Association="SAPUI5_STARTERKIT_DEMO.Assoc_VH_Currency_SalesOrders" sap:creatable="false"
                                 sap:updatable="false" sap:deletable="false" sap:content-version="1">
                     <End EntitySet="VH_CurrencySet" Role="FromRole_Assoc_VH_Currency_SalesOrders"/>
                     <End EntitySet="SalesOrderSet" Role="ToRole_Assoc_VH_Currency_SalesOrders"/>
                 </AssociationSet>
                 <AssociationSet Name="Assoc_SalesOrder_SalesOrderLineItems_Ass"
-                                Association="GWSAMPLE_BASIC.Assoc_SalesOrder_SalesOrderLineItems" sap:creatable="false"
+                                Association="SAPUI5_STARTERKIT_DEMO.Assoc_SalesOrder_SalesOrderLineItems"
+                                sap:creatable="false"
                                 sap:updatable="false" sap:deletable="false" sap:content-version="1">
                     <End EntitySet="SalesOrderSet" Role="FromRole_Assoc_SalesOrder_SalesOrderLineItems"/>
                     <End EntitySet="SalesOrderLineItemSet" Role="ToRole_Assoc_SalesOrder_SalesOrderLineItems"/>
                 </AssociationSet>
                 <AssociationSet Name="Assoc_BusinessPartner_SalesOrders_AssocS"
-                                Association="GWSAMPLE_BASIC.Assoc_BusinessPartner_SalesOrders" sap:creatable="false"
+                                Association="SAPUI5_STARTERKIT_DEMO.Assoc_BusinessPartner_SalesOrders"
+                                sap:creatable="false"
                                 sap:updatable="false" sap:deletable="false" sap:content-version="1">
                     <End EntitySet="BusinessPartnerSet" Role="FromRole_Assoc_BusinessPartner_SalesOrders"/>
                     <End EntitySet="SalesOrderSet" Role="ToRole_Assoc_BusinessPartner_SalesOrders"/>
                 </AssociationSet>
                 <AssociationSet Name="Assoc_VH_Currency_SalesOrderLineItems_As"
-                                Association="GWSAMPLE_BASIC.Assoc_VH_Currency_SalesOrderLineItems" sap:creatable="false"
+                                Association="SAPUI5_STARTERKIT_DEMO.Assoc_VH_Currency_SalesOrderLineItems"
+                                sap:creatable="false"
                                 sap:updatable="false" sap:deletable="false" sap:content-version="1">
                     <End EntitySet="VH_CurrencySet" Role="FromRole_Assoc_VH_Currency_SalesOrderLineItems"/>
                     <End EntitySet="SalesOrderLineItemSet" Role="ToRole_Assoc_VH_Currency_SalesOrderLineItems"/>
                 </AssociationSet>
                 <AssociationSet Name="Assoc_BusinessPartner_Contacts_AssocSet"
-                                Association="GWSAMPLE_BASIC.Assoc_BusinessPartner_Contacts" sap:creatable="false"
+                                Association="SAPUI5_STARTERKIT_DEMO.Assoc_BusinessPartner_Contacts"
+                                sap:creatable="false"
                                 sap:updatable="false" sap:deletable="false" sap:content-version="1">
                     <End EntitySet="BusinessPartnerSet" Role="FromRole_Assoc_BusinessPartner_Contacts"/>
                     <End EntitySet="ContactSet" Role="ToRole_Assoc_BusinessPartner_Contacts"/>
                 </AssociationSet>
                 <AssociationSet Name="Assoc_VH_UnitQuantity_SalesOrderLineItem"
-                                Association="GWSAMPLE_BASIC.Assoc_VH_UnitQuantity_SalesOrderLineItem"
+                                Association="SAPUI5_STARTERKIT_DEMO.Assoc_VH_UnitQuantity_SalesOrderLineItem"
                                 sap:creatable="false" sap:updatable="false" sap:deletable="false"
                                 sap:content-version="1">
                     <End EntitySet="VH_UnitQuantitySet" Role="FromRole_Assoc_VH_UnitQuantity_SalesOrderLineItem"/>
                     <End EntitySet="SalesOrderLineItemSet" Role="ToRole_Assoc_VH_UnitQuantity_SalesOrderLineItem"/>
                 </AssociationSet>
-                <FunctionImport Name="RegenerateAllData" ReturnType="GWSAMPLE_BASIC.CT_String" m:HttpMethod="POST">
+                <FunctionImport Name="RegenerateAllData" ReturnType="SAPUI5_STARTERKIT_DEMO.CT_String"
+                                m:HttpMethod="POST">
                     <Parameter Name="NoOfSalesOrders" Type="Edm.Int32" Mode="In"/>
                 </FunctionImport>
-                <FunctionImport Name="SalesOrder_Confirm" ReturnType="GWSAMPLE_BASIC.SalesOrder"
+                <FunctionImport Name="SalesOrder_Confirm" ReturnType="SAPUI5_STARTERKIT_DEMO.SalesOrder"
                                 EntitySet="SalesOrderSet" m:HttpMethod="POST"
-                                sap:action-for="GWSAMPLE_BASIC.SalesOrder">
+                                sap:action-for="SAPUI5_STARTERKIT_DEMO.SalesOrder">
                     <Parameter Name="SalesOrderID" Type="Edm.String" Mode="In" MaxLength="10"/>
                 </FunctionImport>
-                <FunctionImport Name="SalesOrder_Cancel" ReturnType="GWSAMPLE_BASIC.SalesOrder"
+                <FunctionImport Name="SalesOrder_Cancel" ReturnType="SAPUI5_STARTERKIT_DEMO.SalesOrder"
                                 EntitySet="SalesOrderSet" m:HttpMethod="POST"
-                                sap:action-for="GWSAMPLE_BASIC.SalesOrder">
+                                sap:action-for="SAPUI5_STARTERKIT_DEMO.SalesOrder">
                     <Parameter Name="SalesOrderID" Type="Edm.String" Mode="In" MaxLength="10"/>
                 </FunctionImport>
-                <FunctionImport Name="SalesOrder_InvoiceCreated" ReturnType="GWSAMPLE_BASIC.SalesOrder"
+                <FunctionImport Name="SalesOrder_InvoiceCreated" ReturnType="SAPUI5_STARTERKIT_DEMO.SalesOrder"
                                 EntitySet="SalesOrderSet" m:HttpMethod="POST"
-                                sap:action-for="GWSAMPLE_BASIC.SalesOrder">
+                                sap:action-for="SAPUI5_STARTERKIT_DEMO.SalesOrder">
                     <Parameter Name="SalesOrderID" Type="Edm.String" Mode="In" MaxLength="10"/>
                 </FunctionImport>
-                <FunctionImport Name="SalesOrder_GoodsIssueCreated" ReturnType="GWSAMPLE_BASIC.SalesOrder"
+                <FunctionImport Name="SalesOrder_GoodsIssueCreated" ReturnType="SAPUI5_STARTERKIT_DEMO.SalesOrder"
                                 EntitySet="SalesOrderSet" m:HttpMethod="POST"
-                                sap:action-for="GWSAMPLE_BASIC.SalesOrder">
+                                sap:action-for="SAPUI5_STARTERKIT_DEMO.SalesOrder">
                     <Parameter Name="SalesOrderID" Type="Edm.String" Mode="In" MaxLength="10"/>
                 </FunctionImport>
             </EntityContainer>
             <atom:link xmlns:atom="http://www.w3.org/2005/Atom"
                        rel="self"
-                       href="https://example-service-url.com:8080/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/$metadata"/>
+                       href="https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/$metadata"/>
             <atom:link xmlns:atom="http://www.w3.org/2005/Atom"
                        rel="latest-version"
-                       href="https://example-service-url.com:8080/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/$metadata"/>
+                       href="https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/$metadata"/>
         </Schema>
     </edmx:DataServices>
 </edmx:Edmx>
