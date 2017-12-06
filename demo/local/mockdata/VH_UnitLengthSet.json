@@ -3,117 +3,117 @@
         "results": [
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('CM')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('CM')",
-                    "type": "GWSAMPLE_BASIC.VH_UnitLength"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('CM')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('CM')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_UnitLength"
                 },
                 "Msehi": "CM",
                 "Msehl": "Centimeter"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('DM')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('DM')",
-                    "type": "GWSAMPLE_BASIC.VH_UnitLength"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('DM')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('DM')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_UnitLength"
                 },
                 "Msehi": "DM",
                 "Msehl": "Decimeter"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('F')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('F')",
-                    "type": "GWSAMPLE_BASIC.VH_UnitLength"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('F')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('F')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_UnitLength"
                 },
                 "Msehi": "F",
                 "Msehl": ""
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('FT')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('FT')",
-                    "type": "GWSAMPLE_BASIC.VH_UnitLength"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('FT')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('FT')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_UnitLength"
                 },
                 "Msehi": "FT",
                 "Msehl": "Footer"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('IN')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('IN')",
-                    "type": "GWSAMPLE_BASIC.VH_UnitLength"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('IN')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('IN')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_UnitLength"
                 },
                 "Msehi": "IN",
                 "Msehl": "Inch"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('KM')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('KM')",
-                    "type": "GWSAMPLE_BASIC.VH_UnitLength"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('KM')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('KM')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_UnitLength"
                 },
                 "Msehi": "KM",
                 "Msehl": "Kilometer"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('M')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('M')",
-                    "type": "GWSAMPLE_BASIC.VH_UnitLength"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('M')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('M')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_UnitLength"
                 },
                 "Msehi": "M",
                 "Msehl": "Meter"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('MI')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('MI')",
-                    "type": "GWSAMPLE_BASIC.VH_UnitLength"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('MI')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('MI')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_UnitLength"
                 },
                 "Msehi": "MI",
                 "Msehl": "Mile"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('MIL')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('MIL')",
-                    "type": "GWSAMPLE_BASIC.VH_UnitLength"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('MIL')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('MIL')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_UnitLength"
                 },
                 "Msehi": "MIL",
                 "Msehl": "One thousanths of an inch"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('MM')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('MM')",
-                    "type": "GWSAMPLE_BASIC.VH_UnitLength"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('MM')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('MM')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_UnitLength"
                 },
                 "Msehi": "MM",
                 "Msehl": "Millimeter"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('NAM')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('NAM')",
-                    "type": "GWSAMPLE_BASIC.VH_UnitLength"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('NAM')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('NAM')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_UnitLength"
                 },
                 "Msehi": "NAM",
                 "Msehl": "Nanometer"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('YD')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('YD')",
-                    "type": "GWSAMPLE_BASIC.VH_UnitLength"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('YD')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('YD')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_UnitLength"
                 },
                 "Msehi": "YD",
                 "Msehl": "Yards"
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('%C2%B5M')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/VH_UnitLengthSet('%C2%B5M')",
-                    "type": "GWSAMPLE_BASIC.VH_UnitLength"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('%C2%B5M')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/VH_UnitLengthSet('%C2%B5M')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.VH_UnitLength"
                 },
                 "Msehi": "µM",
                 "Msehl": "Micrometer"

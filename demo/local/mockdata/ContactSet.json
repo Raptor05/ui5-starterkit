@@ -3,13 +3,13 @@
         "results": [
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0480C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0480C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0480C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0480C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Walldorf",
                     "PostalCode": "69190",
@@ -34,19 +34,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0480C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0480C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04A0C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04A0C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04A0C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04A0C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Berlin",
                     "PostalCode": "13467",
@@ -71,19 +71,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04A0C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04A0C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04C0C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04C0C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04C0C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04C0C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Wilmington, Delaware",
                     "PostalCode": "19899",
@@ -108,19 +108,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04C0C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04C0C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04E0C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04E0C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04E0C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04E0C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Hannover",
                     "PostalCode": "30625",
@@ -145,19 +145,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04E0C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD04E0C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0500C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0500C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0500C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0500C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Hollywood, California",
                     "PostalCode": "91602",
@@ -182,19 +182,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0500C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0500C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0520C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0520C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0520C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0520C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Münster",
                     "PostalCode": "48155",
@@ -219,19 +219,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0520C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0520C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0540C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0540C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0540C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0540C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Tokyo",
                     "PostalCode": "100-0004",
@@ -256,19 +256,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0540C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0540C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0560C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0560C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0560C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0560C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Paris",
                     "PostalCode": "75015",
@@ -293,19 +293,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0560C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0560C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0580C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0580C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0580C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0580C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Mexiko City",
                     "PostalCode": "17000",
@@ -330,19 +330,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0580C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0580C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05A0C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05A0C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05A0C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05A0C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Buenos Aires",
                     "PostalCode": "1511",
@@ -367,19 +367,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05A0C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05A0C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05C0C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05C0C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05C0C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05C0C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Atlanta, Georgia",
                     "PostalCode": "30338",
@@ -404,19 +404,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05C0C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05C0C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05E0C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05E0C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05E0C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05E0C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Salzburg",
                     "PostalCode": "5020",
@@ -441,19 +441,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05E0C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD05E0C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0600C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0600C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0600C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0600C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Manchester",
                     "PostalCode": "M11 3ER",
@@ -478,19 +478,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0600C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0600C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0620C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0620C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0620C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0620C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Bremen",
                     "PostalCode": "28213",
@@ -515,19 +515,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0620C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0620C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0640C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0640C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0640C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0640C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Bismarck, North Dakota",
                     "PostalCode": "58501",
@@ -552,19 +552,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0640C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0640C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0660C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0660C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0660C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0660C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Quebec",
                     "PostalCode": "G1K3X7",
@@ -589,19 +589,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0660C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0660C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0680C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0680C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0680C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0680C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Puebla",
                     "PostalCode": "40615",
@@ -626,19 +626,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0680C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0680C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06A0C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06A0C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06A0C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06A0C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Köln",
                     "PostalCode": "50827",
@@ -663,19 +663,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06A0C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06A0C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06C0C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06C0C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06C0C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06C0C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Mendoza",
                     "PostalCode": "M5500",
@@ -700,19 +700,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06C0C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06C0C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06E0C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06E0C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06E0C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06E0C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Lyon",
                     "PostalCode": "69007",
@@ -737,19 +737,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06E0C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD06E0C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0700C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0700C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0700C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0700C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Moscow",
                     "PostalCode": "125719",
@@ -774,19 +774,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0700C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0700C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0720C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0720C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0720C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0720C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Jacksonville, Florida",
                     "PostalCode": "32229",
@@ -811,19 +811,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0720C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0720C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0740C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0740C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0740C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0740C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Madrid",
                     "PostalCode": "28100",
@@ -848,19 +848,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0740C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0740C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0760C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0760C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0760C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0760C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "München",
                     "PostalCode": "80935",
@@ -885,19 +885,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0760C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0760C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0780C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0780C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0780C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0780C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Sapporo-shi",
                     "PostalCode": "0600007",
@@ -922,19 +922,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0780C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0780C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07A0C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07A0C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07A0C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07A0C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Rome",
                     "PostalCode": "00185",
@@ -959,19 +959,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07A0C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07A0C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07C0C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07C0C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07C0C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07C0C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Paris",
                     "PostalCode": "75013",
@@ -996,19 +996,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07C0C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07C0C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07E0C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07E0C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07E0C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07E0C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Santa Fe",
                     "PostalCode": "1510",
@@ -1033,19 +1033,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07E0C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD07E0C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0800C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0800C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0800C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0800C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Rio de Janeiro",
                     "PostalCode": "20230",
@@ -1070,19 +1070,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0800C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0800C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0820C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0820C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0820C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0820C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Montreal",
                     "PostalCode": "H2T1R1",
@@ -1107,19 +1107,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0820C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0820C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0840C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0840C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0840C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0840C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Zürich",
                     "PostalCode": "2564",
@@ -1144,19 +1144,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0840C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0840C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0860C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0860C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0860C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0860C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Dallas, Texas",
                     "PostalCode": "75364",
@@ -1181,19 +1181,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0860C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0860C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0880C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0880C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0880C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0880C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Paris",
                     "PostalCode": "75018",
@@ -1218,19 +1218,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0880C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0880C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08A0C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08A0C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08A0C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08A0C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Chicago, Illinois",
                     "PostalCode": "60773",
@@ -1255,19 +1255,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08A0C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08A0C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08C0C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08C0C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08C0C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08C0C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Tokyo",
                     "PostalCode": "105-0011",
@@ -1292,19 +1292,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08C0C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08C0C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08E0C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08E0C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08E0C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08E0C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Buenos Aires",
                     "PostalCode": "1147",
@@ -1329,19 +1329,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08E0C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD08E0C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0900C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0900C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0900C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0900C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Johannesburg",
                     "PostalCode": "2006",
@@ -1366,19 +1366,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0900C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0900C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0920C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0920C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0920C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0920C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "New York City",
                     "PostalCode": "10184",
@@ -1403,19 +1403,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0920C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0920C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0940C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0940C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0940C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0940C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Bühl",
                     "PostalCode": "77815",
@@ -1440,19 +1440,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0940C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0940C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0960C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0960C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0960C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0960C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Mumbai",
                     "PostalCode": "400021",
@@ -1477,19 +1477,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0960C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0960C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0980C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0980C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0980C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0980C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Warsaw",
                     "PostalCode": "00564",
@@ -1514,19 +1514,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0980C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0980C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09A0C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09A0C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09A0C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09A0C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Cordoba",
                     "PostalCode": "5003",
@@ -1551,19 +1551,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09A0C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09A0C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09C0C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09C0C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09C0C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09C0C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Shanghai",
                     "PostalCode": "200083",
@@ -1588,19 +1588,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09C0C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09C0C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09E0C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09E0C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09E0C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09E0C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Copenhagen",
                     "PostalCode": "1907",
@@ -1625,19 +1625,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09E0C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD09E0C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0A00C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0A00C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0A00C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0A00C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Karlsruhe",
                     "PostalCode": "76188",
@@ -1662,19 +1662,19 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0A00C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0A00C4')/ToBusinessPartner"
                     }
                 }
             },
             {
                 "__metadata": {
-                    "id": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0A20C4')",
-                    "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0A20C4')",
-                    "type": "GWSAMPLE_BASIC.Contact"
+                    "id": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0A20C4')",
+                    "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0A20C4')",
+                    "type": "SAPUI5_STARTERKIT_DEMO.Contact"
                 },
                 "Address": {
                     "__metadata": {
-                        "type": "GWSAMPLE_BASIC.CT_Address"
+                        "type": "SAPUI5_STARTERKIT_DEMO.CT_Address"
                     },
                     "City": "Karlsruhe",
                     "PostalCode": "76188",
@@ -1699,7 +1699,7 @@
                 "DateOfBirth": null,
                 "ToBusinessPartner": {
                     "__deferred": {
-                        "uri": "https://SAPES4.SAPDEVCENTER.COM:443/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0A20C4')/ToBusinessPartner"
+                        "uri": "https://example-service-url.com/sap/opu/odata/sap/SAPUI5_STARTERKIT_DEMO/ContactSet(guid'005056A2-16B8-1EE7-B591-7B0ACD0A20C4')/ToBusinessPartner"
                     }
                 }
             }
