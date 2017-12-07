@@ -6,11 +6,11 @@ var fs = require("fs");
 module.exports = function (grunt) {
     // Project specific variables
     var abapDevelopmentUser = 'SAP_USER'; //TODO Set to SAP User Name
-    var abapDevelopmentPassword = 'SAP_PW'; //TODO Set to SAP Passwort for user
-    var abapDevelopmentServer = '53.20.52.23';
-    var abapDevelopmentInstance = '10';
-    var abapDevelopmentClient = '010';
-    var abapDevelopmentRouter = '/H/10.157.1.224/H/10.157.38.5/H/';
+    var abapDevelopmentPassword = 'SAP_PW'; //TODO Set to SAP password for user
+    var abapDevelopmentServer = 'SAP_SERVER'; //TODO Set the application server password
+    var abapDevelopmentInstance = 'SAP_INSTANCE'; //TODO Set the instance number
+    var abapDevelopmentClient = 'SAP_CLIENT';  //TODO Set the client
+    var abapDevelopmentRouter = 'SAP_ROUTER'; //TODO Set the SAProuter string
     var abapApplicationName = 'APP_NAME'; //TODO Set to application name
     var abapApplicationDesc = 'APP_DESCR'; //TODO Set to application description
     var abapPackage = 'APP_PACKAGE'; //TODO Choose correct package
