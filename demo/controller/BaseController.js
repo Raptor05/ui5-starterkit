@@ -91,11 +91,23 @@ sap.ui.define([
          */
         onCloseDialog: function (oEvent) {
             oEvent.getSource().getParent().close();
-        }
+        },
 
         /* =========================================================== */
         /* Private functions (starts with "_")						   */
         /* =========================================================== */
+
+        /**
+         * Is triggered every time a view gets a new binding
+         * @memberOf mhp.ui5StarterKit.demo.BaseController
+         * @private
+         */
+        _onBindingChange: function () {
+            // No data for the binding
+            if (!this.getView().getBindingContext()) {
+                this.getRouter().getTargets().display("notFound");
+            }
+        }
 
     });
 });

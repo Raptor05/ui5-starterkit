@@ -125,7 +125,16 @@ sap.ui.define([
                 var sProductId = oEvent.getParameter("arguments").productid,
                     oView = this.getView();
                 oView.bindElement({
-                    path: "/ProductSet('" + sProductId + "')"
+                    path: "/ProductSet('" + sProductId + "')",
+                    events: {
+                        change: this._onBindingChange.bind(this),
+                        dataRequested: function () {    //eslint-disable-line require-jsdoc
+                            oView.setBusy(true);
+                        },
+                        dataReceived: function () { //eslint-disable-line require-jsdoc
+                            oView.setBusy(false);
+                        }
+                    }
                 });
 
                 this._showFormFragment("ProductDisplay");

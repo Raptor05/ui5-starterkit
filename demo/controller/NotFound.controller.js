@@ -2,11 +2,11 @@
  * Created by mdeppe on 29.11.2017.
  */
 sap.ui.define([
-    "sap/ui/core/mvc/Controller"
-], function (Controller) {  // eslint-disable-line id-match
+    "mhp/ui5StarterKit/demo/controller/BaseController"
+], function (BaseController) {  // eslint-disable-line id-match
     "use strict";
 
-    return Controller.extend("mhp.ui5StarterKit.demo.controller.NotFound", {
+    return BaseController.extend("mhp.ui5StarterKit.demo.controller.NotFound", {
         /**
          * NotFound.controller.js
          *
@@ -17,7 +17,7 @@ sap.ui.define([
          *
          * @class NotFound.controller.js
          *
-         * @extends sap.ui.core.mvc.Controller
+         * @extends mhp.ui5StarterKit.demo.controller.BaseController
          *
          * @constructor
          * @public
@@ -35,7 +35,7 @@ sap.ui.define([
         onInit: function () {
             this.component = this.getOwnerComponent();
             this.bus = this.component.getEventBus();
-        }
+        },
 
 //      onBeforeRendering: function() {},
 
@@ -50,6 +50,15 @@ sap.ui.define([
         /* =========================================================== */
         /* Event handlers (starts with "on")						   */
         /* =========================================================== */
+
+        /**
+         * Navigates back to home site
+         * @param {sap.ui.base.Event} oEvent - An Event object consisting of an id, a source and a map of parameters
+         * @memberOf mhp.ui5StarterKit.demo.NotFound
+         */
+        onNavBack: function (oEvent) {
+            this.getRouter().navTo("home");
+        }
 
         /* =========================================================== */
         /* Private functions (starts with "_")						   */
