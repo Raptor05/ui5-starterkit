@@ -9,6 +9,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1000",
+                "ProductPicUrl": "local/mockdata/img/HT-1000.jpg",
                 "TypeCode": "PR",
                 "Category": "Notebooks",
                 "Name": "Notebook Basic 16",
@@ -48,6 +49,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1001",
+                "ProductPicUrl": "local/mockdata/img/HT-1001.jpg",
                 "TypeCode": "PR",
                 "Category": "Notebooks",
                 "Name": "Notebook Basic 17",
@@ -87,6 +89,7 @@
                     "etag": "W/\"datetime'2017-11-29T06%3A59%3A57.0370000'\""
                 },
                 "ProductID": "HT-1002",
+                "ProductPicUrl": "local/mockdata/img/HT-1002.jpg",
                 "TypeCode": "AD",
                 "Category": "Notebooks",
                 "Name": "Notebook Basic 18",
@@ -126,6 +129,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1003",
+                "ProductPicUrl": "local/mockdata/img/HT-1003.jpg",
                 "TypeCode": "PR",
                 "Category": "Notebooks",
                 "Name": "Notebook Basic 19",
@@ -165,6 +169,7 @@
                     "etag": "W/\"datetime'2017-11-29T07%3A13%3A58.3500000'\""
                 },
                 "ProductID": "HT-1007",
+                "ProductPicUrl": "local/mockdata/img/HT-1007.jpg",
                 "TypeCode": "AD",
                 "Category": "Keyboards",
                 "Name": "ITelO Vault",
@@ -204,6 +209,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1010",
+                "ProductPicUrl": "local/mockdata/img/HT-1010.jpg",
                 "TypeCode": "PR",
                 "Category": "Notebooks",
                 "Name": "Notebook Professional 15",
@@ -243,6 +249,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1011",
+                "ProductPicUrl": "local/mockdata/img/HT-1011.jpg",
                 "TypeCode": "PR",
                 "Category": "Notebooks",
                 "Name": "Notebook Professional 17",
@@ -282,6 +289,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1020",
+                "ProductPicUrl": "local/mockdata/img/HT-1020.jpg",
                 "TypeCode": "PR",
                 "Category": "PDAs & Organizers",
                 "Name": "ITelO Vault Net",
@@ -321,6 +329,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1021",
+                "ProductPicUrl": "local/mockdata/img/HT-1021.jpg",
                 "TypeCode": "PR",
                 "Category": "PDAs & Organizers",
                 "Name": "ITelO Vault SAT",
@@ -360,6 +369,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1022",
+                "ProductPicUrl": "local/mockdata/img/HT-1022.jpg",
                 "TypeCode": "PR",
                 "Category": "PDAs & Organizers",
                 "Name": "Comfort Easy",
@@ -399,6 +409,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1023",
+                "ProductPicUrl": "local/mockdata/img/HT-1023.jpg",
                 "TypeCode": "PR",
                 "Category": "PDAs & Organizers",
                 "Name": "Comfort Senior",
@@ -438,6 +449,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1030",
+                "ProductPicUrl": "local/mockdata/img/HT-1030.jpg",
                 "TypeCode": "PR",
                 "Category": "Flat Screen Monitors",
                 "Name": "Ergo Screen E-I",
@@ -477,6 +489,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1031",
+                "ProductPicUrl": "local/mockdata/img/HT-1031.jpg",
                 "TypeCode": "PR",
                 "Category": "Flat Screen Monitors",
                 "Name": "Ergo Screen E-II",
@@ -516,6 +529,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1032",
+                "ProductPicUrl": "local/mockdata/img/HT-1032.jpg",
                 "TypeCode": "PR",
                 "Category": "Flat Screen Monitors",
                 "Name": "Ergo Screen E-III",
@@ -555,6 +569,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1035",
+                "ProductPicUrl": "local/mockdata/img/HT-1035.jpg",
                 "TypeCode": "PR",
                 "Category": "Flat Screen Monitors",
                 "Name": "Flat Basic",
@@ -594,6 +609,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1036",
+                "ProductPicUrl": "local/mockdata/img/HT-1036.jpg",
                 "TypeCode": "PR",
                 "Category": "Flat Screen Monitors",
                 "Name": "Flat Future",
@@ -633,6 +649,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1037",
+                "ProductPicUrl": "local/mockdata/img/HT-1037.jpg",
                 "TypeCode": "PR",
                 "Category": "Flat Screen Monitors",
                 "Name": "Flat XL",
@@ -672,6 +689,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1040",
+                "ProductPicUrl": "local/mockdata/img/HT-1040.jpg",
                 "TypeCode": "PR",
                 "Category": "Laser Printers",
                 "Name": "Laser Professional Eco",
@@ -711,6 +729,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1041",
+                "ProductPicUrl": "local/mockdata/img/HT-1041.jpg",
                 "TypeCode": "PR",
                 "Category": "Laser Printers",
                 "Name": "Laser Basic",
@@ -750,6 +769,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1042",
+                "ProductPicUrl": "local/mockdata/img/HT-1042.jpg",
                 "TypeCode": "PR",
                 "Category": "Laser Printers",
                 "Name": "Laser Allround",
@@ -789,6 +809,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1050",
+                "ProductPicUrl": "local/mockdata/img/HT-1050.jpg",
                 "TypeCode": "PR",
                 "Category": "Ink Jet Printers",
                 "Name": "Ultra Jet Super Color",
@@ -828,6 +849,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1051",
+                "ProductPicUrl": "local/mockdata/img/HT-1051.jpg",
                 "TypeCode": "PR",
                 "Category": "Ink Jet Printers",
                 "Name": "Ultra Jet Mobile",
@@ -867,6 +889,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1052",
+                "ProductPicUrl": "local/mockdata/img/HT-1052.jpg",
                 "TypeCode": "PR",
                 "Category": "Ink Jet Printers",
                 "Name": "Ultra Jet Super Highspeed",
@@ -906,6 +929,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1055",
+                "ProductPicUrl": "local/mockdata/img/HT-1055.jpg",
                 "TypeCode": "PR",
                 "Category": "Multifunction Printers",
                 "Name": "Multi Print",
@@ -945,6 +969,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1056",
+                "ProductPicUrl": "local/mockdata/img/HT-1056.jpg",
                 "TypeCode": "PR",
                 "Category": "Multifunction Printers",
                 "Name": "Multi Color",
@@ -984,6 +1009,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1060",
+                "ProductPicUrl": "local/mockdata/img/HT-1060.jpg",
                 "TypeCode": "PR",
                 "Category": "Mice",
                 "Name": "Cordless Mouse",
@@ -1023,6 +1049,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1061",
+                "ProductPicUrl": "local/mockdata/img/HT-1061.jpg",
                 "TypeCode": "PR",
                 "Category": "Mice",
                 "Name": "Speed Mouse",
@@ -1062,6 +1089,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1062",
+                "ProductPicUrl": "local/mockdata/img/HT-1062.jpg",
                 "TypeCode": "PR",
                 "Category": "Mice",
                 "Name": "Track Mouse",
@@ -1101,6 +1129,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1063",
+                "ProductPicUrl": "local/mockdata/img/HT-1063.jpg",
                 "TypeCode": "PR",
                 "Category": "Keyboards",
                 "Name": "Ergonomic Keyboard",
@@ -1140,6 +1169,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1064",
+                "ProductPicUrl": "local/mockdata/img/HT-1064.jpg",
                 "TypeCode": "PR",
                 "Category": "Keyboards",
                 "Name": "Internet Keyboard",
@@ -1179,6 +1209,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1065",
+                "ProductPicUrl": "local/mockdata/img/HT-1065.jpg",
                 "TypeCode": "PR",
                 "Category": "Keyboards",
                 "Name": "Media Keyboard",
@@ -1218,6 +1249,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1066",
+                "ProductPicUrl": "local/mockdata/img/HT-1066.jpg",
                 "TypeCode": "PR",
                 "Category": "Mousepads",
                 "Name": "Mousepad",
@@ -1257,6 +1289,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1067",
+                "ProductPicUrl": "local/mockdata/img/HT-1067.jpg",
                 "TypeCode": "PR",
                 "Category": "Mousepads",
                 "Name": "Ergo Mousepad",
@@ -1296,6 +1329,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1068",
+                "ProductPicUrl": "local/mockdata/img/HT-1068.jpg",
                 "TypeCode": "PR",
                 "Category": "Mousepads",
                 "Name": "Designer Mousepad",
@@ -1335,6 +1369,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1069",
+                "ProductPicUrl": "local/mockdata/img/HT-1069.jpg",
                 "TypeCode": "PR",
                 "Category": "Computer System Accessories",
                 "Name": "Universal card reader",
@@ -1374,6 +1409,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1070",
+                "ProductPicUrl": "local/mockdata/img/HT-1070.jpg",
                 "TypeCode": "PR",
                 "Category": "Graphic Cards",
                 "Name": "Proctra X",
@@ -1413,6 +1449,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1071",
+                "ProductPicUrl": "local/mockdata/img/HT-1071.jpg",
                 "TypeCode": "PR",
                 "Category": "Graphic Cards",
                 "Name": "Gladiator MX",
@@ -1452,6 +1489,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1072",
+                "ProductPicUrl": "local/mockdata/img/HT-1072.jpg",
                 "TypeCode": "PR",
                 "Category": "Graphic Cards",
                 "Name": "Hurricane GX",
@@ -1491,6 +1529,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1073",
+                "ProductPicUrl": "local/mockdata/img/HT-1073.jpg",
                 "TypeCode": "PR",
                 "Category": "Graphic Cards",
                 "Name": "Hurricane GX/LN",
@@ -1530,6 +1569,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1080",
+                "ProductPicUrl": "local/mockdata/img/HT-1080.jpg",
                 "TypeCode": "PR",
                 "Category": "Scanners",
                 "Name": "Photo Scan",
@@ -1569,6 +1609,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1081",
+                "ProductPicUrl": "local/mockdata/img/HT-1081.jpg",
                 "TypeCode": "PR",
                 "Category": "Scanners",
                 "Name": "Power Scan",
@@ -1608,6 +1649,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1082",
+                "ProductPicUrl": "local/mockdata/img/HT-1082.jpg",
                 "TypeCode": "PR",
                 "Category": "Scanners",
                 "Name": "Jet Scan Professional",
@@ -1647,6 +1689,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1083",
+                "ProductPicUrl": "local/mockdata/img/HT-1083.jpg",
                 "TypeCode": "PR",
                 "Category": "Scanners",
                 "Name": "Jet Scan Professional",
@@ -1686,6 +1729,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1085",
+                "ProductPicUrl": "local/mockdata/img/HT-1085.jpg",
                 "TypeCode": "PR",
                 "Category": "Multifunction Printers",
                 "Name": "Copymaster",
@@ -1725,6 +1769,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1090",
+                "ProductPicUrl": "local/mockdata/img/HT-1090.jpg",
                 "TypeCode": "PR",
                 "Category": "Speakers",
                 "Name": "Surround Sound",
@@ -1764,6 +1809,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1091",
+                "ProductPicUrl": "local/mockdata/img/HT-1091.jpg",
                 "TypeCode": "PR",
                 "Category": "Speakers",
                 "Name": "Blaster Extreme",
@@ -1803,6 +1849,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1092",
+                "ProductPicUrl": "local/mockdata/img/HT-1092.jpg",
                 "TypeCode": "PR",
                 "Category": "Speakers",
                 "Name": "Sound Booster",
@@ -1842,6 +1889,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1095",
+                "ProductPicUrl": "local/mockdata/img/HT-1095.jpg",
                 "TypeCode": "PR",
                 "Category": "Headsets",
                 "Name": "Lovely Sound 5.1 Wireless",
@@ -1881,6 +1929,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1096",
+                "ProductPicUrl": "local/mockdata/img/HT-1096.jpg",
                 "TypeCode": "PR",
                 "Category": "Headsets",
                 "Name": "Lovely Sound 5.1",
@@ -1920,6 +1969,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1097",
+                "ProductPicUrl": "local/mockdata/img/HT-1097.jpg",
                 "TypeCode": "PR",
                 "Category": "Headsets",
                 "Name": "Lovely Sound Stereo",
@@ -1959,6 +2009,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1100",
+                "ProductPicUrl": "local/mockdata/img/HT-1100.jpg",
                 "TypeCode": "PR",
                 "Category": "Software",
                 "Name": "Smart Office",
@@ -1998,6 +2049,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1101",
+                "ProductPicUrl": "local/mockdata/img/HT-1101.jpg",
                 "TypeCode": "PR",
                 "Category": "Software",
                 "Name": "Smart Design",
@@ -2037,6 +2089,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1102",
+                "ProductPicUrl": "local/mockdata/img/HT-1102.jpg",
                 "TypeCode": "PR",
                 "Category": "Software",
                 "Name": "Smart Network",
@@ -2076,6 +2129,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1103",
+                "ProductPicUrl": "local/mockdata/img/HT-1103.jpg",
                 "TypeCode": "PR",
                 "Category": "Software",
                 "Name": "Smart Multimedia",
@@ -2115,6 +2169,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1104",
+                "ProductPicUrl": "local/mockdata/img/HT-1104.jpg",
                 "TypeCode": "PR",
                 "Category": "Software",
                 "Name": "Smart Games",
@@ -2154,6 +2209,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1105",
+                "ProductPicUrl": "local/mockdata/img/HT-1105.jpg",
                 "TypeCode": "PR",
                 "Category": "Software",
                 "Name": "Smart Internet Antivirus",
@@ -2193,6 +2249,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1106",
+                "ProductPicUrl": "local/mockdata/img/HT-1106.jpg",
                 "TypeCode": "PR",
                 "Category": "Software",
                 "Name": "Smart Firewall",
@@ -2232,6 +2289,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1107",
+                "ProductPicUrl": "local/mockdata/img/HT-1107.jpg",
                 "TypeCode": "PR",
                 "Category": "Software",
                 "Name": "Smart Money",
@@ -2271,6 +2329,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1110",
+                "ProductPicUrl": "local/mockdata/img/HT-1110.jpg",
                 "TypeCode": "PR",
                 "Category": "Computer System Accessories",
                 "Name": "PC Lock",
@@ -2310,6 +2369,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1111",
+                "ProductPicUrl": "local/mockdata/img/HT-1111.jpg",
                 "TypeCode": "PR",
                 "Category": "Computer System Accessories",
                 "Name": "Notebook Lock",
@@ -2349,6 +2409,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1112",
+                "ProductPicUrl": "local/mockdata/img/HT-1112.jpg",
                 "TypeCode": "PR",
                 "Category": "Computer System Accessories",
                 "Name": "Web cam reality",
@@ -2388,6 +2449,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1113",
+                "ProductPicUrl": "local/mockdata/img/HT-1113.jpg",
                 "TypeCode": "PR",
                 "Category": "Computer System Accessories",
                 "Name": "Screen clean",
@@ -2427,6 +2489,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1114",
+                "ProductPicUrl": "local/mockdata/img/HT-1114.jpg",
                 "TypeCode": "PR",
                 "Category": "Computer System Accessories",
                 "Name": "Fabric bag professional",
@@ -2466,6 +2529,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1115",
+                "ProductPicUrl": "local/mockdata/img/HT-1115.jpg",
                 "TypeCode": "PR",
                 "Category": "Telecommunications",
                 "Name": "Wireless DSL Router",
@@ -2505,6 +2569,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1116",
+                "ProductPicUrl": "local/mockdata/img/HT-1116.jpg",
                 "TypeCode": "PR",
                 "Category": "Telecommunications",
                 "Name": "Wireless DSL Router / Repeater",
@@ -2544,6 +2609,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1117",
+                "ProductPicUrl": "local/mockdata/img/HT-1117.jpg",
                 "TypeCode": "PR",
                 "Category": "Telecommunications",
                 "Name": "Wireless DSL Router / Repeater and Print Server",
@@ -2583,6 +2649,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1118",
+                "ProductPicUrl": "local/mockdata/img/HT-1118.jpg",
                 "TypeCode": "PR",
                 "Category": "Computer System Accessories",
                 "Name": "USB Stick",
@@ -2622,6 +2689,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1119",
+                "ProductPicUrl": "local/mockdata/img/HT-1119.jpg",
                 "TypeCode": "PR",
                 "Category": "Computer System Accessories",
                 "Name": "Travel Adapter",
@@ -2661,6 +2729,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1120",
+                "ProductPicUrl": "local/mockdata/img/HT-1120.jpg",
                 "TypeCode": "PR",
                 "Category": "Keyboards",
                 "Name": "Cordless Bluetooth Keyboard, english international",
@@ -2700,6 +2769,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1137",
+                "ProductPicUrl": "local/mockdata/img/HT-1137.jpg",
                 "TypeCode": "PR",
                 "Category": "Flat Screen Monitors",
                 "Name": "Flat XXL",
@@ -2739,6 +2809,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1138",
+                "ProductPicUrl": "local/mockdata/img/HT-1138.jpg",
                 "TypeCode": "PR",
                 "Category": "Mice",
                 "Name": "Pocket Mouse",
@@ -2778,6 +2849,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1210",
+                "ProductPicUrl": "local/mockdata/img/HT-1210.jpg",
                 "TypeCode": "PR",
                 "Category": "PCs",
                 "Name": "PC Power Station",
@@ -2817,6 +2889,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1500",
+                "ProductPicUrl": "local/mockdata/img/HT-1500.jpg",
                 "TypeCode": "PR",
                 "Category": "Servers",
                 "Name": "Server Basic",
@@ -2856,6 +2929,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1501",
+                "ProductPicUrl": "local/mockdata/img/HT-1501.jpg",
                 "TypeCode": "PR",
                 "Category": "Servers",
                 "Name": "Server Professional",
@@ -2895,6 +2969,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1502",
+                "ProductPicUrl": "local/mockdata/img/HT-1502.jpg",
                 "TypeCode": "PR",
                 "Category": "Servers",
                 "Name": "Server Power Pro",
@@ -2934,6 +3009,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1600",
+                "ProductPicUrl": "local/mockdata/img/HT-1600.jpg",
                 "TypeCode": "PR",
                 "Category": "PCs",
                 "Name": "Family PC Basic",
@@ -2973,6 +3049,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1601",
+                "ProductPicUrl": "local/mockdata/img/HT-1601.jpg",
                 "TypeCode": "PR",
                 "Category": "PCs",
                 "Name": "Family PC Pro",
@@ -3012,6 +3089,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1602",
+                "ProductPicUrl": "local/mockdata/img/HT-1602.jpg",
                 "TypeCode": "PR",
                 "Category": "PCs",
                 "Name": "Gaming Monster",
@@ -3051,6 +3129,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-1603",
+                "ProductPicUrl": "local/mockdata/img/HT-1603.jpg",
                 "TypeCode": "PR",
                 "Category": "PCs",
                 "Name": "Gaming Monster Pro",
@@ -3090,6 +3169,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-2000",
+                "ProductPicUrl": "local/mockdata/img/HT-2000.jpg",
                 "TypeCode": "PR",
                 "Category": "Portable Players",
                 "Name": "7\" Widescreen Portable DVD Player w MP3",
@@ -3129,6 +3209,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-2001",
+                "ProductPicUrl": "local/mockdata/img/HT-2001.jpg",
                 "TypeCode": "PR",
                 "Category": "Portable Players",
                 "Name": "10\" Portable DVD player",
@@ -3168,6 +3249,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-2002",
+                "ProductPicUrl": "local/mockdata/img/HT-2002.jpg",
                 "TypeCode": "PR",
                 "Category": "Portable Players",
                 "Name": "Portable DVD Player with 9\" LCD Monitor",
@@ -3207,6 +3289,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-2025",
+                "ProductPicUrl": "local/mockdata/img/HT-2025.jpg",
                 "TypeCode": "PR",
                 "Category": "Computer System Accessories",
                 "Name": "CD/DVD case: 264 sleeves",
@@ -3246,6 +3329,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-2026",
+                "ProductPicUrl": "local/mockdata/img/HT-2026.jpg",
                 "TypeCode": "PR",
                 "Category": "Computer System Accessories",
                 "Name": "Audio/Video Cable Kit - 4m",
@@ -3285,6 +3369,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-2027",
+                "ProductPicUrl": "local/mockdata/img/HT-2027.jpg",
                 "TypeCode": "PR",
                 "Category": "Computer System Accessories",
                 "Name": "Removable CD/DVD Laser Labels",
@@ -3324,6 +3409,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-6100",
+                "ProductPicUrl": "local/mockdata/img/HT-6100.jpg",
                 "TypeCode": "PR",
                 "Category": "Projectors",
                 "Name": "Beam Breaker B-1",
@@ -3363,6 +3449,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-6101",
+                "ProductPicUrl": "local/mockdata/img/HT-6101.jpg",
                 "TypeCode": "PR",
                 "Category": "Projectors",
                 "Name": "Beam Breaker B-2",
@@ -3402,6 +3489,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-6102",
+                "ProductPicUrl": "local/mockdata/img/HT-6102.jpg",
                 "TypeCode": "PR",
                 "Category": "Projectors",
                 "Name": "Beam Breaker B-3",
@@ -3441,6 +3529,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-6110",
+                "ProductPicUrl": "local/mockdata/img/HT-6110.jpg",
                 "TypeCode": "PR",
                 "Category": "Portable Players",
                 "Name": "Play Movie",
@@ -3480,6 +3569,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-6111",
+                "ProductPicUrl": "local/mockdata/img/HT-6111.jpg",
                 "TypeCode": "PR",
                 "Category": "Portable Players",
                 "Name": "Record Movie",
@@ -3519,6 +3609,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-6120",
+                "ProductPicUrl": "local/mockdata/img/HT-6120.jpg",
                 "TypeCode": "PR",
                 "Category": "MP3 Players",
                 "Name": "ITelo MusickStick",
@@ -3558,6 +3649,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-6121",
+                "ProductPicUrl": "local/mockdata/img/HT-6121.jpg",
                 "TypeCode": "PR",
                 "Category": "MP3 Players",
                 "Name": "ITelo Jog-Mate",
@@ -3597,6 +3689,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-6122",
+                "ProductPicUrl": "local/mockdata/img/HT-6122.jpg",
                 "TypeCode": "PR",
                 "Category": "MP3 Players",
                 "Name": "Power Pro Player 40",
@@ -3636,6 +3729,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-6123",
+                "ProductPicUrl": "local/mockdata/img/HT-6123.jpg",
                 "TypeCode": "PR",
                 "Category": "MP3 Players",
                 "Name": "Power Pro Player 80",
@@ -3675,6 +3769,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-6130",
+                "ProductPicUrl": "local/mockdata/img/HT-6130.jpg",
                 "TypeCode": "PR",
                 "Category": "Flat Screen TVs",
                 "Name": "Flat Watch HD32",
@@ -3714,6 +3809,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-6131",
+                "ProductPicUrl": "local/mockdata/img/HT-6131.jpg",
                 "TypeCode": "PR",
                 "Category": "Flat Screen TVs",
                 "Name": "Flat Watch HD37",
@@ -3753,6 +3849,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-6132",
+                "ProductPicUrl": "local/mockdata/img/HT-6132.jpg",
                 "TypeCode": "PR",
                 "Category": "Flat Screen TVs",
                 "Name": "Flat Watch HD41",
@@ -3792,6 +3889,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-7000",
+                "ProductPicUrl": "local/mockdata/img/HT-7000.jpg",
                 "TypeCode": "PR",
                 "Category": "PDAs & Organizers",
                 "Name": "Copperberry",
@@ -3831,6 +3929,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-7010",
+                "ProductPicUrl": "local/mockdata/img/HT-7010.jpg",
                 "TypeCode": "PR",
                 "Category": "PDAs & Organizers",
                 "Name": "Silverberry",
@@ -3870,6 +3969,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-7020",
+                "ProductPicUrl": "local/mockdata/img/HT-7020.jpg",
                 "TypeCode": "PR",
                 "Category": "PDAs & Organizers",
                 "Name": "Goldberry",
@@ -3909,6 +4009,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-7030",
+                "ProductPicUrl": "local/mockdata/img/HT-7030.jpg",
                 "TypeCode": "PR",
                 "Category": "PDAs & Organizers",
                 "Name": "Platinberry",
@@ -3948,6 +4049,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-8000",
+                "ProductPicUrl": "local/mockdata/img/HT-8000.jpg",
                 "TypeCode": "PR",
                 "Category": "Notebooks",
                 "Name": "ITelO FlexTop I4000",
@@ -3987,6 +4089,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-8001",
+                "ProductPicUrl": "local/mockdata/img/HT-8001.jpg",
                 "TypeCode": "PR",
                 "Category": "Notebooks",
                 "Name": "ITelO FlexTop I6300c",
@@ -4026,6 +4129,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-8002",
+                "ProductPicUrl": "local/mockdata/img/HT-8002.jpg",
                 "TypeCode": "PR",
                 "Category": "Notebooks",
                 "Name": "ITelO FlexTop I9100",
@@ -4065,6 +4169,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-8003",
+                "ProductPicUrl": "local/mockdata/img/HT-8003.jpg",
                 "TypeCode": "PR",
                 "Category": "Notebooks",
                 "Name": "ITelO FlexTop I9800",
@@ -4104,6 +4209,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-9991",
+                "ProductPicUrl": "local/mockdata/img/HT-9991.jpg",
                 "TypeCode": "PR",
                 "Category": "Accessories",
                 "Name": "Smartphone Leather Case",
@@ -4143,6 +4249,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-9992",
+                "ProductPicUrl": "local/mockdata/img/HT-9992.jpg",
                 "TypeCode": "PR",
                 "Category": "Smartphones",
                 "Name": "Smartphone Alpha",
@@ -4182,6 +4289,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-9993",
+                "ProductPicUrl": "local/mockdata/img/HT-9993.jpg",
                 "TypeCode": "PR",
                 "Category": "Tablets",
                 "Name": "Mini Tablet",
@@ -4221,6 +4329,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-9994",
+                "ProductPicUrl": "local/mockdata/img/HT-9994.jpg",
                 "TypeCode": "PR",
                 "Category": "Camcorders",
                 "Name": "Camcorder View",
@@ -4260,6 +4369,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-9995",
+                "ProductPicUrl": "local/mockdata/img/HT-9995.jpg",
                 "TypeCode": "PR",
                 "Category": "Accessories",
                 "Name": "Smartphone Cover",
@@ -4299,6 +4409,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-9996",
+                "ProductPicUrl": "local/mockdata/img/HT-9996.jpg",
                 "TypeCode": "PR",
                 "Category": "Accessories",
                 "Name": "Tablet Pouch",
@@ -4338,6 +4449,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-9997",
+                "ProductPicUrl": "local/mockdata/img/HT-9997.jpg",
                 "TypeCode": "PR",
                 "Category": "Tablets",
                 "Name": "e-Book Reader ReadMe",
@@ -4377,6 +4489,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-9998",
+                "ProductPicUrl": "local/mockdata/img/HT-9998.jpg",
                 "TypeCode": "PR",
                 "Category": "Smartphones",
                 "Name": "Smartphone Beta",
@@ -4416,6 +4529,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "HT-9999",
+                "ProductPicUrl": "local/mockdata/img/HT-9999.jpg",
                 "TypeCode": "PR",
                 "Category": "Tablets",
                 "Name": "Maxi Tablet",
@@ -4455,6 +4569,7 @@
                     "etag": "W/\"datetime'2017-11-28T22%3A31%3A17.0000000'\""
                 },
                 "ProductID": "PF-1000",
+                "ProductPicUrl": "local/mockdata/img/PF-1000.jpg",
                 "TypeCode": "AD",
                 "Category": "Computer System Accessories",
                 "Name": "Flyer",
@@ -4494,6 +4609,7 @@
                     "etag": "W/\"datetime'2017-11-29T04%3A13%3A26.2950000'\""
                 },
                 "ProductID": "hciMerge",
+                "ProductPicUrl": "local/mockdata/img/hciMerge.jpg",
                 "TypeCode": "PR",
                 "Category": "Notebooks",
                 "Name": "Notebook Professional 17",
@@ -4533,6 +4649,7 @@
                     "etag": "W/\"datetime'2017-11-29T06%3A27%3A58.3300000'\""
                 },
                 "ProductID": "hciTesting",
+                "ProductPicUrl": "local/mockdata/img/hciTesting.jpg",
                 "TypeCode": "PR",
                 "Category": "Notebooks",
                 "Name": "Notebook Professional 17",
@@ -4572,6 +4689,7 @@
                     "etag": "W/\"datetime'2017-11-29T04%3A13%3A18.5460000'\""
                 },
                 "ProductID": "hciUpdate",
+                "ProductPicUrl": "local/mockdata/img/hciUpdate.jpg",
                 "TypeCode": "PR",
                 "Category": "Notebooks",
                 "Name": "Notebook Professional 17",

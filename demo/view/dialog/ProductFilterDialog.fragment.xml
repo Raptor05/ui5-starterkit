@@ -21,6 +21,23 @@
                                       key="Category___EQ___{Category}"/>
                 </items>
             </ViewSettingsFilterItem>
+            <ViewSettingsFilterItem id="fltProductFilterTypeCode"
+                                    text="{i18n>ProductFilterTypeCode}"
+                                    key="TypeCode"
+                                    multiSelect="false"
+                                    items="{
+                                            path: '/VH_ProductTypeCodeSet',
+                                            sorter: {
+                                                path: 'TypeCode',
+                                                descending: false
+                                            },
+                                            templateShareable: false
+                                        }">
+                <items>
+                    <ViewSettingsItem text="{Shorttext}"
+                                      key="TypeCode___EQ___{TypeCode}"/>
+                </items>
+            </ViewSettingsFilterItem>
         </filterItems>
     </ViewSettingsDialog>
 </core:FragmentDefinition>
