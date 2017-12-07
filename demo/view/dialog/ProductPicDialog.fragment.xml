@@ -1,0 +1,14 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+                         xmlns="sap.m">
+    <Dialog showHeader="false">
+        <content>
+            <Image class="maxWidth25"
+                   src="{ProductPicUrl}"
+                   alt="{Name}"/>
+        </content>
+        <endButton>
+            <Button text="{i18n>Close}"
+                    press="onCloseDialog"/>
+        </endButton>
+    </Dialog>
+</core:FragmentDefinition>

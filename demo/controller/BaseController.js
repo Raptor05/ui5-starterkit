@@ -78,11 +78,20 @@ sap.ui.define([
         getRouter: function () {
             // return the Router for the current view
             return sap.ui.core.UIComponent.getRouterFor(this);
-        }
+        },
 
         /* =========================================================== */
         /* Event handlers (starts with "on")						   */
         /* =========================================================== */
+
+        /**
+         * Closes the dialog
+         * @param {sap.ui.base.Event} oEvent - An Event object consisting of an id, a source and a map of parameters
+         * @memberOf mhp.ui5StarterKit.demo.BaseController
+         */
+        onCloseDialog: function (oEvent) {
+            oEvent.getSource().getParent().close();
+        }
 
         /* =========================================================== */
         /* Private functions (starts with "_")						   */

@@ -91,6 +91,22 @@ sap.ui.define([
             this._toggleButtonsAndView(false);
         },
 
+        /**
+         * Opens a small dialog with a bigger product picture
+         * @param {sap.ui.base.Event} oEvent - An Event object consisting of an id, a source and a map of parameters
+         * @memberOf mhp.ui5StarterKit.demo.Detail
+         */
+        onOpenProductPic: function (oEvent) {
+            var sBindingPath = oEvent.getSource().getBindingContext().getPath();
+
+            if (!this._oProductPicDialog) {
+                this._oProductPicDialog = sap.ui.xmlfragment(this.getDialogPath() + ".ProductPicDialog", this);
+                this.getView().addDependent(this._oProductPicDialog);
+            }
+            this._oProductPicDialog.bindElement(sBindingPath);
+            this._oProductPicDialog.open();
+        },
+
         /* =========================================================== */
         /* Private functions (starts with "_")						   */
         /* =========================================================== */
@@ -163,7 +179,7 @@ sap.ui.define([
             if (oFormFragment) {
                 return oFormFragment;
             } else {
-                oFormFragment = sap.ui.xmlfragment(this.getView().getId(), this.getFragmentPath() + "." + sFragmentName);
+                oFormFragment = sap.ui.xmlfragment(this.getView().getId(), this.getFragmentPath() + "." + sFragmentName, this);
                 this._formFragments[sFragmentName] = oFormFragment;
                 return this._formFragments[sFragmentName];
             }

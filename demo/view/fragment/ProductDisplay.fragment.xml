@@ -1,56 +1,72 @@
 <core:FragmentDefinition xmlns:core="sap.ui.core"
-                         xmlns:form="sap.ui.layout.form"
                          xmlns="sap.m">
-    <VBox class="sapUiSmallMargin">
-        <form:SimpleForm id="sfProductDisplay"
-                         editable="false"
-                         layout="ResponsiveGridLayout"
-                         labelSpanXL="4"
-                         labelSpanL="3"
-                         labelSpanM="4"
-                         labelSpanS="12"
-                         adjustLabelSpan="false"
-                         emptySpanXL="0"
-                         emptySpanL="4"
-                         emptySpanM="0"
-                         emptySpanS="0"
-                         columnsXL="2"
-                         columnsL="1"
-                         columnsM="1"
-                         singleContainerFullSize="false">
-            <form:content>
-                <core:Title text="{i18n>ProductInfos}"/>
-                <Label text="{i18n>ProductId}"/>
-                <Text text="{ProductID}"/>
-                <Label text="{i18n>TypeCode}"/>
-                <Text text="{TypeCode}"/>
-                <Label text="{i18n>Category}"/>
-                <Text text="{Category}"/>
-                <Label text="{i18n>ProductName}"/>
-                <Text text="{Name}"/>
-                <Label text="{i18n>ProductDescription}"/>
-                <Text text="{Description}"/>
-                <core:Title text="{i18n>AdditionalInfos}"/>
-                <Label text="{i18n>SupplierId}"/>
-                <Text text="{SupplierID}"/>
-                <Label text="{i18n>SupplierName}"/>
-                <Text text="{SupplierName}"/>
-                <Label text="{i18n>TaxTarifCode}"/>
-                <Text text="{TaxTarifCode}"/>
-                <Label text="{i18n>Weight}"/>
-                <Text text="{WeightMeasure} {WeightUnit}"/>
-                <Label text="{i18n>Price}"/>
-                <Text text="{
-                                parts: [
-                                    {path: 'Price'},
-                                    {path: 'CurrencyCode'}
-                                ],
-                                type: 'sap.ui.model.type.Currency'
-                            }"/>
-                <Label text="{i18n>Dimension} {i18n>WidthShort}x{i18n>HeightShort}x{i18n>DepthShort}"/>
-                <Text text="{Width}x{Height}x{Depth} {DimUnit}"/>
-            </form:content>
-        </form:SimpleForm>
-    </VBox>
+    <ObjectHeader id="ohProductHeader"
+                  responsive="true"
+                  icon="{ProductPicUrl}"
+                  iconAlt="{Name}"
+                  iconActive="true"
+                  iconPress="onOpenProductPic"
+                  intro="{Description}"
+                  title="{Name}"
+                  number="{
+                            parts: [
+                                {path: 'Price'},
+                                {path: 'CurrencyCode'}
+                            ],
+                            type: 'sap.ui.model.type.Currency',
+                            formatOptions: {
+                                showMeasure: false
+                            }
+                          }"
+                  numberUnit="{CurrencyCode}"
+                  backgroundDesign="Translucent">
+        <attributes>
+            <ObjectAttribute title="{i18n>ProductId}"
+                             text="{ProductID}"/>
+            <ObjectAttribute title="{i18n>SupplierName}"
+                             text="{SupplierName}"/>
+            <ObjectAttribute title="{i18n>Category}"
+                             text="{Category}"/>
+            <ObjectAttribute title="{i18n>Weight}"
+                             text="{
+                                        path: 'WeightMeasure',
+                                        type: 'sap.ui.model.type.Float',
+                                        formatOptions: {
+                                            decimals: 1
+                                        }
+                                    } {= ${WeightUnit}.toLowerCase() }"/>
+            <ObjectAttribute title="{i18n>Dimension}"
+                             text="{
+                                        path: 'Width',
+                                        type: 'sap.ui.model.type.Float',
+                                        formatOptions: {
+                                            decimals: 0
+                                        }
+                                    } x {
+                                        path: 'Depth',
+                                        type: 'sap.ui.model.type.Float',
+                                        formatOptions: {
+                                            decimals: 0
+                                        }
+                                    } x {
+                                        path: 'Height',
+                                        type: 'sap.ui.model.type.Float',
+                                        formatOptions: {
+                                            decimals: 0
+                                        }
+                                    } {= ${DimUnit}.toLowerCase() }"/>
+        </attributes>
+        <headerContainer>
+            <IconTabBar id="itbProductTabs"
+                        class="sapUiResponsiveContentPadding">
+                <items>
+                    <IconTabFilter id="itfProductContentSalesOrderItems"
+                                   text="{i18n>SalesOrderItems}"/>
+                    <IconTabFilter id="itfProductContentSupplierInfo"
+                                   text="{i18n>SupplierInfo}"/>
+                </items>
+            </IconTabBar>
+        </headerContainer>
+    </ObjectHeader>
 </core:FragmentDefinition>
 
