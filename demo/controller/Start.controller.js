@@ -2,11 +2,11 @@
  * Created by mdeppe on 28.11.2017.
  */
 sap.ui.define([
-    "sap/ui/core/mvc/Controller"
-], function (Controller) {  // eslint-disable-line id-match
+    "mhp/ui5StarterKit/demo/controller/BaseController"
+], function (BaseController) {  // eslint-disable-line id-match
     "use strict";
 
-    return Controller.extend("mhp.ui5StarterKit.demo.controller.Start", {
+    return BaseController.extend("mhp.ui5StarterKit.demo.controller.Start", {
         /**
          * Start.controller.js
          *
@@ -17,7 +17,7 @@ sap.ui.define([
          *
          * @class Start.controller.js
          *
-         * @extends sap.ui.core.mvc.Controller
+         * @extends mhp.ui5StarterKit.demo.controller.BaseController
          *
          * @constructor
          * @public

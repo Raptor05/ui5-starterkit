@@ -53,6 +53,23 @@ sap.ui.define([
         /* =========================================================== */
 
         /**
+         * Activates the fullscreen mode of the shell control
+         * @param {sap.ui.base.Event} oEvent - An Event object consisting of an id, a source and a map of parameters
+         * @memberOf mhp.ui5StarterKit.demo.Master
+         */
+        onEnterFullsScreen: function (oEvent) {
+            var oShell = sap.ui.getCore().byId("ShellContainer");
+            var oButton = oEvent.getSource();
+            if (oButton.getIcon() === "sap-icon://full-screen") {
+                oButton.setIcon("sap-icon://exit-full-screen");
+                oShell.setAppWidthLimited(false);
+            } else {
+                oButton.setIcon("sap-icon://full-screen");
+                oShell.setAppWidthLimited(true);
+            }
+        },
+
+        /**
          * Searches for a product based on the input
          * @param {sap.ui.base.Event} oEvent - An Event object consisting of an id, a source and a map of parameters
          * @memberOf mhp.ui5StarterKit.demo.Master

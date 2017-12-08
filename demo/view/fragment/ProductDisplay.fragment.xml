@@ -64,7 +64,7 @@
                                    text="{i18n>SalesOrderItems}">
                         <content>
                             <core:Fragment id="frgSalesOrderItems"
-                                           fragmentName="mhp.ui5StarterKit.demo.view.fragment.SalesOrderItems"
+                                           fragmentName="mhp.ui5StarterKit.demo.view.fragment.SalesOrderItemsDisplay"
                                            type="XML"/>
                         </content>
                     </IconTabFilter>

@@ -2,14 +2,26 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc"
           controllerName="mhp.ui5StarterKit.demo.controller.Start"
           xmlns="sap.m">
-    <Page title="Start"
-          showNavButton="false">
+    <Page showNavButton="false">
+        <headerContent>
+            <Bar design="Header">
+                <contentLeft>
+                    <Button icon="sap-icon://menu2"
+                            visible="{device>/system/phone}"
+                            press="onPhoneNavToMaster"/>
+                </contentLeft>
+                <contentMiddle>
+                    <Title text="{i18n>StartTitle}"/>
+                </contentMiddle>
+            </Bar>
+        </headerContent>
         <content>
             <FlexBox height="100%"
                      alignItems="Center"
                      justifyContent="Center">
                 <items>
-                    <Image src="image/header.png"/>
+                    <Image width="100%"
+                           src="image/header.png"/>
                 </items>
             </FlexBox>
         </content>

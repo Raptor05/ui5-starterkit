@@ -1,0 +1,80 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+                         xmlns="sap.m">
+    <Table id="tblSalesOrderTable"
+           growing="true"
+           items="{ToSalesOrderLineItems}">
+        <headerToolbar>
+            <Toolbar>
+                <Title text="{i18n>SalesOrderItems}"
+                       level="H2"/>
+                <ToolbarSpacer/>
+                <Button icon="sap-icon://action-settings"
+                        press="onOpenSalesOrderItemsTableConfig"/>
+            </Toolbar>
+        </headerToolbar>
+        <columns>
+            <Column>
+                <Text text="{i18n>SalesOrderID}"/>
+            </Column>
+            <Column minScreenWidth="Desktop">
+                <Text text="{i18n>Note}"/>
+            </Column>
+            <Column>
+                <Text text="{i18n>Quantity}"/>
+            </Column>
+            <Column>
+                <Text text="{i18n>GrossAmount}"/>
+            </Column>
+            <Column minScreenWidth="Desktop">
+                <Text text="{i18n>NetAmount}"/>
+            </Column>
+            <Column minScreenWidth="Desktop">
+                <Text text="{i18n>TaxAmount}"/>
+            </Column>
+        </columns>
+        <items>
+            <ColumnListItem>
+                <cells>
+                    <ObjectIdentifier title="{ProductID}"
+                                      text="{SalesOrderID}"
+                                      class="sapMTableContentMargin"/>
+                    <Text text="{Note}"/>
+                    <Text text="{Quantity} {= ${QuantityUnit}.toLowerCase()}"/>
+                    <ObjectNumber number="{
+                                            parts: [
+                                                {path: 'GrossAmount'},
+                                                {path: 'CurrencyCode'}
+                                            ],
+                                            type: 'sap.ui.model.type.Currency',
+                                            formatOptions: {
+                                                showMeasure: false
+                                            }
+                                        }"
+                                  unit="{CurrencyCode}"/>
+                    <ObjectNumber number="{
+                                            parts: [
+                                                {path: 'NetAmount'},
+                                                {path: 'CurrencyCode'}
+                                            ],
+                                            type: 'sap.ui.model.type.Currency',
+                                            formatOptions: {
+                                                showMeasure: false
+                                            }
+                                        }"
+                                  unit="{CurrencyCode}"/>
+                    <ObjectNumber number="{
+                                            parts: [
+                                                {path: 'TaxAmount'},
+                                                {path: 'CurrencyCode'}
+                                            ],
+                                            type: 'sap.ui.model.type.Currency',
+                                            formatOptions: {
+                                                showMeasure: false
+                                            }
+                                        }"
+                                  unit="{CurrencyCode}"/>
+                </cells>
+            </ColumnListItem>
+        </items>
+    </Table>
+</core:FragmentDefinition>

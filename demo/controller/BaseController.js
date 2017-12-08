@@ -93,6 +93,25 @@ sap.ui.define([
             oEvent.getSource().getParent().close();
         },
 
+        /**
+         * Navigates to master view on phone, because SplitApp has strange behaviour on phone
+         * @param {sap.ui.base.Event} oEvent - An Event object consisting of an id, a source and a map of parameters
+         * @memberOf mhp.ui5StarterKit.demo.BaseController@param oEvent
+         */
+        onPhoneNavToMaster: function (oEvent) {
+            this.getRouter().navTo("phoneMaster");
+        },
+
+        /**
+         * Navigates to home view on phone, because SplitApp has strange behaviour on phone
+         * @param {sap.ui.base.Event} oEvent - An Event object consisting of an id, a source and a map of parameters
+         * @memberOf mhp.ui5StarterKit.demo.BaseController@param oEvent
+         */
+        onPhoneNavToStart: function (oEvent) {
+            this.getRouter().navTo("home");
+        },
+
+
         /* =========================================================== */
         /* Private functions (starts with "_")						   */
         /* =========================================================== */

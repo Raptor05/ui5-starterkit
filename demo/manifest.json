@@ -27,7 +27,7 @@
         "deviceTypes": {
             "desktop": true,
             "tablet": true,
-            "phone": false
+            "phone": true
         },
         "supportedThemes": [
             "sap_bluecrystal",
@@ -100,6 +100,14 @@
                     ]
                 },
                 {
+                    "pattern": "master",
+                    "name": "phoneMaster",
+                    "target": [
+                        "start",
+                        "master"
+                    ]
+                },
+                {
                     "pattern": "detail/{productid}",
                     "name": "detail",
                     "target": [
@@ -126,7 +134,7 @@
                 "start": {
                     "viewName": "Start",
                     "viewId": "viewStart",
-                    "viewLevel": 11
+                    "viewLevel": 9
                 },
                 "detail": {
                     "viewName": "Detail",

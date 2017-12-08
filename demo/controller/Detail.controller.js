@@ -63,7 +63,14 @@ sap.ui.define([
          * @memberOf mhp.ui5StarterKit.demo.Detail
          */
         onNavBack: function (oEvent) {
-            this.getRouter().navTo("home");
+            var bPhone = this.getView().getModel("device").getProperty("/system/phone");
+
+            //when Phone go to master view
+            if (bPhone) {
+                this.getRouter().navTo("phoneMaster");
+            } else {
+                this.getRouter().navTo("home");
+            }
         },
 
         /**
@@ -105,6 +112,15 @@ sap.ui.define([
             }
             this._oProductPicDialog.bindElement(sBindingPath);
             this._oProductPicDialog.open();
+        },
+
+        /**
+         * Opens the configuration dialog for the sales order items table
+         * @param {sap.ui.base.Event} oEvent - An Event object consisting of an id, a source and a map of parameters
+         * @memberOf mhp.ui5StarterKit.demo.Detail
+         */
+        onOpenSalesOrderItemsTableConfig: function (oEvent) {
+
         },
 
         /* =========================================================== */
