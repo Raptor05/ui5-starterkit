@@ -116,13 +116,13 @@ sap.ui.define([
                     oView.setBusy(true);
 
                     oView.getModel().submitChanges({
-                        success: function (oData) {   // eslint-disable-line require-jsdoc
+                        success: jQuery.proxy(function (oData) {   // eslint-disable-line require-jsdoc
                             this._toggleButtonsAndView(false);
                             oView.setBusy(false);
-                        },
-                        error: function (oData) {    // eslint-disable-line require-jsdoc
+                        }, this),
+                        error: jQuery.proxy(function (oData) {    // eslint-disable-line require-jsdoc
                             oView.setBusy(false);
-                        }
+                        })
                     });
                 }
             }
