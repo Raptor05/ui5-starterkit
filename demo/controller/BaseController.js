@@ -141,6 +141,86 @@ sap.ui.define([
                 sInt = parseInt(sValue, 10);
             }
             return sInt;
+        },
+
+        /**
+         * Check all mandatory fields are maintained
+         * @param {Array} aMandatoryFields - An array of all mandatory fields to check
+         * @returns {boolean} Flag if all fields are valid
+         * @memberOf mhp.ui5StarterKit.demo.BaseController
+         * @private
+         */
+        _checkMandatoryFields: function (aMandatoryFields) {
+            var bValid = true;
+
+            jQuery.each(aMandatoryFields, function (i, sValidate) {
+                var oControl = this.getView().byId(sValidate);
+                var oContext = this.getView().getBindingContext();
+                if (!this._checkSingleMandatoryField(oControl, oContext)) {
+                    bValid = false;
+                }
+            }.bind(this));
+
+            return bValid;
+
+        },
+
+        /**
+         *
+         * @param {sap.m.InputBase} oControl - The sap.m.InputBase control provides a basic functionality for input controls.
+         * @returns {boolean} Flag if control is valid
+         * @memberOf mhp.ui5StarterKit.demo.BaseController
+         * @private
+         */
+        _checkSingleMandatoryField: function (oControl) {
+            var bValid = true,
+                oView = this.getView(),
+                oBundle = oView.getModel("i18n").getResourceBundle();
+
+            // get control type
+            var sType = oControl.getMetadata().getName();
+            var oData = this.getView().getBindingContext().getObject();
+
+            switch (sType) {
+                case "sap.m.DatePicker":
+                    if (!oControl.getValue()) {
+                        bValid = false;
+                        oControl.setValueState("Error");
+                    } else {
+                        oControl.setValueState("None");
+                        oControl.setValueStateText("");
+                    }
+                    break;
+                case "sap.m.Select":
+                    if (oControl.getSelectedKey() === "") {
+                        bValid = false;
+                        oControl.setValueState("Error");
+                        oControl.setValueStateText(oBundle.getText("PlsChooseAnOption"));
+                    } else {
+                        oControl.setValueState("None");
+                        oControl.setValueStateText("");
+                    }
+                    break;
+
+                case "sap.m.Input":
+                    if (!oControl.getValue()) {
+                        bValid = false;
+                        oControl.setValueState("Error");
+                    } else {
+                        oControl.setValueState("None");
+                        oControl.setValueStateText("");
+                    }
+                    break;
+                default:
+                    if (!oData[oControl.getBindingInfo("value").binding.sPath]) {
+                        bValid = false;
+                        oControl.setValueState("Error");
+                    } else {
+                        oControl.setValueState("None");
+                        oControl.setValueStateText("");
+                    }
+            }
+            return bValid;
         }
 
     });

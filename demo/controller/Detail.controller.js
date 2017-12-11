@@ -7,7 +7,7 @@ sap.ui.define([
 ], function (BaseController, Filter) {  // eslint-disable-line id-match
     "use strict";
 
-    //var _aMandatoryFields = ["inpProductId", "inpProductName", "slcProductTypeCode", "slcProductCategory"];
+    var _aMandatoryFields = ["inpProductId", "inpProductName", "slcProductTypeCode", "slcProductCategory"];
 
     return BaseController.extend("mhp.ui5StarterKit.demo.controller.Detail", {
         /**
@@ -99,6 +99,33 @@ sap.ui.define([
                 oContext.getPath()
             ]);
             this._toggleButtonsAndView(false);
+        },
+
+        /**
+         * Validates all fields and saves
+         * @param {sap.ui.base.Event} oEvent - An Event object consisting of an id, a source and a map of parameters
+         * @memberOf mhp.ui5StarterKit.demo.Detail
+         */
+        onProductSavePress: function (oEvent) {
+            var oView = this.getView();
+
+            if (oView.getModel().hasPendingChanges()) {
+
+                if (this._checkMandatoryFields(_aMandatoryFields)) {
+
+                    oView.setBusy(true);
+
+                    oView.getModel().submitChanges({
+                        success: function (oData) {   // eslint-disable-line require-jsdoc
+                            this._toggleButtonsAndView(false);
+                            oView.setBusy(false);
+                        },
+                        error: function (oData) {    // eslint-disable-line require-jsdoc
+                            oView.setBusy(false);
+                        }
+                    });
+                }
+            }
         },
 
         /**
