@@ -126,6 +126,21 @@ sap.ui.define([
             if (!this.getView().getBindingContext()) {
                 this.getRouter().getTargets().display("notFound");
             }
+        },
+
+        /**
+         * Converts a numeric String value into an integer
+         * @param {String} sValue - An integer value as String
+         * @returns {number} the converted integer value
+         * @memberOf mhp.ui5StarterKit.demo.BaseController
+         * @private
+         */
+        _parseToInt: function (sValue) {
+            var sInt = 0;
+            if (sValue != null) {
+                sInt = parseInt(sValue, 10);
+            }
+            return sInt;
         }
 
     });

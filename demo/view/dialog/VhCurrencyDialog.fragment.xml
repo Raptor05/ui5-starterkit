@@ -1,0 +1,12 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+                         xmlns="sap.m">
+    <SelectDialog title="{i18n>Currency}"
+                  class="sapUiPopupWithPadding"
+                  items="{/VH_CurrencySet}"
+                  liveChange="onSearchCurrencyVh"
+                  confirm="onCloseCurrencyVh"
+                  cancel="onCloseCurrencyVh">
+        <StandardListItem title="{Waers}"
+                          description="{Ltext}"/>
+    </SelectDialog>
+</core:FragmentDefinition>

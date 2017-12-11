@@ -2,9 +2,12 @@
  * Created by mdeppe on 04.12.2017.
  */
 sap.ui.define([
-    "mhp/ui5StarterKit/demo/controller/BaseController"
-], function (BaseController) {  // eslint-disable-line id-match
+    "mhp/ui5StarterKit/demo/controller/BaseController",
+    "sap/ui/model/Filter"
+], function (BaseController, Filter) {  // eslint-disable-line id-match
     "use strict";
+
+    //var _aMandatoryFields = ["inpProductId", "inpProductName", "slcProductTypeCode", "slcProductCategory"];
 
     return BaseController.extend("mhp.ui5StarterKit.demo.controller.Detail", {
         /**
@@ -121,6 +124,57 @@ sap.ui.define([
          */
         onOpenSalesOrderItemsTableConfig: function (oEvent) {
 
+        },
+
+        /**
+         * Opens a value help dialog
+         * @param {sap.ui.base.Event} oEvent - An Event object consisting of an id, a source and a map of parameters
+         * @memberOf mhp.ui5StarterKit.demo.Detail
+         */
+        onCurrencyHelp: function (oEvent) {
+            if (!this._vhCurrencyDialog) {
+                this._vhCurrencyDialog = sap.ui.xmlfragment(this.getDialogPath() + ".VhCurrencyDialog", this);
+                this.getView().addDependent(this._vhCurrencyDialog);
+            }
+            this._vhCurrencyDialog.open();
+        },
+
+        /**
+         * Searches for currencies in the value help list
+         * @param {sap.ui.base.Event} oEvent - An Event object consisting of an id, a source and a map of parameters
+         * @memberOf mhp.ui5StarterKit.demo.Detail
+         */
+        onSearchCurrencyVh: function (oEvent) {
+            var sQuery = oEvent.getParameter("value"),
+                aFilters = [];
+            if (sQuery && sQuery.length > 0) {
+                aFilters.push(new Filter("Waers", sap.ui.model.FilterOperator.Contains, sQuery));
+                aFilters.push(new Filter("Ltext", sap.ui.model.FilterOperator.Contains, sQuery));
+
+
+                var oFilter = new Filter({
+                    filters: aFilters,
+                    and: false
+                });
+
+                oEvent.getSource().getBinding("items").filter(oFilter);
+            } else {
+                oEvent.getSource().getBinding("items").filter();
+            }
+        },
+
+        /**
+         * Confirms the selected currency from the value help
+         * @param {sap.ui.base.Event} oEvent - An Event object consisting of an id, a source and a map of parameters
+         * @memberOf mhp.ui5StarterKit.demo.Detail
+         */
+        onCloseCurrencyVh: function (oEvent) {
+            var oSelectedItem = oEvent.getParameter("selectedItem");
+            if (oSelectedItem) {
+                var oInput = this.getView().byId("inpProductCurrency");
+                oInput.setValue(oSelectedItem.getTitle());
+            }
+            oEvent.getSource().getBinding("items").filter([]);
         },
 
         /* =========================================================== */
