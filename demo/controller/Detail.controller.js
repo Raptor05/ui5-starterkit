@@ -8,6 +8,7 @@ sap.ui.define([
     "use strict";
 
     var _aMandatoryFields = ["inpProductId", "inpProductName", "slcProductTypeCode", "slcProductCategory"];
+    var _aMandatoryFieldsCreate = ["inpProductIdCreate", "inpProductNameCreate", "slcProductTypeCodeCreate", "slcProductCategoryCreate"];
 
     return BaseController.extend("mhp.ui5StarterKit.demo.controller.Detail", {
         /**
@@ -98,7 +99,12 @@ sap.ui.define([
             oModel.resetChanges([
                 oContext.getPath()
             ]);
-            this._toggleButtonsAndView(false);
+
+            if (oContext.bCreated) {
+                this.onNavBack();
+            } else {
+                this._toggleButtonsAndView(false);
+            }
         },
 
         /**
@@ -107,20 +113,33 @@ sap.ui.define([
          * @memberOf mhp.ui5StarterKit.demo.Detail
          */
         onProductSavePress: function (oEvent) {
-            var oView = this.getView();
+            var oView = this.getView(),
+                bValid;
 
             if (oView.getModel().hasPendingChanges()) {
 
-                if (this._checkMandatoryFields(_aMandatoryFields)) {
+                if (oView.getBindingContext().bCreated) {
+                    bValid = this._checkMandatoryFields(_aMandatoryFieldsCreate);
+                } else {
+                    bValid = this._checkMandatoryFields(_aMandatoryFields);
+                }
+
+                if (bValid) {
 
                     oView.setBusy(true);
 
-                    oView.getModel().submitChanges({
-                        success: jQuery.proxy(function (oData) {   // eslint-disable-line require-jsdoc
+                    var oModel = oView.getModel();
+
+                    oModel.setUseBatch(true);
+
+                    oModel.submitChanges({
+                        success: jQuery.proxy(function () {   // eslint-disable-line require-jsdoc
                             this._toggleButtonsAndView(false);
+                            oModel.setUseBatch(false);
                             oView.setBusy(false);
                         }, this),
-                        error: jQuery.proxy(function (oData) {    // eslint-disable-line require-jsdoc
+                        error: jQuery.proxy(function () {    // eslint-disable-line require-jsdoc
+                            oModel.setUseBatch(false);
                             oView.setBusy(false);
                         })
                     });
@@ -215,12 +234,18 @@ sap.ui.define([
          * @private
          */
         _onRouteMatched: function (oEvent) {
-            var sRoute = oEvent.getParameter("name");
+            var sRoute = oEvent.getParameter("name"),
+                oView = this.getView();
             if (sRoute === "create") {
+                oView.unbindElement();
+                var oEntry = oView.getModel().createEntry("/ProductSet");
+                oView.setBindingContext(oEntry);
                 this._showFormFragment("ProductCreate");
+                oView.byId("btnProductEdit").setVisible(false);
+                oView.byId("btnProductSave").setVisible(true);
+                oView.byId("btnProductCancel").setVisible(true);
             } else {
-                var sProductId = oEvent.getParameter("arguments").productid,
-                    oView = this.getView();
+                var sProductId = oEvent.getParameter("arguments").productid;
                 oView.bindElement({
                     path: "/ProductSet('" + sProductId + "')",
                     events: {
@@ -234,7 +259,7 @@ sap.ui.define([
                     }
                 });
 
-                this._showFormFragment("ProductDisplay");
+                this._toggleButtonsAndView(false);
             }
 
         },

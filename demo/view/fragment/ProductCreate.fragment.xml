@@ -2,12 +2,13 @@
                          xmlns:form="sap.ui.layout.form"
                          xmlns="sap.m">
     <VBox class="sapUiSmallMargin">
-        <form:SimpleForm id="sfProductCreate"
+        <form:SimpleForm id="sfProductDetails1Create"
                          editable="true"
                          layout="ResponsiveGridLayout"
-                         labelSpanXL="4"
-                         labelSpanL="3"
-                         labelSpanM="4"
+                         title="{i18n>Product}"
+                         labelSpanXL="3"
+                         labelSpanL="2"
+                         labelSpanM="3"
                          labelSpanS="12"
                          adjustLabelSpan="false"
                          emptySpanXL="0"
@@ -15,52 +16,154 @@
                          emptySpanM="0"
                          emptySpanS="0"
                          columnsXL="2"
-                         columnsL="1"
-                         columnsM="1"
+                         columnsL="2"
+                         columnsM="2"
                          singleContainerFullSize="false">
             <form:content>
                 <core:Title text="{i18n>ProductInfos}"/>
-                <Label text="{i18n>ProductId}"/>
-                <Input value="{ProductID}"/>
-                <Label text="{i18n>TypeCode}"/>
-                <Select selectedKey="{TypeCode}"
+                <Label text="{i18n>ProductId}"
+                       labelFor="inpProductIdCreate"/>
+                <Input id="inpProductIdCreate"
+                       value="{ProductID}"
+                       editable="true"
+                       enabled="true"
+                       required="true"
+                       maxLength="{
+                                    path: 'ProductID/#@maxLength',
+                                    formatter: '._parseToInt'
+                                }"/>
+                <Label text="{i18n>ProductName}"
+                       labelFor="inpProductNameCreate"/>
+                <Input id="inpProductNameCreate"
+                       value="{Name}"
+                       editable="true"
+                       required="true"
+                       maxLength="{
+                                    path: 'Name/#@maxLength',
+                                    formatter: '._parseToInt'
+                                }"/>
+                <Label text="{i18n>TypeCode}"
+                       required="true"
+                       labelFor="slcProductTypeCodeCreate"/>
+                <Select id="slcProductTypeCodeCreate"
+                        selectedKey="{TypeCde}"
                         items="{/VH_ProductTypeCodeSet}">
                     <items>
                         <core:Item key="{TypeCode}"
                                    text="{Shorttext}"/>
                     </items>
                 </Select>
-                <Label text="{i18n>Category}"/>
-                <Select selectedKey="{Category}"
+                <Label text="{i18n>Category}"
+                       required="true"
+                       labelFor="slcProductCategoryCreate"/>
+                <Select id="slcProductCategoryCreate"
+                        selectedKey="{Category}"
                         items="{/VH_CategorySet}">
                     <items>
                         <core:Item key="{Category}"
                                    text="{Category}"/>
                     </items>
                 </Select>
-                <Label text="{i18n>ProductName}"/>
-                <Input value="{Name}"/>
-                <Label text="{i18n>ProductDescription}"/>
-                <TextArea value="{Description}"/>
-                <core:Title text="{i18n>AdditionalInfos}"/>
-                <Label text="{i18n>SupplierId}"/>
-                <Text text="{SupplierID}"/>
-                <Label text="{i18n>SupplierName}"/>
-                <Text text="{SupplierName}"/>
-                <Label text="{i18n>TaxTarifCode}"/>
-                <Text text="{TaxTarifCode}"/>
-                <Label text="{i18n>Weight}"/>
-                <Text text="{WeightMeasure} {WeightUnit}"/>
-                <Label text="{i18n>Price}"/>
-                <Text text="{
-                                parts: [
-                                    {path: 'Price'},
-                                    {path: 'CurrencyCode'}
-                                ],
-                                type: 'sap.ui.model.type.Currency'
-                            }"/>
-                <Label text="{i18n>Dimension} {i18n>WidthShort}x{i18n>HeightShort}x{i18n>DepthShort}"/>
-                <Text text="{Width}x{Height}x{Depth} {DimUnit}"/>
+                <Label text="{i18n>Price}"
+                       labelFor="inpProductPriceCreate"/>
+                <Input id="inpProductPriceCreate"
+                       value="{
+                                path: 'Price',
+                                type: 'sap.ui.model.type.Float',
+                                formatOptions: {
+                                    precision: 16,
+                                    decimals: 2
+                                }
+                            }"
+                       editable="true"/>
+                <Input id="inpProductCurrencyCreate"
+                       value="{CurrencyCode}"
+                       editable="true"
+                       showValueHelp="true"
+                       valueHelpRequest="onCurrencyHelp">
+                </Input>
+                <core:Title text="{i18n>Dimension}"/>
+                <Label text="Weight"
+                       labelFor="inpProductWeightCreate"/>
+                <Input id="inpProductWeightCreate"
+                       value="{
+                                path: 'WeightMeasure',
+                                type: 'sap.ui.model.type.Float',
+                                formatOptions: {
+                                    precision: 13,
+                                    decimals: 3
+                                }
+                            }"
+                       editable="true"
+                       description="{= ${WeightUnit}.toLowerCase()}"/>
+                <Label text="{i18n>Width}"
+                       labelFor="inpProductWidthCreate"/>
+                <Input id="inpProductWidthCreate"
+                       value="{
+                                path: 'Width',
+                                type: 'sap.ui.model.type.Float',
+                                formatOptions: {
+                                    precision: 13,
+                                    decimals: 3
+                                }
+                            }"
+                       editable="true"
+                       description="{= ${DimUnit}.toLowerCase()}"/>
+                <Label text="{i18n>Depth}"
+                       labelFor="inpProductDepthCreate"/>
+                <Input id="inpProductDepthCreate"
+                       value="{
+                                path: 'Depth',
+                                type: 'sap.ui.model.type.Float',
+                                formatOptions: {
+                                    precision: 13,
+                                    decimals: 3
+                                }
+                            }"
+                       editable="true"
+                       description="{= ${DimUnit}.toLowerCase()}"/>
+                <Label text="{i18n>Height}"
+                       labelFor="inpProductHeightCreate"/>
+                <Input id="inpProductHeightCreate"
+                       value="{
+                                path: 'Height',
+                                type: 'sap.ui.model.type.Float',
+                                formatOptions: {
+                                    precision: 13,
+                                    decimals: 3
+                                }
+                            }"
+                       editable="true"
+                       description="{= ${DimUnit}.toLowerCase()}"/>
+
+            </form:content>
+        </form:SimpleForm>
+        <form:SimpleForm id="sfProductDetails1-2Create"
+                         editable="true"
+                         layout="ResponsiveGridLayout"
+                         labelSpanXL="4"
+                         labelSpanL="4"
+                         labelSpanM="12"
+                         labelSpanS="12"
+                         adjustLabelSpan="false"
+                         emptySpanXL="0"
+                         emptySpanL="0"
+                         emptySpanM="0"
+                         emptySpanS="0"
+                         columnsXL="1"
+                         columnsL="1"
+                         columnsM="1"
+                         singleContainerFullSize="false">
+            <form:content>
+                <Label text="{i18n>ProductDescription}"
+                       labelFor="taProductDescriptionCreate"/>
+                <TextArea id="taProductDescriptionCreate"
+                          editable="true"
+                          value="{Description}"
+                          maxLength="{
+                                        path: 'Description/#@maxLength',
+                                        formatter: '._parseToInt'
+                                    }"/>
             </form:content>
         </form:SimpleForm>
     </VBox>
