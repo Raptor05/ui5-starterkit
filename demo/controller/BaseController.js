@@ -12,8 +12,8 @@ sap.ui.define([
      *
      * Base controller for all common used functions and variables
      *
-     * @param {string} [sId] id for the new control, generated automatically if no id is given
-     * @param {object} [mSettings] initial settings for the new control
+     * @param {String} [sId] id for the new control, generated automatically if no id is given
+     * @param {Object} [mSettings] initial settings for the new control
      *
      * @class BaseController.js
      *
@@ -42,7 +42,7 @@ sap.ui.define([
 
         /**
          * Getter for view files path
-         * @returns {string} Path of view files
+         * @returns {String} Path of view files
          * @memberOf mhp.ui5StarterKit.demo.BaseController
          */
         getViewPath: function () {
@@ -51,7 +51,7 @@ sap.ui.define([
 
         /**
          * Getter for dialog files path
-         * @returns {string} Path of dialog files
+         * @returns {String} Path of dialog files
          * @memberOf mhp.ui5StarterKit.demo.BaseController
          */
         getDialogPath: function () {
@@ -60,7 +60,7 @@ sap.ui.define([
 
         /**
          * Getter for fragment files path
-         * @returns {string} Path of fragment files
+         * @returns {String} Path of fragment files
          * @memberOf mhp.ui5StarterKit.demo.BaseController
          */
         getFragmentPath: function () {

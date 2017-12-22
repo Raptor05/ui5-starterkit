@@ -177,7 +177,13 @@ module.exports = function (grunt) {
         },
         jsdoc: {
             dist: {
-                src: ['./Demo/*.js', './Demo/controller/*.js', './Demo/local/*.js', './WebContent/*.js', './WebContent/controller/*.js', './doc/README.md'],
+                src: [
+                    './Demo/*.js',
+                    './Demo/controller/*.js',
+                    './Demo/local/*.js',
+                    './WebContent/*.js',
+                    './WebContent/controller/*.js',
+                    './README.md'],
                 options: {
                     destination: 'doc',
                     template: "node_modules/ink-docstrap/template",

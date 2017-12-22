@@ -18,6 +18,7 @@ Supported features are:
 * [Usage](#chapter-3)
     * [Using ESLint](#chapter-3-1)
     * [Using grunt to build and upload project to SAP System](#chapter-3-2)
+    * [Exporting JSDoc documentation with Grunt.js](#chapter-3-3)
 * [FAQ](#chapter-4)
 
 
@@ -80,8 +81,45 @@ Personally, I prefer to combine options two and three. So I keep the check runni
  
 ### Using grunt to build and upload project to SAP System <a id="chapter-3-2"></a>
 
-Coming soon...
+**Note: This function requires a custom function module in the respective backend system. This can also be in a local *$TMP* package. The function module should be called *ZUI5_REPOSITORY_LOAD_HTTP* and lie in the function group *ZUI5_LOAD*.**
+
+As soon as the backend is ready, you can start configuring the grunt task by editing *Gruntfile_ABAP_LOCAL.js*. (Note: The file *Gruntfile_ABAP.js* is for the case that a Jenkins server should be used for the CI.)
+Within this file, all variables marked with "ToDo" must be filled with connection data of the backend server.
+
+To start the deployment to the backend system, you have to run the grunt task in the following order:
+1. Gruntfile.js --> default (cleaning, minification, pre-load, ...)
+2. Gruntfile.js --> createZip (creates a ZIP file with all application & debug files)
+3. Gruntfile_ABAP_LOCAL --> uploadToABAP
+
+![grunt-deplay-tasks](doc/grunt_deploy_tasks.png)
+
+After the files are uploaded, the application should be a little bit faster, because it will now only load the minimized files. 
+
+These files have no comments and do not contain any meaningful names. Therefore, the code is very difficult to read. If you want to debug the application, it is therefore advisable to work with the query parameter *sap-ui-debug*.
+```
+https://exampleurl.net/sap/bc/ui5_ui5/sap/demo_starterapp/index.html?sap-ui-debug=demo/ 
+```
+The namespace *demo* should be replaced by the (root) namespace of the application.
+
+### Exporting JSDoc documentation with Grunt.js <a id="chapter-3-3"></a>
  
+First you have to make some adjustments. The *jsdoc.conf.json* configuration file contains settings such as application name, copyright and footer.
+
+In *Gruntfile.js* the paths for the files contained in the documentation have to be adjusted. It is recommended to remove all paths of the demo application. These should no longer be included in the final JSDoc documentation.
+
+![grunt-jsdoc-config](doc/grunt_jsdoc_config.png)
+
+The JSDoc export is started with this *Gruntfile.js*. In Webstorm, right-click here to execute *Show Grunt Tasks* and then execute the task *documentation jsdoc* in the Grunt window.
+Alternatively, the execution can be started via console.
+```
+grunt documentation
+```
+If this causes the error that the *grunt* command cannot be found, the grunt package should be installed globally first.
+```
+npm install -g grunt-cli
+```
+
+The exported HTML files are located in the *doc* folder.
 
 
 ## FAQ <a id="chapter-4"></a>

@@ -12,8 +12,8 @@ sap.ui.define([
      *
      * This view is called when the submitted route is not found
      *
-     * @param {string} [sId] id for the new control, generated automatically if no id is given
-     * @param {object} [mSettings] initial settings for the new control
+     * @param {String} [sId] id for the new control, generated automatically if no id is given
+     * @param {Object} [mSettings] initial settings for the new control
      *
      * @class NotFound.controller.js
      *

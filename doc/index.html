@@ -80,7 +80,7 @@
                     <article><h1>(WIP) SAPUI5 Starter Kit</h1>
                         <p>developed by Sebastian Mantsch, Eike Vogel &amp; <a href="http://www.mark-deppe.de/">Mark
                             Deppe</a></p>
-                        <p><img src="header.png" alt="header"></p>
+                        <p><img src="doc/header.png" alt="header"></p>
                         <p>This starter kit is intended to help developers create, check, version, and upload SAPUI5
                             projects to the SAP system. It has been developed especially for use in Webstorm, but can
                             also be applied to other IDEs if necessary.</p>
@@ -106,6 +106,7 @@
                                     <li><a href="#chapter-3-1">Using ESLint</a></li>
                                     <li><a href="#chapter-3-2">Using grunt to build and upload project to SAP System</a>
                                     </li>
+                                    <li><a href="#chapter-3-3">Exporting JSDoc documentation with Grunt.js</a></li>
                                 </ul>
                             </li>
                             <li><a href="#chapter-4">FAQ</a></li>
@@ -159,7 +160,7 @@
                             check it.</p>
                         <pre class="prettyprint source"><code>npm run lint</code></pre>
                         <p>This will show all linting errors and warings in the console:</p>
-                        <p><img src="eslint_terminal_error.png" alt="eslint-console-error"></p>
+                        <p><img src="doc/eslint_terminal_error.png" alt="eslint-console-error"></p>
                         <p>The second possibility is to let ESLint watch your code automatically after saving. Just type
                             in the following:</p>
                         <pre class="prettyprint source"><code>npm start</code></pre>
@@ -167,17 +168,28 @@
                             automatically scans the project and fixes some of the typical formatting issues such as
                             missing spaces (Yes, I know Webstorm actually saves the files automatically, so no explicit
                             saving is necessary. Unfortunately it is still necessary for ESLint).</p>
-                        <p><img src="eslint_terminal_clean.png" alt="eslint-console-clean"></p>
+                        <p><img src="doc/eslint_terminal_clean.png" alt="eslint-console-clean"></p>
                         <p>The third possibility is to let the respective IDE perform the ESLint checks. In Webstorm,
                             this is done using the options menu. There ESLint only needs to be activated, then the
                             eslint configuration file in the project folder is usually found and used automatically.</p>
-                        <p><img src="eslint_webstorm.png" alt="eslint-webstorm"></p>
+                        <p><img src="doc/eslint_webstorm.png" alt="eslint-webstorm"></p>
                         <p>Personally, I prefer to combine options two and three. So I keep the check running in the
                             console at all times and also activate the Webstorm check. However, I recommend that you
                             reduce the standard inspections by Webstorm a little bit, as they are always marked too much
                             in SAPUI5 projects anyway. Otherwise, it could quickly become rather confusing.</p>
                         <h3>Using grunt to build and upload project to SAP System <a id="chapter-3-2"></a></h3>
                         <p>Coming soon...</p>
+                        <h3>Exporting JSDoc documentation with Grunt.js <a id="chapter-3-3"></a></h3>
+                        <p>First you have to make some adjustments. The <em>jsdoc.conf.json</em> configuration file
+                            contains settings such as application name, copyright and footer.</p>
+                        <p>In <em>Gruntfile.js</em> the paths for the files contained in the documentation have to be
+                            adjusted. It is recommended to remove all paths of the demo application. These should no
+                            longer be included in the final JSDoc documentation.</p>
+                        <p><img src="doc/grunt_jsdoc_config.png" alt="grunt-jsdoc-config"></p>
+                        <p>The JSDoc export is started with this <em>Gruntfile.js</em>. In Webstorm, right-click here to
+                            execute <em>Show Grunt Tasks</em> and then execute the task <em>documentation jsdoc</em> in
+                            the Grunt window.</p>
+                        <p>The exported HTML files are located in the <em>doc</em> folder.</p>
                         <h2>FAQ <a id="chapter-4"></a></h2><h5>What should I do if the UI5 packages configuration
                             doesn't work?</h5>
                         <p>Unfortunately, the configuration of the UI5 packages does not always work properly. In this
@@ -245,7 +257,7 @@
     <span class="jsdoc-message">
 	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a>
 
-		on 2017-12-22T10:31:26+01:00
+		on 2017-12-22T11:55:29+01:00
 
 	using the <a href="https://github.com/docstrap/docstrap">DocStrap template</a>.
 </span>
@@ -318,6 +330,7 @@
 
     });
 </script>
+
 
 
 <!--Navigation and Symbol Display-->

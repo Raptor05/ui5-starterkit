@@ -13,8 +13,8 @@ sap.ui.define([
      *
      * This view contents the master list
      *
-     * @param {string} [sId] id for the new control, generated automatically if no id is given
-     * @param {object} [mSettings] initial settings for the new control
+     * @param {String} [sId] id for the new control, generated automatically if no id is given
+     * @param {Object} [mSettings] initial settings for the new control
      *
      * @class Master.controller.js
      *

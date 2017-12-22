@@ -4,7 +4,6 @@
     position: relative !important;
     margin: 10px 0 !important;
 }
-
 .sunlight-code-container {
     clear: both !important;
     position: relative !important;
@@ -12,40 +11,33 @@
     border-color: #626262 !important;
     background-color: #262626 !important;
 }
-
 .sunlight-highlighted, .sunlight-container, .sunlight-container textarea {
     font-family: Consolas, Inconsolata, Monaco, "Courier New" !important;
     font-size: 12px !important;
     line-height: 15px !important;
 }
-
 .sunlight-highlighted, .sunlight-container textarea {
     color: #FFFFFF !important;
     margin: 0 !important;
 }
-
 .sunlight-container textarea {
     padding-left: 0 !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
     padding-right: 0 !important;
 }
-
 .sunlight-code-container > .sunlight-highlighted {
     white-space: pre;
     overflow-x: auto;
     overflow-y: hidden; /* ie requires this wtf? */
 }
-
 .sunlight-highlighted {
     z-index: 1;
     position: relative;
 }
-
 .sunlight-highlighted * {
     background: transparent;
 }
-
 .sunlight-line-number-margin {
     float: left !important;
     margin-right: 5px !important;
@@ -61,18 +53,15 @@
     position: relative;
     z-index: 3;
 }
-
 .sunlight-highlighted a, .sunlight-line-number-margin a {
     border: none !important;
     text-decoration: none !important;
     font-style: normal !important;
     padding: 0 !important;
 }
-
 .sunlight-line-number-margin a {
     color: inherit !important;
 }
-
 .sunlight-line-highlight-overlay {
     position: absolute;
     top: 0;
@@ -80,12 +69,10 @@
     width: 100%;
     z-index: 0;
 }
-
 .sunlight-line-highlight-overlay div {
     height: 15px;
     width: 100%;
 }
-
 .sunlight-line-highlight-overlay .sunlight-line-highlight-active {
     background-color: #4B4B4B;
 }
@@ -95,23 +82,23 @@
     background-color: #FFFFCC;
     color: #000000;
 }
-
 .sunlight-menu ul {
     margin: 0 !important;
     padding: 0 !important;
     list-style-type: none !important;
 }
-
 .sunlight-menu li {
     float: right !important;
     margin-left: 5px !important;
 }
-
 .sunlight-menu a, .sunlight-menu img {
     color: #000099 !important;
     text-decoration: none !important;
     border: none !important;
 }
+
+
+
 
 .sunlight-string,
 .sunlight-char,
@@ -127,19 +114,16 @@
 .sunlight-diff .sunlight-added {
     color: #55EB54 !important;
 }
-
 .sunlight-operator,
 .sunlight-punctuation,
 .sunlight-delimiter {
     color: #B1EDEC !important;
 }
-
 .sunlight-ident,
 .sunlight-diff .sunlight-unchanged {
     color: #E0E0E0 !important;
     font-weight: bold !important;
 }
-
 .sunlight-comment,
 .sunlight-xmlDocCommentContent,
 .sunlight-nginx .sunlight-ssiCommand,
@@ -148,7 +132,6 @@
 .sunlight-diff .sunlight-noNewLine {
     color: #787D31 !important;
 }
-
 .sunlight-number,
 .sunlight-cdata,
 .sunlight-guid,
@@ -156,7 +139,6 @@
     color: #F7BA7E !important;
     font-weight: bold !important;
 }
-
 .sunlight-named-ident,
 .sunlight-xml .sunlight-attribute,
 .sunlight-constant,
@@ -172,7 +154,6 @@
     color: #FBBDEE !important;
     font-weight: bold !important;
 }
-
 .sunlight-keyword,
 .sunlight-languageConstruct,
 .sunlight-specialOperator,
@@ -183,7 +164,6 @@
     color: #A3CCF7 !important;
     font-weight: bold !important;
 }
-
 .sunlight-shortOpenTag,
 .sunlight-openTag,
 .sunlight-closeTag,
@@ -195,12 +175,10 @@
 .sunlight-css .sunlight-importantFlag {
     background-color: #7373C1 !important;
 }
-
 .sunlight-content {
     color: #FFFFFF !important;
     font-weight: bold !important;
 }
-
 .sunlight-function,
 .sunlight-globalFunction,
 .sunlight-objective-c .sunlight-messageDestination,
@@ -215,7 +193,6 @@
     color: #C8BBF1 !important;
     font-weight: bold !important;
 }
-
 .sunlight-variable,
 .sunlight-environmentVariable,
 .sunlight-specialVariable,
@@ -226,7 +203,6 @@
     color: #F5E5B0 !important;
     font-weight: bold !important;
 }
-
 .sunlight-regexLiteral,
 .sunlight-lisp .sunlight-operator,
 .sunlight-6502asm .sunlight-pseudoOp,
@@ -234,26 +210,22 @@
 .sunlight-diff .sunlight-rangeInfo {
     color: #E0F16A !important;
 }
-
 .sunlight-specialVariable {
     font-style: italic !important;
     font-weight: bold !important;
 }
-
 .sunlight-csharp .sunlight-pragma,
 .sunlight-preprocessorDirective,
 .sunlight-vb .sunlight-compilerDirective {
     color: #666363 !important;
     font-style: italic !important;
 }
-
 .sunlight-xmlDocCommentMeta,
 .sunlight-java .sunlight-annotation,
 .sunlight-scala .sunlight-annotation,
 .sunlight-docComment {
     color: #666363 !important;
 }
-
 .sunlight-quotedIdent,
 .sunlight-ruby .sunlight-subshellCommand,
 .sunlight-lisp .sunlight-keywordArgument,
@@ -262,18 +234,19 @@
     color: #F8CA16 !important;
 }
 
+
+
+
 /* html/xml */
 .sunlight-xml .sunlight-tagName,
 .sunlight-xml .sunlight-operator,
 .sunlight-xml .sunlight-attribute {
     font-weight: normal !important;
 }
-
 .sunlight-doctype {
     color: #DEB9B2 !important;
     font-style: italic !important;
 }
-
 .sunlight-xml .sunlight-entity {
     background-color: #E6E585 !important;
     color: #000000 !important;
@@ -288,19 +261,15 @@
 .sunlight-css .sunlight-element {
     color: #E9EE97 !important;
 }
-
 .sunlight-css .sunlight-microsoftFilterPrefix {
     color: #C9FF9F !important;
 }
-
 .sunlight-css .sunlight-rule {
     color: #0099FF !important;
 }
-
 .sunlight-css .sunlight-class {
     color: #E78282 !important;
 }
-
 .sunlight-css .sunlight-pseudoClass, .sunlight-css .sunlight-pseudoElement {
     color: #73D693 !important;
 }
@@ -336,31 +305,24 @@
     font-weight: bold !important;
     color: #000000 !important;
 }
-
 .sunlight-brainfuck .sunlight-increment {
     background-color: #FF9900 !important;
 }
-
 .sunlight-brainfuck .sunlight-decrement {
     background-color: #FF99FF !important;
 }
-
 .sunlight-brainfuck .sunlight-incrementPointer {
     background-color: #FFFF99 !important;
 }
-
 .sunlight-brainfuck .sunlight-decrementPointer {
     background-color: #66CCFF !important;
 }
-
 .sunlight-brainfuck .sunlight-read {
     background-color: #FFFFFF !important;
 }
-
 .sunlight-brainfuck .sunlight-write {
     background-color: #99FF99 !important;
 }
-
 .sunlight-brainfuck .sunlight-openLoop, .sunlight-brainfuck .sunlight-closeLoop {
     background-color: #FFFFFF !important;
 }

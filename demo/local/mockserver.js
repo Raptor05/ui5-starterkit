@@ -15,7 +15,7 @@ sap.ui.define([
      *
      * Mockserver implementation for local testing
      *
-     * @param {object} [mSettings] initial settings for the new control
+     * @param {Object} [mSettings] initial settings for the new control
      *
      * @class mockserver.js
      *
@@ -95,7 +95,7 @@ sap.ui.define([
             /**
              *
              * @param {numeric} iErrCode - Unknown description
-             * @param {string} sMessage - Unknown description
+             * @param {String} sMessage - Unknown description
              * @param {Array} aRequest - Unknown description
              */
             var fnResponse = function (iErrCode, sMessage, aRequest) {

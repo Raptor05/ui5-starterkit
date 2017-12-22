@@ -12,8 +12,8 @@ sap.ui.define([
      *
      * This view is the landing page of the application, shown in the detail area of the SplitApp
      *
-     * @param {string} [sId] id for the new control, generated automatically if no id is given
-     * @param {object} [mSettings] initial settings for the new control
+     * @param {String} [sId] id for the new control, generated automatically if no id is given
+     * @param {Object} [mSettings] initial settings for the new control
      *
      * @class Start.controller.js
      *
