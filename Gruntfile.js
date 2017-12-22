@@ -174,6 +174,18 @@ module.exports = function (grunt) {
                 src: tmpDir + "/**/*",
                 dest: targetDir + "/<%= pkg.name %>" + zipFileSuffix
             }
+        },
+        jsdoc: {
+            dist: {
+                src: ['./Demo/*.js', './Demo/controller/*.js', './Demo/local/*.js', './WebContent/*.js', './WebContent/controller/*.js', './doc/README.md'],
+                options: {
+                    destination: 'doc',
+                    template: "node_modules/ink-docstrap/template",
+                    configure: "jsdoc.conf.json",
+                    recurse: true,
+                    private: true
+                }
+            }
         }
     });
 
@@ -185,9 +197,11 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks("grunt-zip");
     grunt.loadNpmTasks("grunt-openui5");
     grunt.loadNpmTasks("grunt-eslint");
+    grunt.loadNpmTasks('grunt-jsdoc');
 
     grunt.registerTask("default", ["clean", "copy:copyToDbg", "openui5_preload:preloadDbg", "copy:copyToTmp",
         "uglify:uglifyTmp", "cssmin", "openui5_preload:preloadTmp", "copy:copyDbgToTmp",
         "uglify:uglifyPreload"]);
     grunt.registerTask("createZip", ["zip"]);
+    grunt.registerTask("documentation", ["jsdoc"]);
 };

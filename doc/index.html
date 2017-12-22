@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>UI5 Starter Kit Index</title>
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/sunlight.default.css">
+
+    <link type="text/css" rel="stylesheet" href="styles/site.paper.css">
+
+</head>
+
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top ">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">UI5 Starter Kit</a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#topNavigation">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse" id="topNavigation">
+            <ul class="nav navbar-nav">
+
+                <li class="dropdown">
+                    <a href="classes.list.html" class="dropdown-toggle" data-toggle="dropdown">Classes<b
+                        class="caret"></b></a>
+                    <ul class="dropdown-menu ">
+                        <li><a
+                            href="mhp.ui5StarterKit.demo.BaseController.html">mhp.ui5StarterKit.demo.BaseController</a>
+                        </li>
+                        <li><a href="mhp.ui5StarterKit.demo.Component.html">mhp.ui5StarterKit.demo.Component</a></li>
+                        <li><a href="mhp.ui5StarterKit.demo.Detail.html">mhp.ui5StarterKit.demo.Detail</a></li>
+                        <li><a href="mhp.ui5StarterKit.demo.Master.html">mhp.ui5StarterKit.demo.Master</a></li>
+                        <li><a href="mhp.ui5StarterKit.demo.mockserver.html">mhp.ui5StarterKit.demo.mockserver</a></li>
+                        <li><a href="mhp.ui5StarterKit.demo.NotFound.html">mhp.ui5StarterKit.demo.NotFound</a></li>
+                        <li><a href="mhp.ui5StarterKit.demo.SplitApp.html">mhp.ui5StarterKit.demo.SplitApp</a></li>
+                        <li><a href="mhp.ui5StarterKit.demo.Start.html">mhp.ui5StarterKit.demo.Start</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+
+            <div class="col-sm-3 col-md-3">
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="q" id="search-input">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" id="search-submit"><i
+                                class="glyphicon glyphicon-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<div class="container" id="toc-content">
+    <div class="row">
+
+
+        <div class="col-md-8">
+
+            <div id="main">
+
+
+                <section class="readme-section">
+                    <article><h1>(WIP) SAPUI5 Starter Kit</h1>
+                        <p>developed by Sebastian Mantsch, Eike Vogel &amp; <a href="http://www.mark-deppe.de/">Mark
+                            Deppe</a></p>
+                        <p><img src="header.png" alt="header"></p>
+                        <p>This starter kit is intended to help developers create, check, version, and upload SAPUI5
+                            projects to the SAP system. It has been developed especially for use in Webstorm, but can
+                            also be applied to other IDEs if necessary.</p>
+                        <p>Supported features are:</p>
+                        <ul>
+                            <li>Syntax checks with <a href="https://eslint.org/">ESLint</a> and rules adapted for SAPUI5
+                                developments
+                            </li>
+                            <li>Includes the two NPM packages <a
+                                href="https://www.npmjs.com/package/ui5-codecompletion">ui5-codecompletion</a> and <a
+                                href="https://www.npmjs.com/package/ui5-schemas">ui5-schemas</a> (configuration will be
+                                explained later)
+                            </li>
+                            <li>Automatic generation of pre-component, minification of JavaScript files and automated
+                                upload to the SAP system with <a href="https://gruntjs.com/">grunt</a></li>
+                        </ul>
+                        <p><b>Content</b></p>
+                        <ul>
+                            <li><a href="#chapter-1">Prerequisites</a></li>
+                            <li><a href="#chapter-2">Installation</a></li>
+                            <li><a href="#chapter-3">Usage</a>
+                                <ul>
+                                    <li><a href="#chapter-3-1">Using ESLint</a></li>
+                                    <li><a href="#chapter-3-2">Using grunt to build and upload project to SAP System</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#chapter-4">FAQ</a></li>
+                        </ul>
+                        <h2>Prerequisites <a id="chapter-1"></a></h2>
+                        <ul>
+                            <li>IDE for JavaScript development (this kit has been developed and tested in Webstorm)</li>
+                            <li>Installed <a href="https://nodejs.org">node.js</a></li>
+                            <li>Windows OS for automated upload into SAP System (since <a
+                                href="https://www.npmjs.com/package/node-rfc">node-rfc</a> is not working for Mac OS
+                                &amp; ARM
+                            </li>
+                            <li>Installed <a
+                                href="http://sap.github.io/node-rfc/install.html#sap-nw-rfc-library-installation">SAP NW
+                                RFC Library</a> (You need an SAP Marketplace Account)
+                            </li>
+                        </ul>
+                        <h2>Installation <a id="chapter-2"></a></h2>
+                        <ol>
+                            <li>Download or clone this Kit into your local repository</li>
+                            <li>Open the project in Webstorm or other IDE</li>
+                            <li>Make sure you have node configured in your IDE &amp; SAP NW RFC library added to your OS
+                                classpath
+                            </li>
+                            <li>Open IDE terminal or node.js command prompt (in this case you have to go to your
+                                repository manually)
+                            </li>
+                            <li>Install the npm packages
+                                <pre class="prettyprint source"><code>npm install</code></pre>
+                            </li>
+                            <li>Wait until all packages are installed</li>
+                        </ol>
+                        <p>After this you should install also the two UI5 packages</p>
+                        <pre class="prettyprint source"><code>npm run ui5</code></pre>
+                        <p>If this is not working, look into the <a href="#chapter-4">FAQ</a> section.</p>
+                        <p><strong><em>Important:</em></strong>
+                            If you want to use some version control tool like GIT or SVN, than you have to make sure,
+                            that the local folders and files are not commited. Add these files/folders to the SVN ignore
+                            list or use the provided .gitignore file.
+                            The following files/folders are important to ignore:</p>
+                        <ul>
+                            <li>.tmp</li>
+                            <li>.ui5</li>
+                            <li>node_modules</li>
+                            <li>target</li>
+                        </ul>
+                        <h2>Usage <a id="chapter-3"></a></h2>
+                        <h3>Using ESLint <a id="chapter-3-1"></a></h3>
+                        <p>There are three possible ways of using eslint.</p>
+                        <p>The first one is to call ESLint check explicitly with the terminal each time you want to
+                            check it.</p>
+                        <pre class="prettyprint source"><code>npm run lint</code></pre>
+                        <p>This will show all linting errors and warings in the console:</p>
+                        <p><img src="eslint_terminal_error.png" alt="eslint-console-error"></p>
+                        <p>The second possibility is to let ESLint watch your code automatically after saving. Just type
+                            in the following:</p>
+                        <pre class="prettyprint source"><code>npm start</code></pre>
+                        <p>Now leave the console open. Each time a JavaScript file is saved using Ctrl+S, ESLint
+                            automatically scans the project and fixes some of the typical formatting issues such as
+                            missing spaces (Yes, I know Webstorm actually saves the files automatically, so no explicit
+                            saving is necessary. Unfortunately it is still necessary for ESLint).</p>
+                        <p><img src="eslint_terminal_clean.png" alt="eslint-console-clean"></p>
+                        <p>The third possibility is to let the respective IDE perform the ESLint checks. In Webstorm,
+                            this is done using the options menu. There ESLint only needs to be activated, then the
+                            eslint configuration file in the project folder is usually found and used automatically.</p>
+                        <p><img src="eslint_webstorm.png" alt="eslint-webstorm"></p>
+                        <p>Personally, I prefer to combine options two and three. So I keep the check running in the
+                            console at all times and also activate the Webstorm check. However, I recommend that you
+                            reduce the standard inspections by Webstorm a little bit, as they are always marked too much
+                            in SAPUI5 projects anyway. Otherwise, it could quickly become rather confusing.</p>
+                        <h3>Using grunt to build and upload project to SAP System <a id="chapter-3-2"></a></h3>
+                        <p>Coming soon...</p>
+                        <h2>FAQ <a id="chapter-4"></a></h2><h5>What should I do if the UI5 packages configuration
+                            doesn't work?</h5>
+                        <p>Unfortunately, the configuration of the UI5 packages does not always work properly. In this
+                            case, it can help to install the packages manually globally.</p>
+                        <p>Global installation of ui5-codecompletion</p>
+                        <pre class="prettyprint source"><code>npm install -g ui5-codecompletion</code></pre>
+                        <p>Downloading of the UI5 SDK into local project folder</p>
+                        <pre class="prettyprint source"><code>ui5-codecompletion install</code></pre>
+                        <p>If this is also not working, try to add the <a
+                            href="https://openui5.hana.ondemand.com/versionoverview.html">latest OpenUI5 version</a>
+                            manually.</p>
+                        <pre class="prettyprint source"><code>ui5-codecompletion install --from=https://openui5.hana.ondemand.com/downloads/openui5-runtime-1.44.24.zip
+`</code></pre>
+                        <p>Global installation of ui5-schemas</p>
+                        <pre class="prettyprint source"><code>npm install -g ui5-schemas</code></pre>
+                        <p>Configuration of ui5-schemas</p>
+                        <pre class="prettyprint source"><code>ui5-schemas</code></pre>
+                        <p>If this is also not working, try to add the <a
+                            href="https://sapui5.hana.ondemand.com/versionoverview.html">latest SAPUI5 version</a>
+                            manually.</p>
+                        <pre class="prettyprint source"><code>ui5-schemas -v 1.44.24</code></pre>
+                    </article>
+                </section>
+
+
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+
+        <div class="col-md-3">
+            <div id="toc" class="col-md-3 hidden-xs hidden-sm hidden-md"></div>
+        </div>
+
+
+    </div>
+</div>
+
+
+<div class="modal fade" id="searchResults">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title">Search results</h4>
+            </div>
+            <div class="modal-body"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+
+
+<footer>
+
+
+	<span class="copyright">
+	Place your copyright here
+	</span>
+
+    <span class="jsdoc-message">
+	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a>
+
+		on 2017-12-22T10:31:26+01:00
+
+	using the <a href="https://github.com/docstrap/docstrap">DocStrap template</a>.
+</span>
+</footer>
+
+<script src="scripts/docstrap.lib.js"></script>
+<script src="scripts/toc.js"></script>
+
+<script type="text/javascript" src="scripts/fulltext-search-ui.js"></script>
+
+
+<script>
+    $(function () {
+        $("[id*='$']").each(function () {
+            var $this = $(this);
+
+            $this.attr("id", $this.attr("id").replace("$", "__"));
+        });
+
+        $(".tutorial-section pre, .readme-section pre, pre.prettyprint.source").each(function () {
+            var $this = $(this);
+
+            var example = $this.find("code");
+            exampleText = example.html();
+            var lang = /{@lang (.*?)}/.exec(exampleText);
+            if (lang && lang[1]) {
+                exampleText = exampleText.replace(lang[0], "");
+                example.html(exampleText);
+                lang = lang[1];
+            } else {
+                var langClassMatch = example.parent()[0].className.match(/lang\-(\S+)/);
+                lang = langClassMatch ? langClassMatch[1] : "javascript";
+            }
+
+            if (lang) {
+
+                $this
+                    .addClass("sunlight-highlight-" + lang)
+                    .addClass("linenums")
+                    .html(example.html());
+
+            }
+        });
+
+        Sunlight.highlightAll({
+            lineNumbers: true,
+            showMenu: true,
+            enableDoclinks: true
+        });
+
+        $.catchAnchorLinks({
+            navbarOffset: 10
+        });
+        $("#toc").toc({
+            anchorName: function (i, heading, prefix) {
+                return $(heading).attr("id") || (prefix + i);
+            },
+            selectors: "#toc-content h1,#toc-content h2,#toc-content h3,#toc-content h4",
+            showAndHide: false,
+            smoothScrolling: true
+        });
+
+        $("#main span[id^='toc']").addClass("toc-shim");
+        $('.dropdown-toggle').dropdown();
+
+        $("table").each(function () {
+            var $this = $(this);
+            $this.addClass('table');
+        });
+
+    });
+</script>
+
+
+<!--Navigation and Symbol Display-->
+
+
+<!--Google Analytics-->
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        SearcherDisplay.init();
+    });
+</script>
+
+
+</body>
+</html>

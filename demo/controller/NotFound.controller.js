@@ -6,23 +6,24 @@ sap.ui.define([
 ], function (BaseController) {  // eslint-disable-line id-match
     "use strict";
 
-    return BaseController.extend("mhp.ui5StarterKit.demo.controller.NotFound", {
-        /**
-         * NotFound.controller.js
-         *
-         * This view is called when the submitted route is not found
-         *
-         * @param {string} [sId] id for the new control, generated automatically if no id is given
-         * @param {object} [mSettings] initial settings for the new control
-         *
-         * @class NotFound.controller.js
-         *
-         * @extends mhp.ui5StarterKit.demo.controller.BaseController
-         *
-         * @constructor
-         * @public
-         * @alias mhp.ui5StarterKit.demo.NotFound
-         */
+    // noinspection UnnecessaryLocalVariableJS
+    /**
+     * NotFound.controller.js
+     *
+     * This view is called when the submitted route is not found
+     *
+     * @param {string} [sId] id for the new control, generated automatically if no id is given
+     * @param {object} [mSettings] initial settings for the new control
+     *
+     * @class NotFound.controller.js
+     *
+     * @extends mhp.ui5StarterKit.demo.controller.BaseController
+     *
+     * @constructor
+     * @public
+     * @alias mhp.ui5StarterKit.demo.NotFound
+     */
+    var oNotFound = BaseController.extend("mhp.ui5StarterKit.demo.controller.NotFound", {
 
         /* =========================================================== */
         /* Standard functions 										   */
@@ -65,4 +66,7 @@ sap.ui.define([
         /* =========================================================== */
 
     });
+
+    return oNotFound;
+
 });

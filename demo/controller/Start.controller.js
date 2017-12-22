@@ -6,23 +6,24 @@ sap.ui.define([
 ], function (BaseController) {  // eslint-disable-line id-match
     "use strict";
 
-    return BaseController.extend("mhp.ui5StarterKit.demo.controller.Start", {
-        /**
-         * Start.controller.js
-         *
-         * This view is the landing page of the application, shown in the detail area of the SplitApp
-         *
-         * @param {string} [sId] id for the new control, generated automatically if no id is given
-         * @param {object} [mSettings] initial settings for the new control
-         *
-         * @class Start.controller.js
-         *
-         * @extends mhp.ui5StarterKit.demo.controller.BaseController
-         *
-         * @constructor
-         * @public
-         * @alias mhp.ui5StarterKit.demo.Start
-         */
+    // noinspection UnnecessaryLocalVariableJS
+    /**
+     * Start.controller.js
+     *
+     * This view is the landing page of the application, shown in the detail area of the SplitApp
+     *
+     * @param {string} [sId] id for the new control, generated automatically if no id is given
+     * @param {object} [mSettings] initial settings for the new control
+     *
+     * @class Start.controller.js
+     *
+     * @extends mhp.ui5StarterKit.demo.controller.BaseController
+     *
+     * @constructor
+     * @public
+     * @alias mhp.ui5StarterKit.demo.Start
+     */
+    var oStart = BaseController.extend("mhp.ui5StarterKit.demo.controller.Start", {
 
         /* =========================================================== */
         /* Standard functions 										   */
@@ -56,4 +57,7 @@ sap.ui.define([
         /* =========================================================== */
 
     });
+
+    return oStart;
+
 });
