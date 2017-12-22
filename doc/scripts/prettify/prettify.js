@@ -122,7 +122,7 @@ window.PR_SHOULD_USE_CONTINUATION = !0;
                     break;
                 case 3:
                 case 4:
-                    g = a.nodeValue, g.length && (g = p ? g.replace(/\r\n?/g, "\n") : g.replace(/[\t\n\r ]+/g, " "), h[s] = g, t[s << 1] = y, y += g.length, t[s++ << 1 | 1] = a)
+                    g = a.nodeValue, g.length && (g = p ? g.replace(/\r\n?/g, "\n") : g.replace(/[\t\n\r ]+/g, " "), h[s] = g, t[s << 1] = y, y += g.length, t[s++ << 1 | 1] = a);
             }
         }
 
@@ -138,7 +138,7 @@ window.PR_SHOULD_USE_CONTINUATION = !0;
         return {
             a: h.join("").replace(/\n$/, ""),
             c: t
-        }
+        };
     }
 
     function B (a, m, e, h) {
@@ -522,7 +522,7 @@ window.PR_SHOULD_USE_CONTINUATION = !0;
                             var i = c.nodeType,
                                 o = i === 1 ? o ? b : c : i === 3 ? N.test(c.nodeValue) ? b : o : o;
                         }
-                        b = (f = o === b ? void 0 : o) && "CODE" === f.tagName;
+                        b = (f = o === b ? void 0 : o) && "CODE" === f.tagName
                     }
                     b && (k = f.className.match(g));
                     k && (k = k[1]);
@@ -530,14 +530,14 @@ window.PR_SHOULD_USE_CONTINUATION = !0;
                     for (o = n.parentNode; o; o = o.parentNode) {
                         if ((o.tagName === "pre" || o.tagName === "code" || o.tagName === "xmp") && o.className && o.className.indexOf("prettyprint") >= 0) {
                             b = !0;
-                            break;
+                            break
                         }
                     }
                     b || ((b = (b = n.className.match(/\blinenums\b(?::(\d+))?/)) ? b[1] && b[1].length ? +b[1] : !0 : !1) && D(n, b), d = {
                         g: k,
                         h: n,
                         i: b
-                    }, E(d));
+                    }, E(d))
                 }
             }
             p < h.length ? setTimeout(m, 250) : a && a();
@@ -552,12 +552,12 @@ window.PR_SHOULD_USE_CONTINUATION = !0;
             l = Date;
         l.now || (l = {
             now: function () {
-                return +new Date
+                return +new Date;
             }
         });
         var p = 0,
             d, g = /\blang(?:uage)?-([\w.]+)(?!\S)/;
-        m()
+        m();
     };
     window.PR = {
         createSimpleLexer: x,

@@ -1,4 +1,4 @@
-# (WIP) SAPUI5 Starter Kit
+# SAPUI5 Starter Kit
 
 developed by Sebastian Mantsch, Eike Vogel & [Mark Deppe](http://www.mark-deppe.de/)
 
