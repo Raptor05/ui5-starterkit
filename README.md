@@ -157,3 +157,11 @@ If this is also not working, try to add the [latest SAPUI5 version](https://sapu
 ```
 ui5-schemas -v 1.44.24  
 ```
+
+
+##### What should I do if the eslint configuration does not work in eclipse?
+
+Eclipse does not support ESLint validation by default (we recommend Webstorm at this point). In order to use ESLint, the plugin Tern is required. Instructions can be found [here](https://github.com/angelozerr/tern.java/wiki/Tern-Linter-ESLint).
+
+After installation and conversion into a Tern project, the configuration has to be adjusted. Unfortunately, the ESLint version used in Tern does not support (at the moment) all ESLint settings and rules.
+For this purpose, we have created a configuration file specially adapted for Eclipse. The file *eslint_eclipse.json* must be renamed to *eslint.json* and entered in Eclipse as described in the installation instructions above. Then at least some of the rules work.
