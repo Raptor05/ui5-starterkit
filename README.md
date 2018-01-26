@@ -165,3 +165,17 @@ Eclipse does not support ESLint validation by default (we recommend Webstorm at 
 
 After installation and conversion into a Tern project, the configuration has to be adjusted. Unfortunately, the ESLint version used in Tern does not support (at the moment) all ESLint settings and rules.
 For this purpose, we have created a configuration file specially adapted for Eclipse. The file *eslint_eclipse.json* must be renamed to *eslint.json* and entered in Eclipse as described in the installation instructions above. Then at least some of the rules work.
+
+In addition, the character formatting in Eclipse must be adapted.
+1. Change the line delimiter. Go to:
+```
+Window -> Preferences -> General -> Workspace -> New text file line delimiter -> Other: Unix
+```
+2. Change the file encoding:
+```
+Window -> Preferences -> General -> Workspace -> Text file encoding -> Other: UTF-8
+```
+3. Change the Tab policy:
+```
+Window -> Preferences -> JavaScript -> Code Style -> Formatter -> Edit -> Indentation -> Tab policy: Spaces only
+```

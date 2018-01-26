@@ -20,11 +20,12 @@
 
     <script>
         sap.ui.getCore().attachInit(function () {
+            "use strict";
             sap.ui.require([
                 "sap/m/Shell",
                 "sap/ui/core/ComponentContainer",
                 "mhp/ui5StarterKit/demo/local/mockserver"
-            ], function (Shell, ComponentContainer, Mockserver) {
+            ], function (Shell, ComponentContainer, Mockserver) {   // eslint-disable-line id-match
                 // set up test environment for local testing
                 Mockserver.init();
                 new Shell("ShellContainer", {
