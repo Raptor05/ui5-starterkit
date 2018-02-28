@@ -27,6 +27,7 @@ Supported features are:
 * Installed [node.js](https://nodejs.org)
 * Windows OS for automated upload into SAP System (since [node-rfc](https://www.npmjs.com/package/node-rfc) is not working for Mac OS & ARM
 * Installed [SAP NW RFC Library](http://sap.github.io/node-rfc/install.html#sap-nw-rfc-library-installation) (You need an SAP Marketplace Account)
+* Installed [Git Client Tool](https://git-scm.com/)
 
 ## Installation <a id="chapter-2"></a>
 1. Download or clone this Kit into your local repository
