@@ -180,3 +180,21 @@ Window -> Preferences -> General -> Workspace -> Text file encoding -> Other: UT
 ```
 Window -> Preferences -> JavaScript -> Code Style -> Formatter -> Edit -> Indentation -> Tab policy: Spaces only
 ```
+
+
+##### My Gruntfile_ABAP_local.js is unable to show/execute tasks
+
+![grunt_abap_local_error](doc\grunt_abap_local_error.png)
+
+Sometimes the *node_rfc* package will be installed to the wrong directory. We don't know the reason for this issue. But there is a simple solution.
+1. Navigate to the package in the *node_modules* folder which contains the file *rfc.node*:
+```
+node_modules -> node_rfc -> build -> rfc ( -> win32_x64 )
+```
+In some cases the file is located inside the folder *win32_x64*. But the framework expects the file inside the *rfc* folder.
+
+2. Move/Copy the file to the parent directory:
+
+![grunt_copy_rfc_node](doc\grunt_copy_rfc_node.png)
+
+3. Retry it.
