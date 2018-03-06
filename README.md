@@ -17,8 +17,9 @@ Supported features are:
 * [Installation](#chapter-2)
 * [Usage](#chapter-3)
     * [Using ESLint](#chapter-3-1)
-    * [Using grunt to build and upload project to SAP System](#chapter-3-2)
-    * [Exporting JSDoc documentation with Grunt.js](#chapter-3-3)
+    * [Using the UI5 file templates/snippets](#chapter-3-2)
+    * [Using grunt to build and upload project to SAP System](#chapter-3-3)
+    * [Exporting JSDoc documentation with Grunt.js](#chapter-3-4)
 * [FAQ](#chapter-4)
 
 
@@ -79,8 +80,31 @@ The third possibility is to let the respective IDE perform the ESLint checks. In
 ![eslint-webstorm](doc/eslint_webstorm.png)
 
 Personally, I prefer to combine options two and three. So I keep the check running in the console at all times and also activate the Webstorm check. However, I recommend that you reduce the standard inspections by Webstorm a little bit, as they are always marked too much in SAPUI5 projects anyway. Otherwise, it could quickly become rather confusing.
- 
-### Using grunt to build and upload project to SAP System <a id="chapter-3-2"></a>
+
+### Using the UI5 file templates/snippets <a id="chapter-3-2"></a>
+
+You will find the file templates inside of the directory *.ui5_file_templates*.
+
+**If you are using Webstorm:**
+
+1. Go to File -> Import Settings...  
+2. Choose the file *file_templates_settings.jar*
+3. Press OK
+4. Now you can use the file templates
+
+![webstorm-file-templates](doc/webstorm_file_templates.png)
+
+**If you are using Eclips**
+
+1. Choose the *Snippets* tab in the footer view
+2. Right click on a library -> Customize...
+3. Click Import
+4. Choose the file *eclipse_snippets.xml*
+5. Press Open
+6. Now you can Rightclick -> Insert on a Snippet if a file is opened in editor
+
+
+### Using grunt to build and upload project to SAP System <a id="chapter-3-3"></a>
 
 **Note: This function requires a custom function module in the respective backend system. This can also be in a local *$TMP* package. The function module should be called *ZUI5_REPOSITORY_LOAD_HTTP* and lie in the function group *ZUI5_LOAD*.**
 
@@ -102,7 +126,7 @@ https://exampleurl.net/sap/bc/ui5_ui5/sap/demo_starterapp/index.html?sap-ui-debu
 ```
 The namespace *demo* should be replaced by the (root) namespace of the application.
 
-### Exporting JSDoc documentation with Grunt.js <a id="chapter-3-3"></a>
+### Exporting JSDoc documentation with Grunt.js <a id="chapter-3-4"></a>
  
 First you have to make some adjustments. The *jsdoc.conf.json* configuration file contains settings such as application name, copyright and footer.
 

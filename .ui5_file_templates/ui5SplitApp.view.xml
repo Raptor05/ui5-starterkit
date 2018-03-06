@@ -1,0 +1,7 @@
+<!-- Created by ${USER} on ${DATE}. -->
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+          controllerName="${UI5_Namespace}.controller.${NAME}"
+          xmlns="sap.m">
+    <SplitApp id="idAppControl"
+              displayBlock="true"/>
+</mvc:View>

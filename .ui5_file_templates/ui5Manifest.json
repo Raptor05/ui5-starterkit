@@ -1,0 +1,159 @@
+{
+    "_version": "${Application_version}",
+    "sap.app": {
+        "_version": "${Application_version}",
+        "id": "${Application_ID}",
+        "type": "application",
+        "i18n": "i18n/i18n.properties",
+        "title": "${Application_title}",
+        "description": "${Short_description}",
+        "applicationVersion": {
+            "version": "${Application_version}"
+        },
+        "dataSources": {
+            "mainService": {
+                "uri": "${Backend_oData_service_URL}",
+                "type": "OData",
+                "settings": {
+                    "odataVersion": "2.0",
+                    "localUri": "local/metadata.xml"
+                }
+            }
+        }
+    },
+    "sap.ui": {
+        "_version": "${Application_version}",
+        "technology": "UI5",
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        },
+        "supportedThemes": [
+            "sap_bluecrystal",
+            "sap_belize"
+        ]
+    },
+    "sap.ui5": {
+        "_version": "${Application_version}",
+        "rootView": "${UI5_Namespace}.view.${Root_view}",
+        "dependencies": {
+            "minUI5Version": "${Minimum_UI5_version}",
+            "libs": {
+                "sap.ui.core": {
+                    "minVersion": "${Minimum_UI5_version}",
+                    "lazy": false
+                },
+                "sap.m": {
+                    "minVersion": "${Minimum_UI5_version}",
+                    "lazy": false
+                },
+                "sap.ui.layout": {
+                    "minVersion": "${Minimum_UI5_version}",
+                    "lazy": false
+                }
+            }
+        },
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                    "bundleName": "${UI5_Namespace}.i18n.i18n"
+                }
+            },
+            "": {
+                "dataSource": "mainService",
+                "settings": {
+                    "json": true,
+                    "useBatch": false,
+                    "disableHeadRequestForToken": true,
+                    "defaultBindingMode": "TwoWay",
+                    "defaultCountMode": "Inline"
+                }
+            }
+        },
+        "routing": {
+            "config": {
+                "routerClass": "sap.m.routing.Router",
+                "viewPath": "${UI5_Namespace}.view",
+                "controlId": "viewMainApp",
+                "controlAggregation": "detailPages",
+                "viewType": "XML",
+                "bypassed": {
+                    "target": [
+                        "master",
+                        "notFound"
+                    ]
+                }
+            },
+            "routes": [
+                {
+                    "pattern": "",
+                    "name": "home",
+                    "target": [
+                        "master",
+                        "start"
+                    ]
+                },
+                {
+                    "pattern": "master",
+                    "name": "phoneMaster",
+                    "target": [
+                        "start",
+                        "master"
+                    ]
+                },
+                {
+                    "pattern": "detail/{detailid}",
+                    "name": "detail",
+                    "target": [
+                        "master",
+                        "detail"
+                    ]
+                },
+                {
+                    "pattern": "create",
+                    "name": "create",
+                    "target": [
+                        "master",
+                        "detail"
+                    ]
+                }
+            ],
+            "targets": {
+                "master": {
+                    "viewName": "Master",
+                    "viewId": "viewMaster",
+                    "controlAggregation": "masterPages",
+                    "viewLevel": 10
+                },
+                "start": {
+                    "viewName": "Start",
+                    "viewId": "viewStart",
+                    "viewLevel": 9
+                },
+                "detail": {
+                    "viewName": "Detail",
+                    "viewId": "viewDetail",
+                    "viewLevel": 11
+                },
+                "notFound": {
+                    "viewName": "NotFound",
+                    "viewId": "viewNotFound",
+                    "transition": "show"
+                }
+            }
+        },
+        "resources": {
+            "css": [
+                {
+                    "uri": "css/customstyle.css"
+                }
+            ]
+        }
+    }
+}

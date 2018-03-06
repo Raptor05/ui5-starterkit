@@ -2,3 +2,7 @@ demo/old/*
 Gruntfile.js
 Gruntfile_ABAP.js
 Gruntfile_ABAP_LOCAL.js
+.ui5/*
+.ui5_file_templates/*
+doc/*
+node_modules/*
