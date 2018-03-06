@@ -116,7 +116,7 @@ To start the deployment to the backend system, you have to run the grunt task in
 2. Gruntfile.js --> createZip (creates a ZIP file with all application & debug files)
 3. Gruntfile_ABAP_LOCAL --> uploadToABAP
 
-![grunt-deplay-tasks](doc/grunt_deploy_tasks.png)
+![grunt-deploy-tasks](doc/grunt_deploy_tasks.png)
 
 After the files are uploaded, the application should be a little bit faster, because it will now only load the minimized files. 
 
