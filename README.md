@@ -25,7 +25,7 @@ Supported features are:
 
 ## Prerequisites <a id="chapter-1"></a>
 * IDE for JavaScript development (this kit has been developed and tested in Webstorm)
-* Installed [node.js](https://nodejs.org)
+* Installed [node.js](https://nodejs.org) (Be sure to take LTS version, as current version leads into problems sometimes)
 * Windows OS for automated upload into SAP System (since [node-rfc](https://www.npmjs.com/package/node-rfc) is not working for Mac OS & ARM
 * Installed [SAP NW RFC Library](http://sap.github.io/node-rfc/install.html#sap-nw-rfc-library-installation) (You need an SAP Marketplace Account)
 * Installed [Git Client Tool](https://git-scm.com/)
