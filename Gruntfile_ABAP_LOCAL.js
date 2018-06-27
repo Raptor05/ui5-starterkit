@@ -34,7 +34,7 @@ module.exports = function (grunt) {
         uploadToABAP: {
             options: {
                 conn: abapConn,
-                uploadTMP: true, // change if a transport shall be chosen and provide it using the cli
+                uploadTMP: false, // change if a transport shall be chosen and provide it using the cli
                 zipFile: targetDir + "/<%= pkg.name %>" + zipFileSuffix,
                 codePage: "UTF8"
             }
