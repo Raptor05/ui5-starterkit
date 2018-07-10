@@ -63,7 +63,7 @@ sap.ui.define([
         /**
          * This method returns the content density class
          * @returns {String} The content density class
-         * @memberOf mhp.softfacts.Component
+         * @memberOf ${UI5_Namespace}.Component
          */
         getContentDensityClass: function () {
             if (!this._sContentDensityClass) {
