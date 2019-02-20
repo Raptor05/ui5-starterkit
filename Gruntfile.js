@@ -159,7 +159,7 @@ module.exports = function (grunt) {
                 options: {
                     resources: {
                         cwd: tmpDir,
-                        src: ["**/*.js"],
+                        src: ["**/*.js", "**/*.xml"],
                         prefix: preloadPrefix
                     },
                     compress: false,
