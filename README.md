@@ -1,4 +1,5 @@
 # SAPUI5 Starter Kit
+# - DEPRECATED -
 
 developed by Sebastian Mantsch, Eike Vogel & [Mark Deppe](http://www.mark-deppe.de/)
 
